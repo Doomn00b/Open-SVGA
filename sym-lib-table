@@ -1,6 +1,5 @@
 (sym_lib_table
-  (lib (name svga-devboard-rescue)(type Legacy)(uri ${KIPRJMOD}/svga-devboard-rescue.lib)(options "")(descr ""))
-  (lib (name 2020-07-25_10-23-08)(type Legacy)(uri "E:/Downloads/Program installs/CAD-programs/KiCad-install/libraries kicad/KiCAD/2020-07-25_10-23-08/2020-07-25_10-23-08.lib")(options "")(descr ""))
-  (lib (name 2020-07-25_14-59-57)(type Legacy)(uri "E:/Downloads/Program installs/CAD-programs/KiCad-install/libraries kicad/KiCAD/2020-07-25_14-59-57/2020-07-25_14-59-57.lib")(options "")(descr ""))
   (lib (name con-pcb-slot)(type Legacy)(uri E:/Documents/Teknikprojekt/Hardware/PC/2D-graphics/SVGA-O/ref-svga/JTAG-con-pcb-slot/con-pcb-slot-master/converted/con-pcb-slot.lib)(options "")(descr ""))
+  (lib (name LRJ-parts)(type Legacy)(uri "E:/Downloads/Program installs/CAD-programs/KiCad-install/libraries kicad/LRJ-parts.lib")(options "")(descr ""))
+  (lib (name svga-devboard-rescue)(type Legacy)(uri ${KIPRJMOD}/svga-devboard-rescue.lib)(options "")(descr ""))
 )

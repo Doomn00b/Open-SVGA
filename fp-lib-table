@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name con-pcb-slot)(type Legacy)(uri E:/Documents/Teknikprojekt/Hardware/PC/2D-graphics/SVGA-O/ref-svga/JTAG-con-pcb-slot/con-pcb-slot-master/converted/con-pcb-slot.mod)(options "")(descr ""))
+  (lib (name jtag)(type KiCad)(uri E:/Documents/Teknikprojekt/Hardware/PC/2D-graphics/SVGA-O/ref-svga/Connectors/JTAG-con-pcb-slot/con-pcb-slot-master/converted)(options "")(descr ""))
 )
