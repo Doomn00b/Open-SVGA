@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -13,358 +13,424 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Entry Wire Line
-	8300 2050 8400 2150
-Text Label 8400 2150 0    50   ~ 0
-A-05
-Entry Wire Line
-	8300 2450 8400 2550
-Text Label 8400 2550 0    50   ~ 0
-A-07
-Entry Wire Line
-	8300 2150 8400 2250
-Text Label 8600 2250 2    50   ~ 0
-A-06
-Entry Wire Line
-	10675 3150 10775 3250
-Text Label 10975 3250 2    50   ~ 0
-A-12
-Entry Wire Line
-	10675 3250 10775 3350
-Text Label 10975 3350 2    50   ~ 0
-A-13
-Entry Wire Line
-	10675 2950 10775 3050
-Entry Wire Line
-	10675 3050 10775 3150
-Entry Wire Line
-	10675 2850 10775 2950
-Text Label 10975 2950 2    50   ~ 0
-A-16
-Entry Wire Line
-	10675 2650 10775 2750
-Text Label 10975 2750 2    50   ~ 0
-A-17
-Text Label 10975 3150 2    50   ~ 0
-A-15
-Text Label 10975 3050 2    50   ~ 0
-A-14
-Entry Wire Line
-	10675 2550 10775 2650
-Text Label 10975 2650 2    50   ~ 0
-A-18
-Entry Wire Line
-	10675 2750 10775 2850
-Text Label 10975 2850 2    50   ~ 0
-A-19
-Entry Wire Line
-	10675 2450 10775 2550
-Text Label 10975 2550 2    50   ~ 0
-A-20
-Entry Wire Line
-	10675 1550 10775 1650
-Text Label 10975 1650 2    50   ~ 0
-A-21
-Entry Wire Line
-	10675 1850 10775 1950
-Text Label 10975 1950 2    50   ~ 0
-A-22
-Entry Wire Line
-	10675 1450 10775 1550
-Text Label 10975 1550 2    50   ~ 0
-A-23
-Text Label 8600 2350 2    50   ~ 0
-A-04
-Entry Wire Line
-	8300 2250 8400 2350
-Wire Wire Line
-	8600 2150 8400 2150
-Wire Wire Line
-	8600 2550 8400 2550
-Wire Wire Line
-	8600 2250 8400 2250
-Wire Wire Line
-	10975 3350 10775 3350
-Wire Wire Line
-	10975 3250 10775 3250
-Wire Wire Line
-	10975 3050 10775 3050
-Wire Wire Line
-	10975 3150 10775 3150
-Wire Wire Line
-	10975 2950 10775 2950
-Wire Wire Line
-	10975 2750 10775 2750
-Wire Wire Line
-	10975 2650 10775 2650
-Wire Wire Line
-	10975 2850 10775 2850
-Wire Wire Line
-	10975 2550 10775 2550
-Wire Wire Line
-	10975 1650 10775 1650
-Wire Wire Line
-	10975 1950 10775 1950
-Wire Wire Line
-	10975 1550 10775 1550
-Wire Wire Line
-	8600 2350 8400 2350
-Text HLabel 8300 1675 0    50   BiDi ~ 0
-PCI_VT
-Text HLabel 10675 3425 0    50   BiDi ~ 0
-PCI_VT
-Entry Wire Line
-	7400 4025 7300 4125
-Text Label 7600 3825 2    50   ~ 0
-A-09
-Entry Wire Line
-	7400 3325 7300 3425
-Text Label 7600 3325 2    50   ~ 0
-66M
-Entry Wire Line
-	7400 3425 7300 3525
-Text Label 7600 3425 2    50   ~ 0
-CBE0_
-Entry Wire Line
-	7400 2975 7300 3075
-Text Label 7550 2975 2    50   ~ 0
-A-08
-Entry Wire Line
-	7400 3825 7300 3925
-Text Label 7600 3925 2    50   ~ 0
-A-10
-Entry Wire Line
-	7400 3225 7300 3325
-Text Label 7600 3225 2    50   ~ 0
-A-08
-Entry Wire Line
-	7400 3925 7300 4025
-Text Label 7600 4025 2    50   ~ 0
-A-11
-Entry Wire Line
-	7400 3125 7300 3225
-Text Label 7600 3125 2    50   ~ 0
-A-24
-Text Label 7600 3725 2    50   ~ 0
-A-25
-Entry Wire Line
-	7400 3725 7300 3825
-Wire Wire Line
-	7850 4025 7400 4025
-Wire Wire Line
-	7850 3825 7400 3825
-Wire Wire Line
-	7600 3325 7400 3325
-Wire Wire Line
-	7850 3925 7400 3925
-Wire Wire Line
-	7850 3225 7400 3225
-Wire Wire Line
-	7850 3125 7400 3125
-Wire Wire Line
-	7850 3725 7400 3725
-Text HLabel 7300 2975 0    50   BiDi ~ 0
-PCI_VT
-Wire Wire Line
-	7400 2975 7800 2975
-Wire Wire Line
-	7400 3425 7850 3425
-Text Label 3250 3975 0    50   ~ 0
-A-61
-Text Label 3250 4075 0    50   ~ 0
-A-60
-Text Label 3450 1875 2    50   ~ 0
-A-32
-Entry Wire Line
-	3150 1775 3050 1675
-Text Label 3450 1375 2    50   ~ 0
-A-33
-Entry Wire Line
-	3150 1675 3050 1575
-Text Label 3450 1475 2    50   ~ 0
-A-34
-Entry Wire Line
-	3150 1475 3050 1375
-Text Label 3450 1675 2    50   ~ 0
-A-35
-Entry Wire Line
-	3150 1375 3050 1275
-Text Label 3450 1775 2    50   ~ 0
-A-36
-Entry Wire Line
-	3150 1875 3050 1775
-Text Label 3450 1975 2    50   ~ 0
-A-37
-Entry Wire Line
-	3150 2375 3050 2275
-Text Label 3450 2075 2    50   ~ 0
-A-38
-Entry Wire Line
-	3150 2275 3050 2175
-Text Label 3450 2175 2    50   ~ 0
-A-39
-Entry Wire Line
-	3150 2175 3050 2075
-Entry Wire Line
-	3150 2075 3050 1975
-Text Label 3450 2275 2    50   ~ 0
-A-40
-Text Label 3450 2375 2    50   ~ 0
-A-41
-Entry Wire Line
-	3150 1975 3050 1875
-Text Label 3450 2875 2    50   ~ 0
-A-42
-Entry Wire Line
-	3150 2675 3050 2575
-Text Label 3450 2475 2    50   ~ 0
-A-43
-Entry Wire Line
-	3150 2575 3050 2475
-Text Label 3450 2575 2    50   ~ 0
-A-44
-Entry Wire Line
-	3150 2475 3050 2375
-Text Label 3450 2675 2    50   ~ 0
-A-45
-Entry Wire Line
-	3150 2875 3050 2775
-Text Label 3450 2775 2    50   ~ 0
-A-47
-Entry Wire Line
-	3150 2775 3050 2675
-Text Label 3450 3375 2    50   ~ 0
-A-46
-Entry Wire Line
-	3150 3375 3050 3275
-Text Label 3450 3175 2    50   ~ 0
-A-48
-Entry Wire Line
-	3150 3275 3050 3175
-Text Label 3450 3275 2    50   ~ 0
-A-49
-Entry Wire Line
-	3150 3175 3050 3075
-Text Label 3450 3075 2    50   ~ 0
-A-50
-Entry Wire Line
-	3050 2975 3150 3075
-Text Label 3450 2975 2    50   ~ 0
-A-51
-Entry Wire Line
-	3050 2875 3150 2975
-Text Label 3450 3675 2    50   ~ 0
-A-52
-Entry Wire Line
-	3050 3675 3150 3775
-Text Label 3450 3775 2    50   ~ 0
-A-53
-Entry Wire Line
-	3050 3575 3150 3675
-Text Label 3450 3575 2    50   ~ 0
-A-54
-Entry Wire Line
-	3050 3475 3150 3575
-Text Label 3450 3475 2    50   ~ 0
-A-55
-Entry Wire Line
-	3050 3375 3150 3475
-Text Label 3450 3875 2    50   ~ 0
-A-56
-Entry Wire Line
-	3050 3775 3150 3875
-Entry Wire Line
-	3050 3875 3150 3975
-Entry Wire Line
-	3050 3975 3150 4075
-Wire Wire Line
-	3550 3975 3150 3975
-Wire Wire Line
-	3550 4075 3150 4075
-Wire Wire Line
-	3550 1875 3150 1875
-Wire Wire Line
-	3550 1375 3150 1375
-Wire Wire Line
-	3550 1475 3150 1475
-Wire Wire Line
-	3550 1675 3150 1675
-Wire Wire Line
-	3550 1775 3150 1775
-Wire Wire Line
-	3550 1975 3150 1975
-Wire Wire Line
-	3550 2075 3150 2075
-Wire Wire Line
-	3550 2175 3150 2175
-Wire Wire Line
-	3550 2275 3150 2275
-Wire Wire Line
-	3550 2375 3150 2375
-Wire Wire Line
-	3550 2875 3150 2875
-Wire Wire Line
-	3550 2475 3150 2475
-Wire Wire Line
-	3550 2575 3150 2575
-Wire Wire Line
-	3550 2675 3150 2675
-Wire Wire Line
-	3550 2775 3150 2775
-Wire Wire Line
-	3550 3375 3150 3375
-Wire Wire Line
-	3550 3175 3150 3175
-Wire Wire Line
-	3550 3275 3150 3275
-Wire Wire Line
-	3550 3075 3150 3075
-Wire Wire Line
-	3550 2975 3150 2975
-Wire Wire Line
-	3550 3675 3150 3675
-Wire Wire Line
-	3550 3775 3150 3775
-Wire Wire Line
-	3550 3575 3150 3575
-Wire Wire Line
-	3550 3475 3150 3475
-Wire Wire Line
-	3550 3875 3150 3875
-Text HLabel 3050 4225 0    50   BiDi ~ 0
-PCI_VT
-$Comp
-L LRJ-parts:LFE5U-85F-BG381-LRJ FPGA?
-U 2 1 5F7EA689
-P 4400 2575
-AR Path="/5F7EA689" Ref="FPGA?"  Part="2" 
-AR Path="/5F777FFB/5F7EA689" Ref="FPGA1"  Part="2" 
-F 0 "FPGA1" H 4751 2575 35  0000 L CNN
-F 1 "LFE5U-85F-BG381-LRJ" H 3725 -150 35  0001 L CNN
-F 2 "Package_BGA:caBGA-381_15.2x15.2_17.0x17.0mm" H 5250 4630 35  0001 L CNN
-F 3 "https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012-1-9-ECP5-ECP5G-Family-Data-Sheet.ashx?document_id=50461" H 3300 4375 50  0001 C CNN
-	2    4400 2575
-	1    0    0    -1  
-$EndComp
 $Comp
 L LRJ-parts:LFE5U-85F-BG381-LRJ FPGA?
 U 1 1 5F82DAC4
-P 1800 2675
+P 5175 2750
 AR Path="/5F82DAC4" Ref="FPGA?"  Part="1" 
 AR Path="/5F777FFB/5F82DAC4" Ref="FPGA1"  Part="1" 
-F 0 "FPGA1" H 2227 2700 35  0000 L CNN
-F 1 "LFE5U-85F-BG381-LRJ" H 1125 -50 35  0001 L CNN
-F 2 "Package_BGA:caBGA-381_15.2x15.2_17.0x17.0mm" H 2650 4730 35  0001 L CNN
-F 3 "https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012-1-9-ECP5-ECP5G-Family-Data-Sheet.ashx?document_id=50461" H 700 4475 50  0001 C CNN
-	1    1800 2675
+F 0 "FPGA1" H 5602 2775 35  0000 L CNN
+F 1 "LFE5U-85F-BG381-LRJ" H 4500 25  35  0001 L CNN
+F 2 "Package_BGA:caBGA-381_15.2x15.2_17.0x17.0mm" H 6025 4805 35  0001 L CNN
+F 3 "https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012-1-9-ECP5-ECP5G-Family-Data-Sheet.ashx?document_id=50461" H 4075 4550 50  0001 C CNN
+	1    5175 2750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7950 2925 7600 2925
+Wire Wire Line
+	7950 3225 7600 3225
+Wire Wire Line
+	7950 3325 7600 3325
+Wire Wire Line
+	7950 3425 7600 3425
+Wire Wire Line
+	7950 3525 7600 3525
+Text Label 7925 3525 2    43   ~ 0
+PRSNT2_VT
+Text Label 7925 3425 2    43   ~ 0
+PRSNT1_VT
+Text Label 7950 2925 2    50   ~ 0
+TRST_VT
+Entry Wire Line
+	7600 2925 7500 3025
+Entry Wire Line
+	7600 3325 7500 3425
+Entry Wire Line
+	7600 3425 7500 3525
+Entry Wire Line
+	7600 3525 7500 3625
+Entry Wire Line
+	7600 3225 7500 3325
+Wire Wire Line
+	7950 3125 7600 3125
+Entry Wire Line
+	7600 3125 7500 3225
+Wire Wire Line
+	7950 3025 7600 3025
+Entry Wire Line
+	7600 3025 7500 3125
+Text Label 7950 3325 2    50   ~ 0
+INTD_VT
+Text Label 7950 3225 2    50   ~ 0
+INTB_VT
+Text Label 7950 3125 2    50   ~ 0
+INTC_VT
+Text Label 7950 3025 2    50   ~ 0
+INTA_VT
+Wire Wire Line
+	7950 2375 7600 2375
+Wire Wire Line
+	7950 2475 7600 2475
+Wire Wire Line
+	7950 2575 7600 2575
+Text Label 7925 2575 2    50   ~ 0
+PME_VT
+Text Label 7925 2375 2    50   ~ 0
+GNT_VT
+Text Label 7925 2475 2    50   ~ 0
+REQ_VT
+Entry Wire Line
+	7600 2575 7500 2675
+Entry Wire Line
+	7600 2475 7500 2575
+Entry Wire Line
+	7600 2375 7500 2475
+Entry Wire Line
+	7600 4575 7500 4675
+Entry Wire Line
+	7600 4175 7500 4275
+Entry Wire Line
+	4275 2550 4175 2650
+Entry Wire Line
+	7600 4275 7500 4375
+Entry Wire Line
+	4175 3000 4275 2900
+Text Label 4550 2800 2    50   ~ 0
+AD14_VT
+Text Label 4550 2900 2    50   ~ 0
+AD15_VT
+Text Label 7925 4175 2    50   ~ 0
+PAR_VT
+Text Label 7900 2175 2    50   ~ 0
+SERR_VT
+Text Label 7950 4575 2    50   ~ 0
+SMDAT_VT
+Wire Wire Line
+	4625 2900 4275 2900
+Wire Wire Line
+	4625 2800 4275 2800
+Wire Wire Line
+	4625 2650 4275 2650
+Wire Wire Line
+	7950 4275 7600 4275
+Wire Wire Line
+	7950 4175 7600 4175
+Wire Wire Line
+	7950 4575 7600 4575
+Text Label 7925 4275 2    50   ~ 0
+CBE1_VT
+Entry Wire Line
+	4275 2650 4175 2750
+Entry Wire Line
+	4275 2800 4175 2900
+Wire Wire Line
+	4625 2550 4275 2550
+Text Label 7900 2075 2    50   ~ 0
+CBE0_VT
+Entry Wire Line
+	7600 2175 7500 2275
+Entry Wire Line
+	7600 2075 7500 2175
+Entry Wire Line
+	7600 1975 7500 2075
+Entry Wire Line
+	7600 1875 7500 1975
+Text Label 7950 1875 2    50   ~ 0
+FRAME_VT
+Text Label 7900 1975 2    50   ~ 0
+CBE2_VT
+Wire Wire Line
+	7950 2825 7600 2825
+Wire Wire Line
+	7950 2675 7600 2675
+Entry Wire Line
+	7600 2825 7500 2925
+Entry Wire Line
+	7600 2675 7500 2775
+Text Label 7900 2675 2    50   ~ 0
+CBE3_VT
+Text Label 7950 2825 2    50   ~ 0
+IDSEL_VT
+Entry Wire Line
+	4275 1450 4175 1550
+Entry Wire Line
+	4275 1550 4175 1650
+Entry Wire Line
+	4275 1650 4175 1750
+Entry Wire Line
+	4275 1850 4175 1950
+Entry Wire Line
+	4275 1750 4175 1850
+Text Label 4525 1350 2    50   ~ 0
+AD0_VT
+Text Label 4525 1450 2    50   ~ 0
+AD1_VT
+Text Label 4525 1550 2    50   ~ 0
+AD2_VT
+Text Label 4550 1650 2    50   ~ 0
+AD3_VT
+Text Label 4550 1850 2    50   ~ 0
+AD5_VT
+Text Label 4550 1750 2    50   ~ 0
+AD4_VT
+Entry Wire Line
+	4275 1350 4175 1450
+Entry Wire Line
+	7500 3875 7600 3775
+Entry Wire Line
+	7500 3975 7600 3875
+Entry Wire Line
+	7600 3975 7500 4075
+Entry Wire Line
+	7600 4075 7500 4175
+Text Label 7950 4075 2    50   ~ 0
+XCAP_VT
+Text Label 7950 3975 2    50   ~ 0
+DEVSEL_VT
+Text Label 7925 3875 2    50   ~ 0
+TRDY_VT
+Text Label 7925 3775 2    50   ~ 0
+IRDY_VT
+Entry Wire Line
+	4275 1950 4175 2050
+Entry Wire Line
+	4275 2050 4175 2150
+Entry Wire Line
+	4275 2150 4175 2250
+Entry Wire Line
+	4275 2250 4175 2350
+Entry Wire Line
+	4275 2350 4175 2450
+Entry Wire Line
+	4275 2450 4175 2550
+Text Label 4500 2050 2    50   ~ 0
+AD7_VT
+Text Label 4525 1950 2    50   ~ 0
+AD6_VT
+Text Label 4575 2250 2    50   ~ 0
+AD9_VT
+Text Label 4500 2150 2    50   ~ 0
+AD8_VT
+Text Label 4575 2350 2    50   ~ 0
+AD10_VT
+Text Label 4575 2450 2    50   ~ 0
+AD11_VT
+Wire Wire Line
+	4625 2350 4275 2350
+Wire Wire Line
+	4625 2250 4275 2250
+Wire Wire Line
+	4625 2150 4275 2150
+Wire Wire Line
+	4625 2050 4275 2050
+Wire Wire Line
+	4625 1950 4275 1950
+Entry Wire Line
+	7025 1575 6925 1675
+Entry Wire Line
+	7025 1475 6925 1575
+Entry Wire Line
+	7025 1375 6925 1475
+Entry Wire Line
+	7025 1275 6925 1375
+Text Label 7325 1275 2    50   ~ 0
+AD30_VT
+Text Label 7325 1375 2    50   ~ 0
+AD31_VT
+Text Label 7325 1475 2    50   ~ 0
+AD29_VT
+Text Label 7325 1575 2    50   ~ 0
+AD28_VT
+Wire Wire Line
+	4625 2450 4275 2450
+Entry Wire Line
+	7600 1775 7500 1875
+Wire Wire Line
+	4275 1350 4625 1350
+Wire Wire Line
+	4275 1450 4625 1450
+Wire Wire Line
+	4275 1550 4625 1550
+Wire Wire Line
+	4275 1650 4625 1650
+Wire Wire Line
+	4275 1750 4625 1750
+Wire Wire Line
+	4275 1850 4625 1850
+Wire Wire Line
+	4625 3350 4275 3350
+Wire Wire Line
+	4625 3150 4275 3150
+Wire Wire Line
+	4625 3050 4275 3050
+Wire Wire Line
+	4625 3250 4275 3250
+Wire Wire Line
+	4625 3450 4275 3450
+Text Label 4575 3450 2    50   ~ 0
+AD20_VT
+Text Label 4625 3350 2    50   ~ 0
+AD19_VT
+Text Label 4625 3250 2    50   ~ 0
+AD18_VT
+Text Label 4600 3050 2    50   ~ 0
+AD16_VT
+Text Label 4600 3150 2    50   ~ 0
+AD17_VT
+Entry Wire Line
+	4275 3450 4175 3550
+Entry Wire Line
+	4275 3350 4175 3450
+Entry Wire Line
+	4275 3250 4175 3350
+Entry Wire Line
+	4275 3150 4175 3250
+Entry Wire Line
+	4275 3050 4175 3150
+Text Label 4575 2650 2    50   ~ 0
+AD12_VT
+Text Label 4550 2550 2    50   ~ 0
+AD13_VT
+Wire Wire Line
+	4275 3700 4625 3700
+Wire Wire Line
+	4275 4100 4625 4100
+Wire Wire Line
+	4275 4000 4625 4000
+Wire Wire Line
+	4275 3900 4625 3900
+Entry Wire Line
+	4275 3600 4175 3700
+Text Label 4575 3600 2    50   ~ 0
+AD21_VT
+Entry Wire Line
+	4275 4100 4175 4200
+Entry Wire Line
+	4275 4000 4175 4100
+Entry Wire Line
+	4275 3900 4175 4000
+Text Label 4600 3900 2    50   ~ 0
+AD24_VT
+Text Label 4600 4000 2    50   ~ 0
+AD25_VT
+Text Label 4600 4100 2    50   ~ 0
+AD26_VT
+Entry Wire Line
+	4275 3700 4175 3800
+Entry Wire Line
+	4275 3800 4175 3900
+Text Label 4600 3800 2    50   ~ 0
+AD23_VT
+Text Label 4575 3700 2    50   ~ 0
+AD22_VT
+Wire Wire Line
+	4275 3600 4625 3600
+Wire Wire Line
+	4275 3800 4625 3800
+Wire Wire Line
+	7025 1275 7950 1275
+Wire Wire Line
+	7025 1375 7950 1375
+Wire Wire Line
+	7025 1475 7950 1475
+Wire Wire Line
+	7025 1575 7950 1575
+Wire Wire Line
+	7950 1875 7600 1875
+Wire Wire Line
+	7950 2075 7600 2075
+Wire Wire Line
+	7950 1975 7600 1975
+Wire Wire Line
+	7950 2175 7600 2175
+Wire Wire Line
+	7950 1775 7600 1775
+$Comp
+L LRJ-parts:LFE5U-85F-BG381-LRJ FPGA?
+U 2 1 5F7EA689
+P 8475 2925
+AR Path="/5F7EA689" Ref="FPGA?"  Part="2" 
+AR Path="/5F777FFB/5F7EA689" Ref="FPGA1"  Part="2" 
+F 0 "FPGA1" H 8826 2925 35  0000 L CNN
+F 1 "LFE5U-85F-BG381-LRJ" H 7800 200 35  0001 L CNN
+F 2 "Package_BGA:caBGA-381_15.2x15.2_17.0x17.0mm" H 9325 4980 35  0001 L CNN
+F 3 "https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012-1-9-ECP5-ECP5G-Family-Data-Sheet.ashx?document_id=50461" H 7375 4725 50  0001 C CNN
+	2    8475 2925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 3775 7600 3775
+Wire Wire Line
+	7950 3875 7600 3875
+Wire Wire Line
+	7950 3975 7600 3975
+Wire Wire Line
+	7950 4075 7600 4075
+Wire Wire Line
+	7950 3675 7600 3675
+Wire Wire Line
+	7950 4375 7600 4375
+Text Label 7950 3675 2    50   ~ 0
+LOCK_VT
+Text Label 7950 4375 2    50   ~ 0
+PERR_VT
+Entry Wire Line
+	7600 4375 7500 4475
+Entry Wire Line
+	7600 3675 7500 3775
+Text HLabel 2425 850  0    50   BiDi ~ 0
+PCI_VT
+Entry Bus Bus
+	2425 1000 2525 1100
+Entry Bus Bus
+	2425 1250 2525 1350
 Wire Bus Line
-	8300 1650 8300 2650
+	2525 1350 2650 1350
+Text Label 2525 1350 0    50   ~ 0
+PCI_VTM
+Text Label 2525 1100 0    50   ~ 0
+PCI_VTA
 Wire Bus Line
-	10675 1450 10675 3500
+	2525 1100 4175 1100
 Wire Bus Line
-	7300 2975 7300 4175
+	2650 1350 2650 5550
 Wire Bus Line
-	3050 1275 3050 4325
+	2650 5550 7500 5550
+Wire Bus Line
+	6925 1100 4175 1100
+Connection ~ 4175 1100
+NoConn ~ 7950 1675
+NoConn ~ 7950 4475
+Entry Wire Line
+	7600 2275 7500 2375
+Text Label 7950 2275 2    50   ~ 0
+STOP_VT
+Entry Wire Line
+	7600 2275 7500 2375
+Wire Wire Line
+	7950 2275 7600 2275
+NoConn ~ 7950 1775
+Wire Notes Line
+	3300 6125 3300 7525
+Wire Notes Line
+	775  7525 775  6125
+Wire Notes Line
+	3300 7525 775  7525
+Wire Notes Line
+	775  6125 3300 6125
+Text Notes 875  6850 0    50   ~ 0
+PCI_VTA = PCI Voltage-Translated Adressing-signals\nPCI_VTM = PCI Voltage-Translated Miscellaneous-signals
+Text Notes 875  6550 0    50   ~ 0
+PCI_VT = PCI Voltage Translated signals (PCI_VTA & PCI_VTM)
+Text Notes 875  6350 0    100  ~ 0
+LEGEND:
+Wire Bus Line
+	2425 850  2425 1375
+Wire Bus Line
+	6925 1100 6925 1825
+Wire Bus Line
+	7500 1750 7500 5550
+Wire Bus Line
+	4175 1100 4175 4400
 $EndSCHEMATC

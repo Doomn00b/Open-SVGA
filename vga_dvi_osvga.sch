@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 8 9
 Title ""
 Date ""
 Rev ""
@@ -14,59 +14,16 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	6250 5500 6250 5400
-Wire Wire Line
-	6250 5400 6400 5400
-$Comp
-L power:GNDA #PWR0105
-U 1 1 5F713735
-P 6400 5400
-F 0 "#PWR0105" H 6400 5150 50  0001 C CNN
-F 1 "GNDA" H 6405 5227 50  0000 C CNN
-F 2 "" H 6400 5400 50  0001 C CNN
-F 3 "" H 6400 5400 50  0001 C CNN
-	1    6400 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6250 4100 6400 4100
-$Comp
-L power:GNDA #PWR0104
-U 1 1 5F712F3D
-P 6400 4100
-F 0 "#PWR0104" H 6400 3850 50  0001 C CNN
-F 1 "GNDA" H 6405 3927 50  0000 C CNN
-F 2 "" H 6400 4100 50  0001 C CNN
-F 3 "" H 6400 4100 50  0001 C CNN
-	1    6400 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6250 2700 6400 2700
-Wire Wire Line
-	6250 2800 6250 2700
-$Comp
-L power:GNDA #PWR0103
-U 1 1 5F71012B
-P 6400 2700
-F 0 "#PWR0103" H 6400 2450 50  0001 C CNN
-F 1 "GNDA" H 6405 2527 50  0000 C CNN
-F 2 "" H 6400 2700 50  0001 C CNN
-F 3 "" H 6400 2700 50  0001 C CNN
-	1    6400 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6250 5700 7300 5700
+	5400 7250 5725 7250
 $Comp
 L LRJ-parts:ADV7125KSTZ50 DAC1
 U 2 1 5F64F9CA
-P 5150 2850
-F 0 "DAC1" H 5150 3575 50  0000 C CNN
-F 1 "ADV7125KSTZ50" H 5200 3574 50  0001 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 5200 1700 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADV7125.pdf" H 4550 4100 50  0001 C CNN
-	2    5150 2850
+P 4300 4600
+F 0 "DAC1" H 4300 5325 50  0000 C CNN
+F 1 "ADV7125KSTZ50" H 4350 5324 50  0001 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 4350 3450 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADV7125.pdf" H 3700 5850 50  0001 C CNN
+	2    4300 4600
 	1    0    0    -1  
 $EndComp
 Text Notes 10600 4225 0    50   ~ 0
@@ -105,18 +62,15 @@ F 3 "" H 9500 625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11050 925  11050 1225
-Connection ~ 11050 1225
-Wire Wire Line
 	10250 925  11050 925 
 Wire Wire Line
 	10350 1225 11050 1225
 Wire Wire Line
-	9450 1625 8550 1625
+	9450 1625 8725 1625
 Wire Wire Line
 	9450 2525 8900 2525
 Wire Wire Line
-	9450 2125 8900 2125
+	9450 2125 8800 2125
 Wire Wire Line
 	9450 1925 9350 1925
 Wire Wire Line
@@ -126,9 +80,7 @@ Wire Wire Line
 Wire Wire Line
 	9450 2225 8900 2225
 Wire Wire Line
-	9450 2025 8900 2025
-Wire Wire Line
-	9450 1525 8550 1525
+	9450 1525 8725 1525
 Wire Wire Line
 	10350 2825 10400 2825
 Wire Wire Line
@@ -170,8 +122,6 @@ Wire Wire Line
 Wire Wire Line
 	8800 3750 10750 3750
 Wire Wire Line
-	8800 3950 10950 3950
-Wire Wire Line
 	10350 1125 10450 1125
 Wire Wire Line
 	10450 1125 10450 825 
@@ -182,7 +132,7 @@ Wire Wire Line
 Wire Wire Line
 	10550 1425 10550 725 
 Wire Wire Line
-	9450 1725 8550 1725
+	9450 1725 8225 1725
 Wire Wire Line
 	8900 2725 9450 2725
 Wire Wire Line
@@ -191,22 +141,11 @@ Wire Wire Line
 	8900 2925 9450 2925
 Wire Wire Line
 	8900 3025 9450 3025
-$Comp
-L power:GND #PWR0109
-U 1 1 5F7789A1
-P 8550 1725
-F 0 "#PWR0109" H 8550 1475 50  0001 C CNN
-F 1 "GND" H 8550 1575 50  0000 C CNN
-F 2 "" H 8550 1725 50  0001 C CNN
-F 3 "" H 8550 1725 50  0001 C CNN
-	1    8550 1725
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9350 1925 9350 625 
-Text Notes 9025 5475 2    50   ~ 0
+Text Notes 9500 5825 2    50   ~ 0
 ID BIT2
-Text Notes 9325 5675 2    50   ~ 0
+Text Notes 9500 5725 2    50   ~ 0
 SYNC_RET/GND
 Text Notes 8750 4300 2    39   ~ 0
 ID BIT1
@@ -268,25 +207,9 @@ F 3 "https://www.amphenol-https://www.mouser.se/datasheet/2/18/1/HD_high_density
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7650 3000 6800 3000
-Wire Wire Line
-	6250 4400 7050 4400
-Wire Wire Line
-	6800 1425 6800 3000
-Wire Wire Line
-	6800 3000 6250 3000
-Wire Wire Line
-	7050 1225 7050 4400
-Wire Wire Line
-	7050 1225 9450 1225
-Wire Wire Line
-	7050 4400 7475 4400
-Wire Wire Line
 	9225 4675 9225 5575
 Wire Wire Line
 	9225 5575 9525 5575
-Wire Wire Line
-	7650 5075 9525 5075
 Wire Wire Line
 	10125 5075 10125 4400
 Wire Wire Line
@@ -303,8 +226,6 @@ Wire Wire Line
 	11050 1225 11050 4075
 Connection ~ 9825 4075
 Wire Wire Line
-	8550 4075 9825 4075
-Wire Wire Line
 	9825 4675 9825 4075
 Wire Wire Line
 	9825 4075 11050 4075
@@ -312,10 +233,6 @@ Wire Wire Line
 	10125 5875 10450 5875
 Wire Wire Line
 	10450 5875 10450 4200
-Wire Wire Line
-	7475 5275 7475 4400
-Wire Wire Line
-	7650 5075 7650 3000
 Wire Wire Line
 	8450 4200 10450 4200
 Wire Wire Line
@@ -334,528 +251,380 @@ Text Notes 9550 6450 2    39   ~ 0
 VER SYNC
 Text Notes 9550 6350 2    39   ~ 0
 HOR SYNC
-Wire Wire Line
-	7475 5275 9525 5275
-Entry Wire Line
-	2050 2425 2150 2325
-Text Label 2150 2325 1    50   ~ 0
-0.8V
-Wire Wire Line
-	2150 1600 2150 2325
-Text HLabel 1950 2425 3    50   BiDi ~ 0
-SMPS_bus
 $Comp
 L LRJ-parts:LFE5U-85F-BG381-LRJ FPGA?
 U 4 1 5F6E9E8C
-P 2400 1000
+P 2450 1250
 AR Path="/5F6E9E8C" Ref="FPGA?"  Part="4" 
 AR Path="/5F777FFB/5F6E9E8C" Ref="FPGA?"  Part="4" 
 AR Path="/629A7666/5F6E9E8C" Ref="FPGA1"  Part="4" 
-F 0 "FPGA1" V 2775 -1075 35  0000 L CNN
-F 1 "LFE5U-85F-BG381-LRJ" H 1725 -1725 35  0001 L CNN
-F 2 "Package_BGA:caBGA-381_15.2x15.2_17.0x17.0mm" H 3250 3055 35  0001 L CNN
-F 3 "https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012-1-9-ECP5-ECP5G-Family-Data-Sheet.ashx?document_id=50461" H 1300 2800 50  0001 C CNN
-	4    2400 1000
+F 0 "FPGA1" V 2825 -825 35  0000 L CNN
+F 1 "LFE5U-85F-BG381-LRJ" H 1775 -1475 35  0001 L CNN
+F 2 "Package_BGA:caBGA-381_15.2x15.2_17.0x17.0mm" H 3300 3305 35  0001 L CNN
+F 3 "https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012-1-9-ECP5-ECP5G-Family-Data-Sheet.ashx?document_id=50461" H 1350 3050 50  0001 C CNN
+	4    2450 1250
 	0    -1   -1   0   
 $EndComp
 $Comp
 L LRJ-parts:LFE5U-85F-BG381-LRJ FPGA?
 U 3 1 5F6E9E92
-P 1725 5350
+P 1100 4975
 AR Path="/5F6E9E92" Ref="FPGA?"  Part="3" 
 AR Path="/5F777FFB/5F6E9E92" Ref="FPGA?"  Part="3" 
 AR Path="/629A7666/5F6E9E92" Ref="FPGA1"  Part="3" 
-F 0 "FPGA1" H 1650 7325 35  0000 L CNN
-F 1 "LFE5U-85F-BG381-LRJ" H 1050 2625 35  0001 L CNN
-F 2 "Package_BGA:caBGA-381_15.2x15.2_17.0x17.0mm" H 2575 7405 35  0001 L CNN
-F 3 "https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012-1-9-ECP5-ECP5G-Family-Data-Sheet.ashx?document_id=50461" H 625 7150 50  0001 C CNN
-	3    1725 5350
+F 0 "FPGA1" H 1025 6950 35  0000 L CNN
+F 1 "LFE5U-85F-BG381-LRJ" H 425 2250 35  0001 L CNN
+F 2 "Package_BGA:caBGA-381_15.2x15.2_17.0x17.0mm" H 1950 7030 35  0001 L CNN
+F 3 "https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012-1-9-ECP5-ECP5G-Family-Data-Sheet.ashx?document_id=50461" H 0   6775 50  0001 C CNN
+	3    1100 4975
 	-1   0    0    -1  
 $EndComp
-Entry Wire Line
-	3150 3250 3250 3350
-Text Label 3250 3350 0    50   ~ 0
-0.8V
 Wire Wire Line
-	2300 5650 3250 5650
-Text HLabel 3050 3250 1    50   BiDi ~ 0
-SMPS_bus
-$Comp
-L LRJ-parts:ADV7125KSTZ50 DAC1
-U 1 1 5F64D198
-P 5725 6875
-F 0 "DAC1" H 6303 6921 50  0000 L CNN
-F 1 "ADV7125KSTZ50" H 6303 6830 50  0000 L CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 5775 5725 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADV7125.pdf" H 5125 8125 50  0001 C CNN
-	1    5725 6875
-	1    0    0    -1  
-$EndComp
+	1675 5275 2325 5275
 $Comp
 L LRJ-parts:ADV7125KSTZ50 DAC1
 U 4 1 5F65B1F6
-P 5200 5500
-F 0 "DAC1" H 5200 6075 50  0000 C CNN
-F 1 "ADV7125KSTZ50" H 5250 6074 50  0001 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 5250 4350 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADV7125.pdf" H 4600 6750 50  0001 C CNN
-	4    5200 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDA #PWR0101
-U 1 1 5F6AEB8C
-P 5875 7425
-F 0 "#PWR0101" H 5875 7175 50  0001 C CNN
-F 1 "GNDA" H 5880 7252 50  0000 C CNN
-F 2 "" H 5875 7425 50  0001 C CNN
-F 3 "" H 5875 7425 50  0001 C CNN
-	1    5875 7425
+P 4350 7050
+F 0 "DAC1" H 5375 6600 50  0000 C CNN
+F 1 "ADV7125KSTZ50" H 4400 7624 50  0001 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 4400 5900 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADV7125.pdf" H 3750 8300 50  0001 C CNN
+	4    4350 7050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6175 7325 6125 7325
+	2325 5275 2325 2875
 Wire Wire Line
-	5425 7325 5375 7325
+	1675 6500 2000 6500
 Wire Wire Line
-	5925 7325 5875 7325
-$Comp
-L power:+3.3VDAC #PWR0102
-U 1 1 5F6B57FA
-P 5725 6375
-F 0 "#PWR0102" H 5875 6325 50  0001 C CNN
-F 1 "+3.3VDAC" H 5745 6518 50  0000 C CNN
-F 2 "" H 5725 6375 50  0001 C CNN
-F 3 "" H 5725 6375 50  0001 C CNN
-	1    5725 6375
-	1    0    0    -1  
-$EndComp
+	1675 3175 2000 3175
 Wire Wire Line
-	5425 6425 5725 6425
-Connection ~ 5725 6425
+	1675 6100 2000 6100
 Wire Wire Line
-	5725 6425 6075 6425
+	1675 6000 2000 6000
 Wire Wire Line
-	5725 6425 5725 6375
-$Comp
-L LRJ-parts:ADV7125KSTZ50 DAC1
-U 5 1 5F66092A
-P 4400 6975
-F 0 "DAC1" H 4375 7590 50  0000 C CNN
-F 1 "ADV7125KSTZ50" H 4375 7499 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 4450 5825 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADV7125.pdf" H 3800 8225 50  0001 C CNN
-	5    4400 6975
-	1    0    0    -1  
-$EndComp
+	1675 3725 2000 3725
 Wire Wire Line
-	7300 5475 9525 5475
+	1675 5125 2000 5125
 Wire Wire Line
-	7300 5475 7300 5700
-Connection ~ 7300 5475
+	1675 6400 2000 6400
 Wire Wire Line
-	7300 725  10550 725 
+	1675 4925 2000 4925
 Wire Wire Line
-	7300 725  7300 5475
+	1675 4525 2000 4525
 Wire Wire Line
-	3250 5650 3250 3350
+	1675 4425 2000 4425
 Wire Wire Line
-	2300 6875 2575 6875
+	1675 4125 2000 4125
 Wire Wire Line
-	2300 3550 2575 3550
+	1675 4025 2000 4025
 Wire Wire Line
-	2300 6475 2575 6475
-Wire Wire Line
-	2300 6375 2575 6375
-Wire Wire Line
-	2300 4100 2575 4100
-Wire Wire Line
-	2300 5500 2575 5500
-Wire Wire Line
-	2300 6775 2575 6775
-Wire Wire Line
-	2300 5300 2575 5300
-Wire Wire Line
-	2300 4900 2575 4900
-Wire Wire Line
-	2300 4800 2575 4800
-Wire Wire Line
-	2300 4500 2575 4500
-Wire Wire Line
-	2300 4400 2575 4400
-Wire Wire Line
-	2300 3650 2575 3650
-Wire Wire Line
-	2300 5400 2575 5400
+	1675 5025 2000 5025
 Entry Wire Line
-	2575 6875 2675 6775
+	2000 6500 2100 6400
 Entry Wire Line
-	2575 3550 2675 3450
+	2000 3175 2100 3075
 Entry Wire Line
-	2575 6475 2675 6375
+	2000 6100 2100 6000
 Entry Wire Line
-	2575 6375 2675 6275
+	2000 6000 2100 5900
 Entry Wire Line
-	2575 4100 2675 4000
+	2000 3725 2100 3625
 Entry Wire Line
-	2575 5500 2675 5400
+	2000 5125 2100 5025
 Entry Wire Line
-	2575 6775 2675 6675
+	2000 6400 2100 6300
 Entry Wire Line
-	2575 5300 2675 5200
+	2000 4925 2100 4825
 Entry Wire Line
-	2575 4900 2675 4800
+	2000 4525 2100 4425
 Entry Wire Line
-	2575 4800 2675 4700
+	2000 4425 2100 4325
 Entry Wire Line
-	2575 4500 2675 4400
+	2000 4125 2100 4025
 Entry Wire Line
-	2575 4400 2675 4300
+	2000 4025 2100 3925
 Entry Wire Line
-	2575 4000 2675 3900
+	2000 3625 2100 3525
 Entry Wire Line
-	2575 3650 2675 3550
-Entry Wire Line
-	2575 5400 2675 5300
+	2000 5025 2100 4925
 Wire Wire Line
-	750  1600 750  1875
+	800  1850 800  2250
 Wire Wire Line
-	850  1600 850  1875
+	900  1850 900  2250
 Entry Wire Line
-	750  1875 850  1975
+	800  2250 900  2350
 Entry Wire Line
-	850  1875 950  1975
+	900  2250 1000 2350
 Wire Wire Line
-	1400 1600 1400 1875
+	1450 1850 1450 2250
 Entry Wire Line
-	1400 1875 1500 1975
+	1450 2250 1550 2350
 Wire Wire Line
-	1700 1600 1700 1875
+	1750 1850 1750 2250
 Entry Wire Line
-	1700 1875 1800 1975
+	1750 2250 1850 2350
 Wire Wire Line
-	2600 1600 2600 1875
+	2650 1850 2650 2250
 Wire Wire Line
-	2700 1600 2700 1875
+	2750 1850 2750 2250
 Entry Wire Line
-	2600 1875 2700 1975
+	2650 2250 2750 2350
 Entry Wire Line
-	2700 1875 2800 1975
+	2750 2250 2850 2350
 Wire Wire Line
-	3000 1600 3000 1875
+	3050 1850 3050 2250
 Wire Wire Line
-	3100 1600 3100 1875
+	3150 1850 3150 2250
 Entry Wire Line
-	3000 1875 3100 1975
+	3050 2250 3150 2350
 Entry Wire Line
-	3100 1875 3200 1975
+	3150 2250 3250 2350
 Wire Wire Line
-	3400 1600 3400 1875
+	3450 1850 3450 2250
 Wire Wire Line
-	3500 1600 3500 1875
+	3550 1850 3550 2250
 Entry Wire Line
-	3400 1875 3500 1975
+	3450 2250 3550 2350
 Entry Wire Line
-	3500 1875 3600 1975
+	3550 2250 3650 2350
 Wire Wire Line
-	3800 1600 3800 1875
+	3850 1850 3850 2250
 Entry Wire Line
-	3900 1875 4000 1975
+	3950 2250 4050 2350
 Entry Wire Line
-	3800 1875 3900 1975
+	3850 2250 3950 2350
 Wire Wire Line
-	2300 4000 2575 4000
-Wire Wire Line
-	2300 6000 2575 6000
-Text Label 3900 1675 3    50   ~ 0
-BLU7
-Text Label 3800 1675 3    50   ~ 0
-BLU6
-Text Label 750  1675 3    50   ~ 0
-GRE7
-Text Label 2400 5300 0    50   ~ 0
-GRE6
-Text Label 3500 1700 3    50   ~ 0
-BLU5
-Text Label 3400 1700 3    50   ~ 0
-BLU4
-Text Label 2000 1675 3    50   ~ 0
-BLU3
-Text Label 850  1675 3    50   ~ 0
-BLU0
-Text Label 2400 6875 0    50   ~ 0
-GRE5
-Text Label 2375 6775 0    50   ~ 0
-GRE4
-Text Label 2400 4800 0    50   ~ 0
-GRE3
-Text Label 2400 6475 0    50   ~ 0
-GRE2
-Text Label 2375 4900 0    50   ~ 0
-GRE1
-Text Label 2350 4500 0    50   ~ 0
+	1675 3625 2000 3625
+Text Label 3950 1925 3    50   ~ 0
+BLUE7
+Text Label 3850 1925 3    50   ~ 0
+BLUE6
+Text Label 1700 4925 0    50   ~ 0
+GREEN6
+Text Label 3550 1950 3    50   ~ 0
+BLUE5
+Text Label 3450 1950 3    50   ~ 0
+BLUE4
+Text Label 2050 1925 3    50   ~ 0
+BLUE3
+Text Label 900  1925 3    50   ~ 0
+BLUE0
+Text Label 1700 6500 0    50   ~ 0
+GREEN5
+Text Label 1700 6400 0    50   ~ 0
+GREEN4
+Text Label 1725 4425 0    50   ~ 0
+GREEN3
+Text Label 1700 6100 0    50   ~ 0
+GREEN2
+Text Label 1700 4525 0    50   ~ 0
+GREEN1
+Text Label 1725 4125 0    50   ~ 0
 RED7
-Text Label 2350 4400 0    50   ~ 0
+Text Label 1725 4025 0    50   ~ 0
 RED6
-Text Label 2375 5900 0    50   ~ 0
+Text Label 1750 5525 0    50   ~ 0
 RED4
-Text Label 2375 4100 0    50   ~ 0
+Text Label 1750 3725 0    50   ~ 0
 RED5
-Text Label 2400 5500 0    50   ~ 0
+Text Label 1775 5125 0    50   ~ 0
 RED2
-Text Label 2400 4000 0    50   ~ 0
+Text Label 1775 3625 0    50   ~ 0
 RED3
-Text Label 2375 5400 0    50   ~ 0
+Text Label 1750 5025 0    50   ~ 0
 RED0
-Text Label 2350 3550 0    50   ~ 0
+Text Label 1725 3175 0    50   ~ 0
 RED1
-Text Label 2675 3325 2    50   ~ 0
-RGB_ECP5-85
-Text Label 600  2075 0    50   ~ 0
-RGB_ECP5-85
+Text Label 2100 2950 2    50   ~ 0
+RGB_ECP5
+Text Label 650  2475 0    50   ~ 0
+RGB_ECP5
 Wire Bus Line
-	600  2075 600  1975
-Text Label 1400 1725 3    50   ~ 0
-SYN
-Text Label 1700 1700 3    50   ~ 0
-BLAN
+	650  2475 650  2350
+Text Label 1450 1875 3    50   ~ 0
+SYNC_DAC
 Wire Wire Line
-	4250 5850 3975 5850
+	3400 7400 3075 7400
 Wire Wire Line
-	4250 5750 3975 5750
+	3400 7300 3075 7300
 Wire Wire Line
-	4250 5650 3975 5650
+	3400 7200 3075 7200
 Wire Wire Line
-	4250 5550 3975 5550
+	3400 7100 3075 7100
 Wire Wire Line
-	4250 5450 3975 5450
+	3400 7000 3075 7000
 Wire Wire Line
-	4250 5350 3975 5350
+	3400 6900 3075 6900
 Wire Wire Line
-	4250 5250 3975 5250
+	3400 6800 3075 6800
 Wire Wire Line
-	4250 5150 3975 5150
+	3400 6700 3075 6700
 Wire Wire Line
-	4250 4650 3975 4650
+	3400 6300 3075 6300
 Wire Wire Line
-	4250 4550 3975 4550
+	3400 6200 3075 6200
 Wire Wire Line
-	4250 4450 3975 4450
+	3400 6100 3075 6100
 Wire Wire Line
-	4250 4350 3975 4350
+	3400 6000 3075 6000
 Wire Wire Line
-	4250 4250 3975 4250
+	3400 5900 3075 5900
 Wire Wire Line
-	4250 4150 3975 4150
+	3400 5800 3075 5800
 Wire Wire Line
-	4250 3350 3975 3350
+	3400 5100 3075 5100
 Wire Wire Line
-	4250 3250 3975 3250
+	3400 5000 3075 5000
 Entry Wire Line
-	3975 5850 3875 5750
+	3075 7400 2975 7300
 Entry Wire Line
-	3975 5750 3875 5650
+	3075 7300 2975 7200
 Entry Wire Line
-	3975 5650 3875 5550
+	3075 7200 2975 7100
 Entry Wire Line
-	3975 5550 3875 5450
+	3075 7100 2975 7000
 Entry Wire Line
-	3975 5450 3875 5350
+	3075 7000 2975 6900
 Entry Wire Line
-	3975 5350 3875 5250
+	3075 6900 2975 6800
 Entry Wire Line
-	3975 5250 3875 5150
+	3075 6800 2975 6700
 Entry Wire Line
-	3975 5150 3875 5050
+	3075 6700 2975 6600
 Entry Wire Line
-	3975 4650 3875 4550
+	3075 6300 2975 6200
 Entry Wire Line
-	3975 4550 3875 4450
+	3075 6200 2975 6100
 Entry Wire Line
-	3975 4450 3875 4350
+	3075 6100 2975 6000
 Entry Wire Line
-	3975 4350 3875 4250
+	3075 6000 2975 5900
 Entry Wire Line
-	3975 4250 3875 4150
+	3075 5900 2975 5800
 Entry Wire Line
-	3975 4150 3875 4050
+	3075 5800 2975 5700
 Entry Wire Line
-	3975 4050 3875 3950
+	3075 5700 2975 5600
 Entry Wire Line
-	3975 3950 3875 3850
+	3075 5600 2975 5500
 Entry Wire Line
-	3975 3350 3875 3250
+	3075 5100 2975 5000
 Entry Wire Line
-	3975 3250 3875 3150
+	3075 5000 2975 4900
 Wire Wire Line
-	4250 3950 3975 3950
+	3400 5600 3075 5600
 Wire Wire Line
-	4250 4050 3975 4050
-Text Label 4200 5850 2    50   ~ 0
-BLU7
-Text Label 4200 5750 2    50   ~ 0
-BLU6
-Text Label 4200 4650 2    50   ~ 0
-GRE7
-Text Label 4200 4550 2    50   ~ 0
-GRE6
-Text Label 4200 5650 2    50   ~ 0
-BLU5
-Text Label 4200 5550 2    50   ~ 0
-BLU4
-Text Label 4200 5450 2    50   ~ 0
-BLU3
-Text Label 4200 5350 2    50   ~ 0
-BLU2
-Text Label 4200 5250 2    50   ~ 0
-BLU1
-Text Label 4200 5150 2    50   ~ 0
-BLU0
-Text Label 4200 4450 2    50   ~ 0
-GRE5
-Text Label 4200 4350 2    50   ~ 0
-GRE4
-Text Label 4200 4250 2    50   ~ 0
-GRE3
-Text Label 4200 4150 2    50   ~ 0
-GRE2
-Text Label 4175 4050 2    50   ~ 0
-GRE1
-Text Label 4175 3950 2    50   ~ 0
-GRE0
-Text Label 4175 3350 2    50   ~ 0
+	3400 5700 3075 5700
+Text Label 3350 7400 2    50   ~ 0
+BLUE7
+Text Label 3350 7300 2    50   ~ 0
+BLUE6
+Text Label 3350 6300 2    50   ~ 0
+GREEN7
+Text Label 3350 6200 2    50   ~ 0
+GREEN6
+Text Label 3350 7200 2    50   ~ 0
+BLUE5
+Text Label 3350 7100 2    50   ~ 0
+BLUE4
+Text Label 3350 7000 2    50   ~ 0
+BLUE3
+Text Label 3350 6900 2    50   ~ 0
+BLUE2
+Text Label 3350 6800 2    50   ~ 0
+BLUE1
+Text Label 3350 6700 2    50   ~ 0
+BLUE0
+Text Label 3350 6100 2    50   ~ 0
+GREEN5
+Text Label 3350 6000 2    50   ~ 0
+GREEN4
+Text Label 3350 5900 2    50   ~ 0
+GREEN3
+Text Label 3350 5800 2    50   ~ 0
+GREEN2
+Text Label 3350 5700 2    50   ~ 0
+GREEN1
+Text Label 3350 5600 2    50   ~ 0
+GREEN0
+Text Label 3325 5100 2    50   ~ 0
 RED7
-Text Label 4175 3250 2    50   ~ 0
+Text Label 3325 5000 2    50   ~ 0
 RED6
-Text Label 3875 6125 0    50   ~ 0
-RGB_ECP5-85
-Wire Wire Line
-	6250 4200 6250 4100
+Text Label 2975 7675 0    50   ~ 0
+RGB_ECP5
 $Comp
 L LRJ-parts:ADV7125KSTZ50 DAC1
 U 3 1 5F655B65
-P 5200 4250
-F 0 "DAC1" H 5200 4875 50  0000 C CNN
-F 1 "ADV7125KSTZ50" H 5250 4874 50  0001 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 5250 3100 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADV7125.pdf" H 4600 5500 50  0001 C CNN
-	3    5200 4250
+P 4350 5900
+F 0 "DAC1" H 3350 6400 50  0000 C CNN
+F 1 "ADV7125KSTZ50" H 4400 6524 50  0001 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 4400 4750 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADV7125.pdf" H 3750 7150 50  0001 C CNN
+	3    4350 5900
 	1    0    0    -1  
 $EndComp
-Connection ~ 6800 3000
-Connection ~ 7050 4400
 Wire Wire Line
-	4250 3150 3975 3150
+	3400 4900 3075 4900
 Wire Wire Line
-	4250 3050 3975 3050
+	3400 4800 3075 4800
 Entry Wire Line
-	3975 3150 3875 3050
+	3075 4900 2975 4800
 Entry Wire Line
-	3975 3050 3875 2950
+	3075 4800 2975 4700
 Wire Wire Line
-	4250 2950 3975 2950
+	3400 4700 3075 4700
 Wire Wire Line
-	4250 2850 3975 2850
+	3400 4600 3075 4600
 Entry Wire Line
-	3975 2950 3875 2850
+	3075 4700 2975 4600
 Entry Wire Line
-	3975 2850 3875 2750
+	3075 4600 2975 4500
 Wire Wire Line
-	4250 2750 3975 2750
+	3400 4500 3075 4500
 Wire Wire Line
-	4250 2650 3975 2650
+	3400 4400 3075 4400
 Entry Wire Line
-	3975 2750 3875 2650
+	3075 4500 2975 4400
 Entry Wire Line
-	3975 2650 3875 2550
-Text Label 4175 3050 2    50   ~ 0
+	3075 4400 2975 4300
+Text Label 3325 4800 2    50   ~ 0
 RED4
-Text Label 4175 3150 2    50   ~ 0
+Text Label 3325 4900 2    50   ~ 0
 RED5
-Text Label 4175 2850 2    50   ~ 0
+Text Label 3325 4600 2    50   ~ 0
 RED2
-Text Label 4175 2950 2    50   ~ 0
+Text Label 3325 4700 2    50   ~ 0
 RED3
-Text Label 4175 2650 2    50   ~ 0
+Text Label 3325 4400 2    50   ~ 0
 RED0
-Text Label 4175 2750 2    50   ~ 0
+Text Label 3325 4500 2    50   ~ 0
 RED1
 Entry Wire Line
-	3975 2425 3875 2325
+	3075 4175 2975 4075
 Entry Wire Line
-	3975 2275 3875 2175
-Text Label 4150 2425 2    50   ~ 0
-BLAN
+	3075 4025 2975 3925
 Wire Wire Line
-	4150 2425 3975 2425
+	3300 4175 3075 4175
 Wire Wire Line
-	4150 2275 3975 2275
-Text Label 4125 2275 2    50   ~ 0
-SYN
-Wire Wire Line
-	5875 7425 5875 7325
-Connection ~ 5875 7325
-Wire Wire Line
-	5875 7325 5825 7325
-$Comp
-L power:GND #PWR0125
-U 1 1 5FF2CCAD
-P 6125 7425
-F 0 "#PWR0125" H 6125 7175 50  0001 C CNN
-F 1 "GND" H 6130 7252 50  0000 C CNN
-F 2 "" H 6125 7425 50  0001 C CNN
-F 3 "" H 6125 7425 50  0001 C CNN
-	1    6125 7425
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6125 7425 6125 7325
-Connection ~ 6125 7325
-Wire Wire Line
-	6125 7325 6075 7325
-Wire Wire Line
-	5575 7325 5425 7325
-$Comp
-L power:GND #PWR0128
-U 1 1 5FF46FFE
-P 5375 7425
-F 0 "#PWR0128" H 5375 7175 50  0001 C CNN
-F 1 "GND" H 5380 7252 50  0000 C CNN
-F 2 "" H 5375 7425 50  0001 C CNN
-F 3 "" H 5375 7425 50  0001 C CNN
-	1    5375 7425
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5375 7425 5375 7325
-Connection ~ 5375 7325
-Wire Wire Line
-	5375 7325 5325 7325
-Connection ~ 5425 7325
-Wire Wire Line
-	5575 7325 5675 7325
-Connection ~ 5575 7325
+	3300 4025 3075 4025
 Entry Wire Line
-	2575 6000 2675 5900
+	2000 5525 2100 5425
+Wire Wire Line
+	1675 5525 2000 5525
+Text Label 2750 1925 3    50   ~ 0
+BLUE1
+Text Label 1700 6000 0    50   ~ 0
+GREEN0
+Wire Wire Line
+	3950 1850 3950 2250
 Entry Wire Line
-	2575 5900 2675 5800
+	2050 2250 2150 2350
 Wire Wire Line
-	2300 5900 2575 5900
-Text Label 2700 1675 3    50   ~ 0
-BLU1
-Text Label 2400 6375 0    50   ~ 0
-GRE0
-NoConn ~ 1600 1600
-Wire Wire Line
-	3900 1600 3900 1875
-NoConn ~ 1150 1600
-NoConn ~ 2300 5200
-Entry Wire Line
-	2000 1875 2100 1975
-Wire Wire Line
-	2000 1600 2000 1875
-Text Label 3100 1650 3    50   ~ 0
-BLU2
+	2050 1850 2050 2250
+Text Label 3150 1900 3    50   ~ 0
+BLUE2
 $Comp
 L LRJ-parts:CMP2010-FX-1004ELF R50
 U 1 1 5FBA042E
@@ -870,21 +639,19 @@ $EndComp
 Connection ~ 11050 4075
 Text Notes 9425 825  0    39   ~ 0
 Analogue Hor Sync
-Text Notes 8650 1625 0    39   ~ 0
+Text Notes 8750 1625 0    39   ~ 0
 Analogue Ver Sync
-Text Notes 8650 1425 0    39   ~ 0
+Text Notes 8925 1425 0    39   ~ 0
 Analogue Red
-Text Notes 8650 725  0    39   ~ 0
+Text Notes 9900 725  0    39   ~ 0
 Analogue Blue (C3)
-Wire Wire Line
-	6800 1425 9450 1425
-Text Notes 5000 950  0    39   ~ 0
+Text Notes 875  7400 0    39   ~ 0
 (1) = TMDS Data Link 1\n(2) = TMDS Data Link 2\n\nTMDS = Transition-Minimized Differential Signaling\n
 Wire Notes Line
-	4975 525  6625 525 
-Text Notes 5000 625  0    50   ~ 0
+	850  6975 2500 6975
+Text Notes 875  7075 0    50   ~ 0
 LEGEND:
-Text Notes 8650 1225 0    39   ~ 0
+Text Notes 8750 1225 0    39   ~ 0
 Analogue Green
 Text Notes 8800 2425 0    39   ~ 0
 Digital Green - (2)
@@ -892,16 +659,14 @@ Text Notes 8800 2225 0    39   ~ 0
 Digital Green + (2)
 Wire Wire Line
 	9450 2325 8900 2325
-Text Notes 8800 2325 0    39   ~ 0
-Digital Blue - (2)
+Text Notes 9350 2325 0    39   ~ 0
+(2)
 Text Notes 8800 3650 0    39   ~ 0
 Digital Red + (2)
-Text Notes 8800 2125 0    39   ~ 0
-Digital Blue + (2)
+Text Notes 9350 2125 0    39   ~ 0
+(2)
 Wire Wire Line
 	10850 1825 10850 3850
-Wire Wire Line
-	8800 3850 10850 3850
 Text Notes 9550 4675 0    39   ~ 0
 GNDA
 Wire Wire Line
@@ -921,11 +686,7 @@ $EndComp
 Wire Wire Line
 	9450 5875 9450 6000
 Wire Wire Line
-	9825 6175 10250 6175
-Wire Wire Line
-	10250 6175 10250 4675
-Wire Wire Line
-	10250 4675 9825 4675
+	9825 6175 10000 6175
 Text Notes 10350 2225 0    31   ~ 0
 Digital \nRed + (2)
 Text Notes 10350 2425 0    31   ~ 0
@@ -940,48 +701,583 @@ Text Notes 8825 2925 0    39   ~ 0
 Digital Green - (1)
 Text Notes 8825 2725 0    39   ~ 0
 Digital Green + (1)
-Text Notes 8650 3225 0    39   ~ 0
+Text Notes 8850 3225 0    39   ~ 0
 Digital Blue - (1)
-Text Notes 8650 3350 0    39   ~ 0
+Text Notes 8850 3350 0    39   ~ 0
 Digital Blue - (1)
-Wire Wire Line
-	8550 2075 8550 4075
-Wire Wire Line
-	8900 1825 9450 1825
-Wire Notes Line
-	8525 2075 8350 2075
-Wire Notes Line
-	8350 2075 8350 2000
 Wire Notes Line
 	8525 1725 8350 1725
-Wire Notes Line
-	8350 1725 8350 1850
-Text Notes 7709 1963 0    39   ~ 0
+Text Notes 7884 3988 0    39   ~ 0
 Analogue and Digital \nGND connection-point?
-Text Notes 8850 2025 0    39   ~ 0
-DDC Clock
-Text Notes 8850 1825 0    39   ~ 0
-DDC Data
 Text Notes 10350 1825 0    39   ~ 0
 TMDS Clock +\n
 Text Notes 10350 1625 0    39   ~ 0
 TMDS Clock -\n
-Text Notes 5000 1100 0    39   ~ 0
+Text Notes 875  7550 0    39   ~ 0
 TMDS Clock = Digital clock +-, links 1 and 2
 Wire Notes Line
-	6625 525  6625 1200
+	2500 6975 2500 7650
 Wire Notes Line
-	4975 1200 6625 1200
+	850  7650 2500 7650
 Wire Notes Line
-	4975 525  4975 1200
+	850  6975 850  7650
+$Comp
+L power:+0V8 #PWR?
+U 1 1 5F8E2E85
+P 2325 2875
+AR Path="/652C62BE/5F8E2E85" Ref="#PWR?"  Part="1" 
+AR Path="/629A7666/5F8E2E85" Ref="#PWR0171"  Part="1" 
+F 0 "#PWR0171" H 2325 2725 50  0001 C CNN
+F 1 "+0V8" H 2340 3048 50  0000 C CNN
+F 2 "" H 2325 3025 50  0001 C CNN
+F 3 "" H 2325 3025 50  0001 C CNN
+	1    2325 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0103
+U 1 1 5F71012B
+P 5300 4200
+F 0 "#PWR0103" H 5300 3950 50  0001 C CNN
+F 1 "GNDA" H 5305 4027 50  0000 C CNN
+F 2 "" H 5300 4200 50  0001 C CNN
+F 3 "" H 5300 4200 50  0001 C CNN
+	1    5300 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4550 5400 4200
+Wire Wire Line
+	5400 4200 5300 4200
+$Comp
+L power:GNDA #PWR0172
+U 1 1 5F9B5628
+P 5300 5500
+F 0 "#PWR0172" H 5300 5250 50  0001 C CNN
+F 1 "GNDA" H 5305 5327 50  0000 C CNN
+F 2 "" H 5300 5500 50  0001 C CNN
+F 3 "" H 5300 5500 50  0001 C CNN
+	1    5300 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 5850 5400 5500
+Wire Wire Line
+	5400 5500 5300 5500
+$Comp
+L power:GNDA #PWR0173
+U 1 1 5F9E14B5
+P 5300 6700
+F 0 "#PWR0173" H 5300 6450 50  0001 C CNN
+F 1 "GNDA" H 5305 6527 50  0000 C CNN
+F 2 "" H 5300 6700 50  0001 C CNN
+F 3 "" H 5300 6700 50  0001 C CNN
+	1    5300 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 7050 5400 6700
+Wire Wire Line
+	5400 6700 5300 6700
+Wire Wire Line
+	2200 1850 2200 2600
+Wire Wire Line
+	2200 2600 600  2600
+Wire Wire Line
+	600  2600 600  750 
+$Comp
+L power:+0V8 #PWR?
+U 1 1 5FA62183
+P 600 750
+AR Path="/652C62BE/5FA62183" Ref="#PWR?"  Part="1" 
+AR Path="/629A7666/5FA62183" Ref="#PWR0174"  Part="1" 
+F 0 "#PWR0174" H 600 600 50  0001 C CNN
+F 1 "+0V8" H 615 923 50  0000 C CNN
+F 2 "" H 600 900 50  0001 C CNN
+F 3 "" H 600 900 50  0001 C CNN
+	1    600  750 
+	1    0    0    -1  
+$EndComp
+Text Label 3300 4175 1    50   ~ 0
+SYNC_DAC
+Text Label 3200 4025 1    50   ~ 0
+BLANK_DAC
+Text Label 1750 1850 3    50   ~ 0
+BLANK_DAC
+Text Label 1650 1875 3    50   ~ 0
+CLK_DAC
+Entry Wire Line
+	1650 2250 1750 2350
+Wire Wire Line
+	1650 1850 1650 2250
+Text Notes 9425 3950 0    39   ~ 0
+TMDS Clock -\n
+Text Notes 9425 3850 0    39   ~ 0
+TMDS Clock +\n
+Text Label 2650 1875 3    50   ~ 0
+TMDS_CK+
+Wire Wire Line
+	1200 1850 1200 2250
+Entry Wire Line
+	1200 2250 1300 2350
+Text Label 1200 1875 3    50   ~ 0
+TMDS_CK-
+Entry Wire Line
+	8750 3850 8650 3950
+Text Label 9225 3850 2    50   ~ 0
+TMDS_CK+
+Wire Wire Line
+	8750 3850 10850 3850
+Entry Wire Line
+	8750 3950 8650 4050
+Text Label 9225 3950 2    50   ~ 0
+TMDS_CK-
+Wire Wire Line
+	8750 3950 10950 3950
+Text Label 8650 1025 2    50   ~ 0
+RGB_ECP5
+Text Notes 9150 4150 0    20   ~ 0
+How to connect VGA DDC and DVI DDC??
+Wire Notes Line
+	9150 4100 9150 4150
+Wire Notes Line
+	9150 4150 9800 4150
+Wire Notes Line
+	9800 4150 9800 4100
+Wire Notes Line
+	9800 4100 9150 4100
+Wire Wire Line
+	8225 4075 9825 4075
+$Comp
+L power:GND #PWR0109
+U 1 1 5F7789A1
+P 8225 3700
+F 0 "#PWR0109" H 8225 3450 50  0001 C CNN
+F 1 "GND" H 8225 3550 50  0000 C CNN
+F 2 "" H 8225 3700 50  0001 C CNN
+F 3 "" H 8225 3700 50  0001 C CNN
+	1    8225 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8225 1725 8225 3700
+Wire Wire Line
+	8225 4075 8225 4025
+Wire Wire Line
+	1675 4825 2000 4825
+Entry Wire Line
+	2000 4825 2100 4725
+Text Label 1675 4825 0    50   ~ 0
+DDC_CLK
+Entry Wire Line
+	8750 2025 8650 2125
+Text Label 9075 2025 2    50   ~ 0
+DDC_CLK
+Wire Wire Line
+	8750 2025 9450 2025
+Entry Wire Line
+	8750 1825 8650 1925
+Text Label 9075 1825 2    50   ~ 0
+DDC_DAT
+Wire Wire Line
+	8750 1825 9450 1825
+Entry Wire Line
+	2000 4725 2100 4625
+Text Label 1675 4725 0    50   ~ 0
+DDC_DAT
+Wire Wire Line
+	2000 4725 1675 4725
+Text Notes 1725 3275 0    50   ~ 10
+!
+Text Notes 1725 5625 0    50   ~ 10
+!
+$Comp
+L power:GNDA #PWR0177
+U 1 1 5F8946D9
+P 10125 6075
+F 0 "#PWR0177" H 10125 5825 50  0001 C CNN
+F 1 "GNDA" H 10130 5902 50  0000 C CNN
+F 2 "" H 10125 6075 50  0001 C CNN
+F 3 "" H 10125 6075 50  0001 C CNN
+	1    10125 6075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10125 6075 10000 6075
+Wire Wire Line
+	10000 6075 10000 6175
+Text Label 800  1925 3    50   ~ 0
+GREEN7
+Text Label 9000 2125 0    50   ~ 0
+DBLUE+
+Text Label 8900 2325 0    50   ~ 0
+DBLUE-
+Text Label 2525 2525 0    50   ~ 0
+DBLUE+
+Text Label 2525 2625 0    50   ~ 0
+DBLUE-
+$Comp
+L power:GNDA #PWR?
+U 1 1 5F88CD7D
+P 11050 925
+F 0 "#PWR?" H 11050 675 50  0001 C CNN
+F 1 "GNDA" H 11055 752 50  0000 C CNN
+F 2 "" H 11050 925 50  0001 C CNN
+F 3 "" H 11050 925 50  0001 C CNN
+	1    11050 925 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4750 5600 4750
+Text Label 5400 4750 0    50   ~ 0
+ARED
+Wire Wire Line
+	8450 1425 9450 1425
+Text Label 8450 1425 2    50   ~ 0
+ARED
+Text Label 9150 5075 2    50   ~ 0
+ARED
+Wire Wire Line
+	8950 5075 9525 5075
+Text Label 5450 6050 0    50   ~ 0
+AGREEN
+Text Label 5475 7250 0    50   ~ 0
+ABLUE
+Wire Wire Line
+	5400 6050 5725 6050
+Text Label 8875 5275 0    50   ~ 0
+AGREEN
+Wire Wire Line
+	8825 5275 9525 5275
+Text Label 8900 5475 0    50   ~ 0
+ABLUE
+Wire Wire Line
+	8825 5475 9525 5475
+Wire Wire Line
+	8450 1225 9450 1225
+Wire Wire Line
+	8450 725  10550 725 
+Text Label 8450 725  2    50   ~ 0
+AGREEN
+Text Label 8450 1225 2    50   ~ 0
+ABLUE
+Wire Wire Line
+	7350 4125 7350 4075
+Wire Wire Line
+	5825 3475 6850 3475
+Wire Wire Line
+	5825 3375 6800 3375
+Wire Wire Line
+	5900 2175 6850 2175
+Wire Wire Line
+	6050 1975 6850 1975
+Wire Wire Line
+	6050 1875 6800 1875
+Wire Wire Line
+	6050 1775 6850 1775
+Wire Wire Line
+	6050 1675 6800 1675
+$Comp
+L power:GND #PWR?
+U 1 1 5FA7489A
+P 7350 4125
+F 0 "#PWR?" H 7350 3875 50  0001 C CNN
+F 1 "GND" H 7355 3952 50  0000 C CNN
+F 2 "" H 7350 4125 50  0001 C CNN
+F 3 "" H 7350 4125 50  0001 C CNN
+	1    7350 4125
+	1    0    0    -1  
+$EndComp
+Connection ~ 7350 4075
+Wire Wire Line
+	5900 2475 6800 2475
+Wire Wire Line
+	5900 2575 6800 2575
+Wire Wire Line
+	7600 4075 7600 4025
+Wire Wire Line
+	7350 4075 7200 4075
+Wire Wire Line
+	7200 4075 7200 4025
+Wire Wire Line
+	7200 4075 7100 4075
+Connection ~ 7200 4075
+Wire Wire Line
+	5900 2275 6850 2275
+$Comp
+L power:+5V #PWR?
+U 1 1 5FA748B1
+P 7375 775
+F 0 "#PWR?" H 7375 625 50  0001 C CNN
+F 1 "+5V" H 7390 948 50  0000 C CNN
+F 2 "" H 7375 775 50  0001 C CNN
+F 3 "" H 7375 775 50  0001 C CNN
+	1    7375 775 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 775  7300 775 
+Connection ~ 7375 775 
+Wire Wire Line
+	7300 825  7300 775 
+Connection ~ 7300 775 
+Wire Wire Line
+	7300 775  7375 775 
+Wire Wire Line
+	7550 825  7550 775 
+Text Notes 6150 1775 0    50   ~ 0
+USB 2.0 Data
+Wire Notes Line
+	6800 2000 6800 1625
+Wire Notes Line
+	6800 1625 6125 1625
+Wire Notes Line
+	6125 1625 6125 2025
+Wire Notes Line
+	6125 2025 6800 2025
+Text Notes 6075 2475 0    50   ~ 0
+Hi-speed Data or \nDisPort alt mode
+Wire Notes Line
+	5950 3225 6775 3225
+Wire Notes Line
+	6775 3225 6775 2125
+Wire Notes Line
+	5950 2125 5950 3225
+Wire Notes Line
+	5950 2125 6775 2125
+Text Notes 5975 3450 0    50   ~ 0
+Sideband \n- AUX for DisPort
+Wire Notes Line
+	5925 3275 6775 3275
+Wire Notes Line
+	6775 3275 6775 3525
+Wire Notes Line
+	6775 3525 5925 3525
+Wire Notes Line
+	5925 3525 5925 3275
+Wire Notes Line
+	5975 1525 5975 1275
+Text Notes 6025 1450 0    50   ~ 0
+Config. Channels\n -role detect, et c
+Wire Wire Line
+	6000 1375 6800 1375
+Wire Wire Line
+	6000 1475 6850 1475
+Wire Notes Line
+	6775 1275 6775 1525
+Wire Wire Line
+	4500 3175 4450 3175
+Connection ~ 4500 3175
+$Comp
+L power:GND #PWR0128
+U 1 1 5FF46FFE
+P 4500 3175
+F 0 "#PWR0128" H 4500 2925 50  0001 C CNN
+F 1 "GND" H 4505 3002 50  0000 C CNN
+F 2 "" H 4500 3175 50  0001 C CNN
+F 3 "" H 4500 3175 50  0001 C CNN
+	1    4500 3175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3175 5200 3175
+Connection ~ 5250 3175
+Wire Wire Line
+	5000 3175 4950 3175
+Connection ~ 5000 3175
+Wire Wire Line
+	4850 2275 5200 2275
+Connection ~ 4850 2275
+Wire Wire Line
+	4550 2275 4850 2275
+$Comp
+L power:+3.3VDAC #PWR0102
+U 1 1 5F6B57FA
+P 4850 2225
+F 0 "#PWR0102" H 5000 2175 50  0001 C CNN
+F 1 "+3.3VDAC" H 5075 2275 50  0000 C CNN
+F 2 "" H 4850 2225 50  0001 C CNN
+F 3 "" H 4850 2225 50  0001 C CNN
+	1    4850 2225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3175 5000 3175
+Wire Wire Line
+	5300 3175 5250 3175
+$Comp
+L power:GNDA #PWR0101
+U 1 1 5F6AEB8C
+P 5000 3175
+F 0 "#PWR0101" H 5000 2925 50  0001 C CNN
+F 1 "GNDA" H 5005 3002 50  0000 C CNN
+F 2 "" H 5000 3175 50  0001 C CNN
+F 3 "" H 5000 3175 50  0001 C CNN
+	1    5000 3175
+	1    0    0    -1  
+$EndComp
+Text Label 6725 5825 2    50   ~ 0
+RST_DAC
+Entry Wire Line
+	6400 5825 6300 5725
+Wire Wire Line
+	6725 5825 6400 5825
+Text Label 6300 6150 0    50   ~ 0
+RGB_ECP5
+Wire Wire Line
+	6400 5475 6725 5475
+Entry Wire Line
+	6300 5375 6400 5475
+Text Label 6725 5475 2    50   ~ 0
+CLK_DAC
+$Comp
+L LRJ-parts:ADV7125KSTZ50 DAC1
+U 5 1 5F66092A
+P 7425 5575
+F 0 "DAC1" H 7400 6190 50  0000 C CNN
+F 1 "ADV7125KSTZ50" H 7400 6099 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 7475 4425 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADV7125.pdf" H 6825 6825 50  0001 C CNN
+	5    7425 5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 5FF2CCAD
+P 5250 3175
+F 0 "#PWR0125" H 5250 2925 50  0001 C CNN
+F 1 "GND" H 5255 3002 50  0000 C CNN
+F 2 "" H 5250 3175 50  0001 C CNN
+F 3 "" H 5250 3175 50  0001 C CNN
+	1    5250 3175
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5975 1275 6775 1275
+Wire Notes Line
+	6775 1525 5975 1525
+Wire Wire Line
+	5900 3075 6850 3075
+Wire Wire Line
+	5900 3175 6850 3175
+Wire Wire Line
+	7550 775  7450 775 
+Wire Wire Line
+	7375 775  7450 775 
+Connection ~ 7450 775 
+Wire Wire Line
+	7500 4075 7600 4075
+Wire Wire Line
+	7350 4075 7500 4075
+Connection ~ 7500 4075
+Wire Wire Line
+	5900 2875 6800 2875
+Wire Wire Line
+	5900 2775 6800 2775
+$Comp
+L LRJ-parts:USB_C_Molex_201267-0005 USBC?
+U 1 1 5FA748A0
+P 7350 2375
+AR Path="/629BDEA3/5FA748A0" Ref="USBC?"  Part="1" 
+AR Path="/629A7666/5FA748A0" Ref="USBC1"  Part="1" 
+F 0 "USBC1" H 6725 3850 50  0000 L CNN
+F 1 "USB_C_Molex_201267-0005" H 7730 2280 50  0001 L CNN
+F 2 "Connector_USB:USB-C_Receptacle_2012670005" H 8800 3575 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/276/1/2012670005_IO_CONNECTORS-1374231.pdf" H 7350 2325 50  0001 C CNN
+	1    7350 2375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3175 4500 3175
+Connection ~ 4550 3175
+Wire Wire Line
+	4700 3175 4550 3175
+Wire Wire Line
+	4700 3175 4800 3175
+Connection ~ 4700 3175
+Wire Wire Line
+	4850 2275 4850 2225
+$Comp
+L LRJ-parts:ADV7125KSTZ50 DAC1
+U 1 1 5F64D198
+P 4850 2725
+F 0 "DAC1" H 5275 3125 50  0000 L CNN
+F 1 "ADV7125KSTZ50" H 4625 2725 50  0000 L CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 4900 1575 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADV7125.pdf" H 4250 3975 50  0001 C CNN
+	1    4850 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_USB-DVI-HDMI-Connectors:2040210-1_NonStock J?
+U 1 1 5FE086B5
+P 7450 -1450
+F 0 "J?" H 7450 -513 60  0000 C CNN
+F 1 "2040210-1_NonStock" H 7450 -619 60  0000 C CNN
+F 2 "digikey-footprints:DisplayPort_2040210-1" H 7650 -1250 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2040210&DocType=Customer+Drawing&DocLang=Japanese" H 7650 -1150 60  0001 L CNN
+F 4 "A99344-ND" H 7650 -1050 60  0001 L CNN "Digi-Key_PN"
+F 5 "2040210-1" H 7650 -950 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 7650 -850 60  0001 L CNN "Category"
+F 7 "USB, DVI, HDMI Connectors" H 7650 -750 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2040210&DocType=Customer+Drawing&DocLang=Japanese" H 7650 -650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-amp-connectors/2040210-1/A99344-ND/1930791" H 7650 -550 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN RCP 1.1A DISPLAYPORT 20P RA" H 7650 -450 60  0001 L CNN "Description"
+F 11 "TE Connectivity AMP Connectors" H 7650 -350 60  0001 L CNN "Manufacturer"
+F 12 "Active NonStock" H 7650 -250 60  0001 L CNN "Status"
+	1    7450 -1450
+	0    1    1    0   
+$EndComp
+Text Notes 7800 -950 3    50   ~ 0
+GND
+Text Notes 7800 -2500 3    50   ~ 0
+ML_LANE 0 -
+Text Notes 7700 -950 3    50   ~ 0
+ML_LANE 1 +
+Text Notes 8450 -1850 3    50   ~ 0
+P = +\nN = -
+Text Notes 7700 -2125 3    50   ~ 0
+GND
+Text Notes 7600 -950 3    50   ~ 0
+ML_LANE 1 -
+Text Notes 7600 -2500 3    50   ~ 0
+ML_LANE 2 +
+Text Notes 7475 -950 3    50   ~ 0
+GND
+Text Notes 7500 -2500 3    50   ~ 0
+ML_LANE 2 -
+Text Notes 7400 -950 3    50   ~ 0
+ML_LANE 3 +
+Text Notes 7400 -2100 3    50   ~ 0
+GND
+Text Notes 7300 -950 3    50   ~ 0
+ML_LANE 3 -
+Text Notes 7300 -2675 3    50   ~ 0
+CONFIG1 (to gnd?)
+Text Notes 7200 -925 3    50   ~ 0
+CONFIG2 (to gnd?)
+Text Notes 7200 -2425 3    50   ~ 0
+AUX CH +
+Text Notes 7100 -925 3    50   ~ 0
+GND
+Text Notes 7100 -2425 3    50   ~ 0
+AUX CH -
+Text Notes 7000 -925 3    50   ~ 0
+HOT PLUG (detect)
+Text Notes 7000 -2700 3    50   ~ 0
+Return (for power)
+Text Notes 6900 -925 3    50   ~ 0
+DP_PWR
+Text Notes 7925 -2500 3    50   ~ 0
+ML_LANE 0 +
 Wire Bus Line
-	3000 3250 3250 3250
+	6300 5325 6300 6175
 Wire Bus Line
-	1900 2425 2150 2425
+	8650 1000 8650 4050
 Wire Bus Line
-	600  1975 4000 1975
+	2100 2950 2100 6400
 Wire Bus Line
-	2675 3325 2675 6775
+	650  2350 4050 2350
 Wire Bus Line
-	3875 2175 3875 6125
+	2975 3725 2975 7675
 $EndSCHEMATC
