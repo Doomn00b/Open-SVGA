@@ -21,7 +21,7 @@ U 1 1 5F77895E
 P 8900 2775
 AR Path="/629AEE7D/5F77895E" Ref="DVI?"  Part="1" 
 AR Path="/629A7666/5F77895E" Ref="DVI1"  Part="1" 
-F 0 "DVI1" H 8900 1575 60  0000 C CNN
+F 0 "DVI1" H 8900 1575 60  0000 C CNB
 F 1 "74320-9010" H 8850 3906 60  0001 C CNN
 F 2 "digikey-footprints:DVI_Female_74320-9010" H 9100 2975 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/743209010_sd.pdf" H 9100 3075 60  0001 L CNN
@@ -59,7 +59,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 2875 7850 2875
 Wire Wire Line
-	8500 2175 7950 2175
+	8500 2175 7850 2175
 Wire Wire Line
 	9400 3475 9450 3475
 Wire Wire Line
@@ -229,14 +229,6 @@ Text Notes 7875 3675 0    39   ~ 0
 Digital Red - (1)
 Text Notes 7875 3475 0    39   ~ 0
 Digital Red + (1)
-Text Notes 7875 3575 0    39   ~ 0
-Digital Green - (1)
-Text Notes 7875 3375 0    39   ~ 0
-Digital Green + (1)
-Text Notes 7900 3875 0    39   ~ 0
-Digital Blue - (1)
-Text Notes 7900 4000 0    39   ~ 0
-Digital Blue + (1)
 Text Notes 9400 2475 0    39   ~ 0
 TMDS Clock +\n
 Text Notes 9400 2275 0    39   ~ 0
@@ -270,13 +262,13 @@ F 3 "" H 7475 4450 50  0001 C CNN
 $EndComp
 Entry Wire Line
 	7850 2675 7750 2775
-Text Label 8250 2675 2    50   ~ 0
+Text Label 8275 2675 2    50   ~ 0
 DDC-C_ID3
 Wire Wire Line
 	7850 2675 8500 2675
 Entry Wire Line
 	7850 2475 7750 2575
-Text Label 8225 2475 2    50   ~ 0
+Text Label 8275 2475 2    50   ~ 0
 DDC-D_ID1
 Wire Wire Line
 	7850 2475 8500 2475
@@ -291,12 +283,12 @@ F 3 "" H 4000 7025 50  0001 C CNN
 	1    4000 7025
 	1    0    0    -1  
 $EndComp
-Text Label 8050 2775 0    50   ~ 0
+Text Label 7950 2775 0    50   ~ 0
 DBLUE+2
 Text Label 7950 2975 0    50   ~ 0
 DBLUE-2
 Wire Wire Line
-	7450 2075 8500 2075
+	7450 2075 7675 2075
 Text Label 7650 2075 2    50   ~ 0
 ARED
 Text Label 1950 5925 0    50   ~ 0
@@ -311,9 +303,9 @@ Wire Wire Line
 	7450 1875 8500 1875
 Wire Wire Line
 	7450 1375 9600 1375
-Text Label 7800 1375 2    50   ~ 0
+Text Label 7725 1875 2    50   ~ 0
 AGREEN
-Text Label 7700 1875 2    50   ~ 0
+Text Label 7725 1375 2    50   ~ 0
 ABLUE
 Wire Wire Line
 	5400 4375 5400 4325
@@ -443,7 +435,7 @@ U 1 1 5FA748A0
 P 5400 2625
 AR Path="/629BDEA3/5FA748A0" Ref="USBC?"  Part="1" 
 AR Path="/629A7666/5FA748A0" Ref="USBC1"  Part="1" 
-F 0 "USBC1" H 4775 4100 50  0000 L CNN
+F 0 "USBC1" H 4775 4100 50  0000 L CNB
 F 1 "USB_C_Molex_201267-0005" H 5780 2530 50  0001 L CNN
 F 2 "Connector_USB:USB-C_Receptacle_2012670005" H 6850 3825 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/276/1/2012670005_IO_CONNECTORS-1374231.pdf" H 5400 2575 50  0001 C CNN
@@ -510,16 +502,16 @@ Text Notes 3425 3650 0    50   ~ 0
 AUX+
 Text Notes 3425 3750 0    50   ~ 0
 AUX-
-Text Notes 3100 2250 0    50   ~ 0
+Text Notes 3125 1100 0    50   ~ 0
 Corresponding\nDisplayPort\nSignals
 Wire Notes Line
-	3050 1950 3050 3800
+	3050 850  3050 3800
 Wire Notes Line
 	3050 3800 3650 3800
 Wire Notes Line
-	3675 3800 3675 1950
+	3675 3800 3675 850 
 Wire Notes Line
-	3675 1950 3075 1950
+	3675 850  3050 850 
 Text Notes 775  1150 0    39   ~ 0
 (1) = TMDS Data Link 1\n(2) = TMDS Data Link 2\n\nTMDS = Transition-Minimized Differential Signaling\n
 Wire Notes Line
@@ -590,14 +582,12 @@ Text Notes 7825 3275 0    39   ~ 0
 TMDS Data 2/4 Shield
 Text Notes 7825 3175 0    39   ~ 0
 TMDS Data 1/3 Shield
-Text Notes 8800 4100 0    39   ~ 0
-TMDS Data 0/5 Shield
+Text Notes 9000 4100 0    24   ~ 0
+TMDS Data 0/5 Shield ->
 Text Notes 7825 4400 0    39   ~ 0
 TMDS Clock Shield
 Text Label 4275 2425 0    50   ~ 0
 DRED-2
-Text Notes 7825 2175 0    39   ~ 0
-HPD (hotplug det.)
 Text Label 1925 6525 2    50   ~ 0
 ID_Bit2
 Wire Wire Line
@@ -717,10 +707,6 @@ Entry Wire Line
 	1675 7300 1575 7200
 Wire Wire Line
 	1675 7300 3700 7300
-Text Notes 8675 975  2    39   ~ 0
-VER SYNC (Analogue)
-Text Notes 8675 875  2    39   ~ 0
-HOR SYNC (Analogue)
 Text Label 8150 1500 2    50   ~ 0
 Hsync_A
 Text Label 7875 2275 0    50   ~ 0
@@ -766,11 +752,7 @@ Connection ~ 9500 4400
 Wire Wire Line
 	9500 4400 9800 4400
 NoConn ~ 8500 3475
-NoConn ~ 8500 3375
-NoConn ~ 8500 3575
 NoConn ~ 8500 3675
-NoConn ~ 9400 3675
-NoConn ~ 9400 3475
 Text Label 4050 3425 0    50   ~ 0
 ML_Lane0+
 Text Label 4050 3325 0    50   ~ 0
@@ -792,15 +774,11 @@ Entry Wire Line
 	3850 1525 3950 1625
 Entry Wire Line
 	3850 1625 3950 1725
-Text Label 1675 3000 0    50   ~ 0
-ANLG_RGB
-Text Label 925  3000 0    50   ~ 0
+Text HLabel 3850 1225 0    50   BiDi ~ 0
 DRGB_ECP5
-Text HLabel 800  2825 2    50   BiDi ~ 0
-DRGB_ECP5
-Text HLabel 1525 2825 2    50   BiDi ~ 0
+Text HLabel 7350 1225 0    50   BiDi ~ 0
 ANLG_RGB
-Text Label 3850 1275 0    50   ~ 0
+Text Label 3850 1400 2    50   ~ 0
 DRGB_ECP5
 Text Label 1575 5475 2    50   ~ 0
 DRGB_ECP5
@@ -810,14 +788,33 @@ Text Label 1850 5775 0    50   ~ 0
 ANLG_RGB
 Text Label 7350 1500 2    50   ~ 0
 ANLG_RGB
-Wire Bus Line
-	800  2725 800  3000
-Wire Bus Line
-	800  3000 1200 3000
-Wire Bus Line
-	1525 2725 1525 3000
-Wire Bus Line
-	1525 3000 1925 3000
+Text Notes 9375 3275 0    24   ~ 0
+TMDS Data \n0/5 Shield
+Text Notes 9425 2675 0    31   ~ 0
+TMDS \nClock Shield
+NoConn ~ 2575 6625
+Text Label 7875 3375 0    50   ~ 0
+DGREEN+1
+Text Label 7875 3575 0    50   ~ 0
+DGREEN-1
+Text Notes 3175 1700 0    50   ~ 0
+Hot-Plug \nDetect
+Text Label 7875 2175 0    50   ~ 0
+HPD_DVI
+Entry Wire Line
+	7750 2075 7850 2175
+Wire Wire Line
+	7825 2075 8500 2075
+Wire Wire Line
+	7825 2075 7800 2025
+Wire Wire Line
+	7800 2025 7700 2025
+Wire Wire Line
+	7700 2025 7675 2075
+Text Label 7875 4000 0    50   ~ 0
+DBLUE+1
+Text Label 7875 3875 0    50   ~ 0
+DBLUE-1
 Wire Bus Line
 	1850 5725 1850 6425
 Wire Bus Line

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 5 9
 Title ""
 Date ""
 Rev ""
@@ -547,8 +547,6 @@ Wire Wire Line
 Wire Wire Line
 	8875 850  8875 825 
 Connection ~ 8875 825 
-Wire Wire Line
-	1775 1550 1775 1900
 $Comp
 L LRJ-parts:RC1210FR-0749K9L R5-1
 U 1 1 5FC3CE4B
@@ -1656,9 +1654,9 @@ Wire Wire Line
 Wire Wire Line
 	10675 6200 10675 6050
 Wire Wire Line
-	7775 4925 7775 4700
+	7775 4950 7775 4700
 Wire Wire Line
-	7975 4925 7975 4700
+	7975 4950 7975 4700
 Wire Wire Line
 	10075 6200 10175 6200
 Connection ~ 10075 6200
@@ -1708,9 +1706,9 @@ Wire Wire Line
 	7675 6200 7775 6200
 Connection ~ 7775 6200
 Wire Wire Line
-	7775 6075 7775 6200
+	7775 6050 7775 6200
 Wire Wire Line
-	7875 6075 7875 6200
+	7875 6050 7875 6200
 Wire Wire Line
 	7775 6200 7875 6200
 Connection ~ 7875 6200
@@ -1718,14 +1716,14 @@ Wire Wire Line
 	7875 6200 7975 6200
 Connection ~ 7975 6200
 Wire Wire Line
-	7975 6075 7975 6200
+	7975 6050 7975 6200
 Wire Wire Line
 	7975 6200 8075 6200
 Connection ~ 8075 6200
 Wire Wire Line
-	8075 6075 8075 6200
+	8075 6050 8075 6200
 Wire Wire Line
-	8175 6075 8175 6200
+	8175 6050 8175 6200
 Wire Wire Line
 	8075 6200 8175 6200
 Connection ~ 8175 6200
@@ -1748,14 +1746,14 @@ Wire Wire Line
 	8475 6200 8575 6200
 Connection ~ 8575 6200
 Wire Wire Line
-	8575 6075 8575 6200
+	8575 6050 8575 6200
 Wire Wire Line
 	8575 6200 8675 6200
 Connection ~ 8675 6200
 Wire Wire Line
-	8675 6075 8675 6200
+	8675 6050 8675 6200
 Wire Wire Line
-	8775 6075 8775 6200
+	8775 6050 8775 6200
 Wire Wire Line
 	8675 6200 8775 6200
 Connection ~ 8775 6200
@@ -1763,12 +1761,12 @@ Wire Wire Line
 	8775 6200 8875 6200
 Connection ~ 8875 6200
 Wire Wire Line
-	8875 6075 8875 6200
+	8875 6050 8875 6200
 Wire Wire Line
 	8875 6200 8975 6200
 Connection ~ 8975 6200
 Wire Wire Line
-	8975 6075 8975 6200
+	8975 6050 8975 6200
 Wire Wire Line
 	9075 6050 9075 6200
 Wire Wire Line
@@ -1783,9 +1781,9 @@ Wire Wire Line
 	9175 6200 9275 6200
 Connection ~ 9275 6200
 Wire Wire Line
-	9275 6075 9275 6200
+	9275 6050 9275 6200
 Wire Wire Line
-	9375 6075 9375 6200
+	9375 6050 9375 6200
 Wire Wire Line
 	9275 6200 9375 6200
 Connection ~ 9375 6200
@@ -1793,14 +1791,14 @@ Wire Wire Line
 	9375 6200 9475 6200
 Connection ~ 9475 6200
 Wire Wire Line
-	9475 6075 9475 6200
+	9475 6050 9475 6200
 Wire Wire Line
 	9475 6200 9575 6200
 Connection ~ 9575 6200
 Wire Wire Line
-	9575 6075 9575 6200
+	9575 6050 9575 6200
 Wire Wire Line
-	9675 6075 9675 6200
+	9675 6050 9675 6200
 Wire Wire Line
 	9575 6200 9675 6200
 Connection ~ 9675 6200
@@ -1808,12 +1806,12 @@ Wire Wire Line
 	9675 6200 9775 6200
 Connection ~ 9775 6200
 Wire Wire Line
-	9775 6075 9775 6200
+	9775 6050 9775 6200
 Wire Wire Line
 	9775 6200 9875 6200
 Connection ~ 9875 6200
 Wire Wire Line
-	9875 6075 9875 6200
+	9875 6050 9875 6200
 Wire Wire Line
 	9875 6200 9975 6200
 Wire Wire Line
@@ -1824,25 +1822,25 @@ Wire Wire Line
 Wire Wire Line
 	9975 4950 9975 4700
 Wire Wire Line
-	9875 4925 9875 4700
+	9875 4950 9875 4700
 Connection ~ 9975 4700
 Connection ~ 9875 4700
 Wire Wire Line
 	9875 4700 9975 4700
 Wire Wire Line
-	9775 4925 9775 4700
+	9775 4950 9775 4700
 Wire Wire Line
-	9675 4925 9675 4700
+	9675 4950 9675 4700
 Wire Wire Line
 	9775 4700 9875 4700
 Connection ~ 9775 4700
 Wire Wire Line
-	9575 4925 9575 4700
+	9575 4950 9575 4700
 Wire Wire Line
 	9675 4700 9775 4700
 Connection ~ 9675 4700
 Wire Wire Line
-	9475 4700 9475 4925
+	9475 4700 9475 4950
 Wire Wire Line
 	9575 4700 9675 4700
 Connection ~ 9575 4700
@@ -1850,9 +1848,9 @@ Wire Wire Line
 	9575 4700 9475 4700
 Connection ~ 9475 4700
 Wire Wire Line
-	9375 4700 9375 4925
+	9375 4700 9375 4950
 Wire Wire Line
-	9275 4700 9275 4925
+	9275 4700 9275 4950
 Wire Wire Line
 	9375 4700 9475 4700
 Connection ~ 9375 4700
@@ -1868,24 +1866,22 @@ Wire Wire Line
 	9075 4950 9075 4700
 Connection ~ 8975 4700
 Wire Wire Line
-	8975 4925 8975 4700
+	8975 4950 8975 4700
 Wire Wire Line
 	9075 4700 9175 4700
 Wire Wire Line
 	8975 4700 9075 4700
 Connection ~ 9075 4700
 Wire Wire Line
-	8875 4925 8875 4700
+	8775 4950 8775 4700
 Wire Wire Line
-	8775 4925 8775 4700
-Wire Wire Line
-	8675 4925 8675 4700
+	8675 4950 8675 4700
 Connection ~ 8775 4700
 Wire Wire Line
 	8675 4700 8775 4700
 Connection ~ 8675 4700
 Wire Wire Line
-	8575 4925 8575 4700
+	8575 4950 8575 4700
 Wire Wire Line
 	8475 4950 8475 4700
 Wire Wire Line
@@ -1902,7 +1898,7 @@ Wire Wire Line
 	8375 4700 8475 4700
 Connection ~ 8375 4700
 Wire Wire Line
-	8175 4925 8175 4700
+	8175 4950 8175 4700
 Wire Wire Line
 	8275 4700 8375 4700
 Connection ~ 8275 4700
@@ -1912,7 +1908,7 @@ Wire Wire Line
 	8175 4700 8275 4700
 Connection ~ 8175 4700
 Wire Wire Line
-	8075 4925 8075 4700
+	8075 4950 8075 4700
 Wire Wire Line
 	8775 4700 8875 4700
 Wire Wire Line
@@ -1925,7 +1921,7 @@ Connection ~ 7775 4700
 Wire Wire Line
 	7775 4700 7875 4700
 Wire Wire Line
-	7875 4925 7875 4700
+	7875 4950 7875 4700
 Connection ~ 7975 4700
 Connection ~ 7875 4700
 Wire Wire Line
@@ -2000,7 +1996,7 @@ $EndComp
 Wire Wire Line
 	4950 6300 4800 6300
 Wire Wire Line
-	4925 6400 4800 6400
+	4950 6400 4800 6400
 Wire Wire Line
 	4950 6600 4800 6600
 Wire Wire Line
@@ -2271,7 +2267,6 @@ Wire Wire Line
 Wire Wire Line
 	3175 1900 3475 1900
 Connection ~ 3175 1900
-Connection ~ 1775 1900
 Wire Wire Line
 	4775 1925 5075 1925
 Connection ~ 5075 1925
@@ -2394,4 +2389,9 @@ Wire Wire Line
 	4800 6500 4800 6400
 Connection ~ 4800 6500
 Connection ~ 4800 6400
+Wire Wire Line
+	1775 1900 1775 1550
+Connection ~ 1775 1900
+Wire Wire Line
+	8875 4950 8875 4700
 $EndSCHEMATC

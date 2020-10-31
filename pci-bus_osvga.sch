@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 9
+Sheet 8 9
 Title ""
 Date ""
 Rev ""
@@ -580,7 +580,7 @@ Wire Wire Line
 	4150 6675 4300 6675
 Connection ~ 4300 6675
 Wire Wire Line
-	2150 5675 2150 7375
+	2150 5675 2150 6775
 Wire Wire Line
 	2000 6475 2350 6475
 Wire Wire Line
@@ -762,20 +762,28 @@ Text HLabel 5825 6950 2    50   BiDi ~ 0
 PCI_SIG
 Text Label 5725 5375 0    50   ~ 0
 PCI_MISC
-Wire Bus Line
-	5725 950  5725 6625
-Wire Bus Line
-	775  950  775  6325
-Wire Bus Line
-	1400 5575 1400 7525
+Text Label 775  1125 0    50   ~ 0
+PCI_MISC
+Text Label 1050 1675 0    50   ~ 0
+PCI_INTB
+NoConn ~ 4150 2675
+NoConn ~ 4150 6975
+NoConn ~ 2350 6975
+Wire Wire Line
+	2350 6775 2150 6775
+Connection ~ 2150 6775
+Wire Wire Line
+	2150 6775 2150 7375
 Wire Bus Line
 	1350 3075 1350 4275
 Wire Bus Line
 	5150 3125 5150 4375
 Wire Bus Line
 	5150 5575 5150 7250
-Text Label 775  1125 0    50   ~ 0
-PCI_MISC
-Text Label 1050 1675 0    50   ~ 0
-PCI_INTB
+Wire Bus Line
+	1400 5575 1400 7525
+Wire Bus Line
+	5725 950  5725 6625
+Wire Bus Line
+	775  950  775  6325
 $EndSCHEMATC

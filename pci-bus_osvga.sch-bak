@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 9
+Sheet 8 9
 Title ""
 Date ""
 Rev ""
@@ -124,8 +124,6 @@ Text Label 1050 2575 0    50   ~ 0
 PCI_CLK
 Text Label 1050 2175 0    50   ~ 0
 PCI_PRSNT2
-Text Label 1050 1675 0    50   ~ 0
-PCI_INTB[0]
 Text Label 1050 1825 0    50   ~ 0
 PCI_INTD
 Text Label 1050 5475 0    50   ~ 0
@@ -582,7 +580,7 @@ Wire Wire Line
 	4150 6675 4300 6675
 Connection ~ 4300 6675
 Wire Wire Line
-	2150 5675 2150 7375
+	2150 5675 2150 6775
 Wire Wire Line
 	2000 6475 2350 6475
 Wire Wire Line
@@ -628,8 +626,6 @@ Wire Wire Line
 	1550 6000 1550 5975
 NoConn ~ 2350 7075
 NoConn ~ 4150 7075
-Text Label 775  1125 0    50   ~ 0
-PCI_M[0...31]
 Text Label 1350 3700 2    50   ~ 0
 PCI_AD[0...31]
 Text Label 1400 7200 2    50   ~ 0
@@ -729,8 +725,6 @@ Text Notes 8450 800  0    50   ~ 0
 LEGEND:
 NoConn ~ 4150 2075
 NoConn ~ 4150 2475
-Wire Bus Line
-	5150 7250 5425 7250
 Connection ~ 5150 7250
 Wire Bus Line
 	5150 7250 5150 7525
@@ -746,12 +740,40 @@ Wire Bus Line
 	5725 950  775  950 
 Text Notes 8450 1700 0    50   ~ 0
 PCI_AD[0...31] = PCI Adress Bus\n\nPCI_MISC = PCI MISCellaneous signals\n\nPCI_SIG = All PCI signal buses
-Text Label 5725 5450 0    50   ~ 0
-PCI_M[0...31]
-Text HLabel 5425 7250 2    50   BiDi ~ 0
-PCI_AD[0...31]
-Text HLabel 5725 6525 2    50   BiDi ~ 0
-PCI_M[0...31]
+Wire Notes Line
+	5700 7175 5700 6725
+Wire Notes Line
+	6200 7175 5700 7175
+Wire Notes Line
+	6200 6725 6200 7175
+Wire Notes Line
+	5700 6725 6200 6725
+Wire Bus Line
+	5150 7250 5725 7250
+Entry Bus Bus
+	5725 6625 5825 6725
+Entry Bus Bus
+	5725 7250 5825 7150
+Wire Bus Line
+	5825 6725 5825 7150
+Text Label 5825 6875 0    50   ~ 0
+PCI_SIG
+Text HLabel 5825 6950 2    50   BiDi ~ 0
+PCI_SIG
+Text Label 5725 5375 0    50   ~ 0
+PCI_MISC
+Text Label 775  1125 0    50   ~ 0
+PCI_MISC
+Text Label 1050 1675 0    50   ~ 0
+PCI_INTB
+NoConn ~ 4150 2675
+NoConn ~ 4150 6975
+NoConn ~ 2350 6975
+Wire Wire Line
+	2350 6775 2150 6775
+Connection ~ 2150 6775
+Wire Wire Line
+	2150 6775 2150 7375
 Wire Bus Line
 	1350 3075 1350 4275
 Wire Bus Line

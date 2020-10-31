@@ -16,16 +16,16 @@ $EndDescr
 $Comp
 L LRJ-parts:LFE5U-85F-BG381-LRJ FPGA?
 U 4 1 607E118C
-P 2450 1300
+P 2450 1050
 AR Path="/607E118C" Ref="FPGA?"  Part="4" 
 AR Path="/5F777FFB/607E118C" Ref="FPGA?"  Part="4" 
 AR Path="/629A7666/607E118C" Ref="FPGA?"  Part="4" 
 AR Path="/60796DC8/607E118C" Ref="FPGA1"  Part="4" 
-F 0 "FPGA1" V 2825 -775 35  0000 L CNN
-F 1 "LFE5U-85F-BG381-LRJ" H 1775 -1425 35  0001 L CNN
-F 2 "Package_BGA:caBGA-381_15.2x15.2_17.0x17.0mm" H 3300 3355 35  0001 L CNN
-F 3 "https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012-1-9-ECP5-ECP5G-Family-Data-Sheet.ashx?document_id=50461" H 1350 3100 50  0001 C CNN
-	4    2450 1300
+F 0 "FPGA1" V 2825 -1025 35  0000 L CNN
+F 1 "LFE5U-85F-BG381-LRJ" H 1775 -1675 35  0001 L CNN
+F 2 "Package_BGA:caBGA-381_15.2x15.2_17.0x17.0mm" H 3300 3105 35  0001 L CNN
+F 3 "https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012-1-9-ECP5-ECP5G-Family-Data-Sheet.ashx?document_id=50461" H 1350 2850 50  0001 C CNN
+	4    2450 1050
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -54,34 +54,34 @@ Entry Wire Line
 Entry Wire Line
 	2900 4000 3000 3900
 Entry Wire Line
-	800  2300 900  2400
+	800  2050 900  2150
 Entry Wire Line
-	1450 2300 1550 2400
+	1450 2050 1550 2150
 Entry Wire Line
-	1750 2300 1850 2400
+	1750 2050 1850 2150
 Entry Wire Line
-	2650 2300 2750 2400
+	2650 2050 2750 2150
 Entry Wire Line
-	2750 2300 2850 2400
+	2750 2050 2850 2150
 Entry Wire Line
-	3650 2300 3750 2400
+	3650 2050 3750 2150
 Entry Wire Line
-	3750 2300 3850 2400
+	3750 2050 3850 2150
 Entry Wire Line
-	3950 2300 4050 2400
+	3950 2050 4050 2150
 Entry Wire Line
-	3850 2300 3950 2400
-Text Label 1850 1975 3    50   ~ 0
+	3850 2050 3950 2150
+Text Label 1850 1725 3    50   ~ 0
 GREEN6
-Text Label 3650 2000 3    50   ~ 0
+Text Label 3650 1750 3    50   ~ 0
 BLUE4
-Text Label 2950 2000 3    50   ~ 0
+Text Label 2950 1750 3    50   ~ 0
 GREEN3
-Text Label 2850 2000 3    50   ~ 0
+Text Label 2850 1750 3    50   ~ 0
 GREEN2
 Text Label 2575 6475 0    50   ~ 0
 RED3
-Text Label 1650 1925 3    50   ~ 0
+Text Label 2525 5400 0    50   ~ 0
 SYNC_DAC
 Entry Wire Line
 	4500 4850 4400 4750
@@ -144,9 +144,7 @@ Entry Wire Line
 Entry Wire Line
 	4500 2575 4400 2475
 Entry Wire Line
-	2900 5400 3000 5300
-Entry Wire Line
-	1950 2300 2050 2400
+	1950 2050 2050 2150
 Text Notes 5525 1225 0    39   ~ 0
 (1) = TMDS Data Link 1\n(2) = TMDS Data Link 2\n\nTMDS = Transition-Minimized Differential Signaling\n
 Text Notes 5525 900  0    50   ~ 0
@@ -183,12 +181,12 @@ Text Label 4550 2725 0    50   ~ 0
 SYNC_DAC
 Text Label 4500 2575 0    50   ~ 0
 BLANK_DAC
-Text Label 3050 1975 3    50   ~ 0
+Text Label 3050 1725 3    50   ~ 0
 CLK_DAC
 Entry Wire Line
-	1650 2300 1750 2400
+	1650 2050 1750 2150
 Entry Wire Line
-	1350 2300 1450 2400
+	1350 2050 1450 2150
 Entry Wire Line
 	2900 4700 3000 4600
 Entry Wire Line
@@ -678,11 +676,7 @@ Text HLabel 4400 6275 2    50   BiDi ~ 0
 DRGB_ECP5
 Text HLabel 7525 3175 2    50   BiDi ~ 0
 ANLG_RGB
-NoConn ~ 4200 1900
-NoConn ~ 2550 1900
-NoConn ~ 1550 1900
-NoConn ~ 1100 1900
-NoConn ~ 1000 1900
+NoConn ~ 1550 1650
 Text Label 2750 4100 2    50   ~ 0
 BLUE7
 Text Label 2725 4200 2    50   ~ 0
@@ -691,17 +685,17 @@ Entry Wire Line
 	2900 4200 3000 4100
 Entry Wire Line
 	2900 4100 3000 4000
-Text Label 1350 1925 3    50   ~ 0
+Text Label 800  1675 3    50   ~ 0
 TMDS_CK-
-Text Label 1450 1925 3    50   ~ 0
+Text Label 900  1675 3    50   ~ 0
 TMDS_CK+
 NoConn ~ 8700 3700
 NoConn ~ 8700 4250
 Entry Wire Line
-	3050 2300 3150 2400
-Text Label 3850 2300 1    50   ~ 0
+	3050 2050 3150 2150
+Text Label 3850 2050 1    50   ~ 0
 DBLUE+2
-Text Label 3950 2300 1    50   ~ 0
+Text Label 3950 2050 1    50   ~ 0
 DBLUE-2
 Text Label 2500 5975 0    50   ~ 0
 DGREEN+2
@@ -733,9 +727,9 @@ Text Label 2450 4800 0    50   ~ 0
 DDC-D_ID1
 Text Label 2875 4700 2    50   ~ 0
 DDC-C_ID3
-Text Label 2650 1975 3    50   ~ 0
+Text Label 2650 1725 3    50   ~ 0
 Hsync_A
-Text Label 2750 1975 3    50   ~ 0
+Text Label 2750 1725 3    50   ~ 0
 Vsync_A
 Text Label 2475 4300 0    50   ~ 0
 ML_Lane0+
@@ -760,20 +754,20 @@ F 3 "" H 3100 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Entry Wire Line
-	1850 2300 1950 2400
+	1850 2050 1950 2150
 Entry Wire Line
-	900  2300 1000 2400
-Text Label 800  1925 3    50   ~ 0
+	900  2050 1000 2150
+Text Label 1350 1675 3    50   ~ 0
 AUX+
-Text Label 900  1925 3    50   ~ 0
+Text Label 1450 1675 3    50   ~ 0
 AUX-
-Text Label 1750 1900 3    50   ~ 0
+Text Label 1200 1675 3    50   ~ 0
 BLANK_DAC
-Text Label 3350 2000 3    50   ~ 0
+Text Label 3350 1750 3    50   ~ 0
 GREEN7
 Text Label 2525 5600 0    50   ~ 0
 RED5
-Text Label 3750 2000 3    50   ~ 0
+Text Label 3750 1750 3    50   ~ 0
 GREEN4
 Entry Wire Line
 	2900 6175 3000 6075
@@ -797,13 +791,9 @@ Text Notes 1650 7525 0    50   ~ 0
 PCI-signalling that \nrequires Hi-speed \nconnections
 Text Label 3000 6325 0    50   ~ 0
 PCI_VTM
-Entry Wire Line
-	2900 5400 3000 5300
-Text Label 2550 5400 0    50   ~ 0
-M66EN_VT
 Text Label 2550 5500 0    50   ~ 0
 RST_VT
-Text Label 3000 5375 0    50   ~ 0
+Text Label 3000 5425 0    50   ~ 0
 PCI_VTM
 Entry Wire Line
 	2900 5500 3000 5400
@@ -818,11 +808,9 @@ Entry Wire Line
 Text Label 1600 7250 0    50   ~ 0
 PCI_VTM
 Entry Wire Line
-	3350 2300 3450 2400
+	3350 2050 3450 2150
 Text Label 2500 3300 0    50   ~ 0
 RED6
-NoConn ~ 1200 1900
-NoConn ~ 3250 1900
 Entry Wire Line
 	2900 5000 3000 4900
 Entry Wire Line
@@ -836,12 +824,12 @@ DIR_3A
 Text Label 2600 5000 0    50   ~ 0
 OE_3A
 Entry Wire Line
-	3450 2300 3550 2400
+	3450 2050 3550 2150
 Entry Wire Line
-	3550 2300 3650 2400
-Text Label 3550 1900 3    50   ~ 0
+	3550 2050 3650 2150
+Text Label 3550 1675 3    50   ~ 0
 DRED-
-Text Label 3450 1900 3    50   ~ 0
+Text Label 3450 1675 3    50   ~ 0
 DRED+
 Entry Wire Line
 	2900 3700 3000 3600
@@ -850,7 +838,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 4900 2900 4900
 Wire Wire Line
-	3350 1900 3350 2300
+	3350 1650 3350 2050
 Wire Notes Line
 	1125 7650 1125 7075
 Wire Notes Line
@@ -865,14 +853,12 @@ Wire Wire Line
 	2450 6575 2900 6575
 Wire Wire Line
 	2450 5500 2900 5500
-Wire Wire Line
-	2450 5400 2900 5400
 Wire Notes Line
-	3325 5375 3025 5375
+	3325 5425 3025 5425
 Wire Notes Line
-	3325 5300 3325 5375
+	3325 5350 3325 5425
 Wire Notes Line
-	3050 5300 3325 5300
+	3050 5350 3325 5350
 Wire Bus Line
 	1350 7250 2100 7250
 Wire Notes Line
@@ -892,9 +878,9 @@ Wire Wire Line
 Wire Wire Line
 	3100 2850 3100 5150
 Wire Wire Line
-	900  1900 900  2300
+	900  1650 900  2050
 Wire Wire Line
-	1850 1900 1850 2300
+	1850 1650 1850 2050
 Wire Wire Line
 	2450 4300 2900 4300
 Wire Wire Line
@@ -937,7 +923,7 @@ Wire Wire Line
 Wire Wire Line
 	8675 2500 8675 2400
 Wire Wire Line
-	3050 1900 3050 2300
+	3050 1650 3050 2050
 Wire Wire Line
 	2450 4100 2900 4100
 Wire Wire Line
@@ -1072,9 +1058,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 4700 2900 4700
 Wire Wire Line
-	1350 1900 1350 2300
-Wire Wire Line
-	1650 1900 1650 2300
+	1350 1650 1350 2050
 Wire Wire Line
 	7100 4050 7000 4050
 Wire Wire Line
@@ -1088,9 +1072,9 @@ Wire Notes Line
 Wire Notes Line
 	5500 800  7150 800 
 Wire Wire Line
-	1950 1900 1950 2300
+	1950 1650 1950 2050
 Wire Wire Line
-	3950 1900 3950 2300
+	3950 1650 3950 2050
 Wire Wire Line
 	4975 2575 4500 2575
 Wire Wire Line
@@ -1128,23 +1112,21 @@ Wire Wire Line
 Wire Wire Line
 	5100 4850 4500 4850
 Wire Bus Line
-	650  2475 650  2400
+	650  2225 650  2150
 Wire Wire Line
-	3850 1900 3850 2300
+	3850 1650 3850 2050
 Wire Wire Line
-	3750 1900 3750 2300
+	3750 1650 3750 2050
 Wire Wire Line
-	3650 1900 3650 2300
+	3650 1650 3650 2050
 Wire Wire Line
-	2750 1900 2750 2300
+	2750 1650 2750 2050
 Wire Wire Line
-	2650 1900 2650 2300
+	2650 1650 2650 2050
 Wire Wire Line
-	1750 1900 1750 2300
+	1450 1650 1450 2050
 Wire Wire Line
-	1450 1900 1450 2300
-Wire Wire Line
-	800  1900 800  2300
+	800  1650 800  2050
 Wire Wire Line
 	2450 3700 2900 3700
 Wire Wire Line
@@ -1174,33 +1156,33 @@ Entry Wire Line
 Entry Wire Line
 	2900 3500 3000 3400
 Wire Wire Line
-	3450 1900 3450 2300
+	3450 1650 3450 2050
 Wire Wire Line
-	3550 1900 3550 2300
+	3550 1650 3550 2050
 Entry Wire Line
 	2900 4600 3000 4500
 Entry Wire Line
 	2900 4500 3000 4400
 Wire Wire Line
 	2450 4600 2900 4600
-Text Label 2350 1925 3    50   ~ 0
+Text Label 2350 1675 3    50   ~ 0
 GREEN1
-Text Label 2450 1925 3    50   ~ 0
+Text Label 2450 1675 3    50   ~ 0
 GREEN0
 Entry Wire Line
-	2950 2300 3050 2400
+	2950 2050 3050 2150
 Entry Wire Line
-	2850 2300 2950 2400
+	2850 2050 2950 2150
 Wire Wire Line
-	2950 1900 2950 2300
+	2950 1650 2950 2050
 Wire Wire Line
-	2850 1900 2850 2300
+	2850 1650 2850 2050
 Entry Wire Line
-	3150 2300 3250 2400
-Text Label 3150 2225 1    50   ~ 0
+	3150 2050 3250 2150
+Text Label 3150 1975 1    50   ~ 0
 RED0
 Wire Wire Line
-	3150 1900 3150 2300
+	3150 1650 3150 2050
 Entry Wire Line
 	2900 4500 3000 4400
 Text Label 2725 3700 2    50   ~ 0
@@ -1213,16 +1195,16 @@ Entry Wire Line
 	2900 3400 3000 3300
 Wire Wire Line
 	2450 3400 2900 3400
-Text Label 1950 2225 1    50   ~ 0
+Text Label 1950 1975 1    50   ~ 0
 BLUE0
 Text Label 2525 4600 0    50   ~ 0
 BLUE1
 Entry Wire Line
-	4100 2300 4200 2400
-Text Label 4100 1950 3    50   ~ 0
+	2550 2050 2650 2150
+Text Label 2550 1700 3    50   ~ 0
 BLUE2
 Wire Wire Line
-	4100 1900 4100 2300
+	2550 1650 2550 2050
 Text Label 2550 4500 0    50   ~ 0
 RED2
 Text Label 2625 3900 0    50   ~ 0
@@ -1240,41 +1222,41 @@ Entry Wire Line
 Wire Wire Line
 	2450 3900 2900 3900
 Entry Wire Line
-	2350 2300 2450 2400
+	2350 2050 2450 2150
 Entry Wire Line
-	2450 2300 2550 2400
+	2450 2050 2550 2150
 Wire Wire Line
 	2450 4000 2900 4000
 Wire Bus Line
 	3000 3400 3000 3500
 Wire Wire Line
-	2350 1900 2350 2300
+	2350 1650 2350 2050
 Wire Wire Line
-	2450 1900 2450 2300
+	2450 1650 2450 2050
 Entry Wire Line
-	2200 2300 2300 2400
+	2200 2050 2300 2150
 Entry Wire Line
-	2050 2300 2150 2400
+	2050 2050 2150 2150
 Entry Wire Line
-	2150 2400 2050 2300
-Text Label 2050 2200 1    50   ~ 0
+	2150 2150 2050 2050
+Text Label 2050 1950 1    50   ~ 0
 DIR_2B
-Text Label 2200 2000 3    50   ~ 0
+Text Label 2200 1750 3    50   ~ 0
 OE_2B
 Entry Wire Line
-	2300 2400 2200 2300
+	2300 2150 2200 2050
 Wire Bus Line
-	2400 2400 2400 2475
+	2400 2150 2400 2225
 Wire Wire Line
-	2200 1900 2200 2300
+	2200 1650 2200 2050
 Wire Bus Line
-	2300 2400 2300 2525
+	2300 2150 2300 2275
 Wire Bus Line
-	2300 2525 2250 2525
+	2300 2275 2250 2275
 Wire Bus Line
-	2150 2400 2300 2400
+	2150 2150 2300 2150
 Wire Wire Line
-	2050 1900 2050 2300
+	2050 1650 2050 2050
 Wire Wire Line
 	2900 3150 2450 3150
 Text Label 2775 3050 2    50   ~ 0
@@ -1291,7 +1273,7 @@ Text Label 3000 6550 0    50   ~ 0
 DRGB_ECP5
 Text Label 7525 3300 0    50   ~ 0
 ANLG_RGB
-Text Label 1250 7425 1    50   ~ 0
+Text Label 1250 7450 0    50   ~ 0
 PCI_VT
 Text Label 3000 5250 0    50   ~ 0
 DRGB_ECP5
@@ -1303,9 +1285,9 @@ Text Label 3000 3675 0    50   ~ 0
 DRGB_ECP5
 Text Label 3000 3000 0    50   ~ 0
 DRGB_ECP5
-Text Label 650  2475 0    50   ~ 0
+Text Label 650  2225 0    50   ~ 0
 DRGB_ECP5
-Text Label 2400 2475 0    50   ~ 0
+Text Label 2400 2225 0    50   ~ 0
 DRGB_ECP5
 Text Label 8300 4300 2    50   ~ 0
 DRGB_ECP5
@@ -1323,8 +1305,76 @@ Text Label 3000 3875 0    50   ~ 0
 DIR-CONTROL
 Text Label 3000 3475 0    50   ~ 0
 DIR-CONTROL
-Text Label 2275 2525 2    50   ~ 0
+Text Label 2275 2275 2    50   ~ 0
 DIR-CONTROL
+Entry Bus Bus
+	1250 7350 1350 7250
+Entry Wire Line
+	1200 2050 1300 2150
+Wire Wire Line
+	1200 1650 1200 2050
+Entry Wire Line
+	2900 5400 3000 5300
+Wire Wire Line
+	2450 5400 2900 5400
+Entry Wire Line
+	2900 5400 3000 5300
+Entry Wire Line
+	2900 5400 3000 5300
+Entry Wire Line
+	1750 2150 1650 2050
+Entry Wire Line
+	1850 2150 1750 2050
+Text Label 1650 2025 1    50   ~ 0
+DGREEN+1
+Text Label 1750 2025 1    50   ~ 0
+DGREEN-1
+Wire Wire Line
+	1750 1650 1750 2050
+Wire Wire Line
+	1650 1650 1650 2050
+Text Label 3250 1750 3    50   ~ 0
+HPD_DVI
+Entry Wire Line
+	3250 2050 3350 2150
+Wire Wire Line
+	3250 1650 3250 2050
+Text Notes 8500 4450 0    50   ~ 0
+Resistor\nreference
+Wire Wire Line
+	1000 2050 1000 1650
+Wire Wire Line
+	1100 2050 1100 1650
+Entry Wire Line
+	1100 2150 1000 2050
+Entry Wire Line
+	1200 2150 1100 2050
+Text Label 1100 2025 1    50   ~ 0
+DBLUE+1
+Text Label 1000 2025 1    50   ~ 0
+DBLUE-1
+Wire Wire Line
+	4200 2000 4200 1650
+Entry Wire Line
+	4300 2100 4200 2000
+Text Label 4200 2000 1    50   ~ 0
+CS_DRAM
+Text Label 4375 2100 1    50   ~ 0
+CON_DRAM
+Text HLabel 4425 2100 2    50   BiDi ~ 0
+CON_DRAM
+Wire Wire Line
+	4100 2000 4100 1650
+Entry Wire Line
+	4200 2100 4100 2000
+Entry Wire Line
+	4200 2100 4100 2000
+Text Label 4100 2000 1    50   ~ 0
+ODT_DRAM
+Text Notes 4450 1850 0    50   ~ 0
+Control-signals \nfor the DRAM\nthat could not be\nfitted to banks\n2 and 3.\n<---
+Wire Bus Line
+	3000 5375 3000 5425
 Wire Bus Line
 	1250 7275 1250 7500
 Wire Bus Line
@@ -1334,29 +1384,27 @@ Wire Bus Line
 Wire Bus Line
 	3000 6175 3000 6325
 Wire Bus Line
-	3000 5175 3000 5250
-Wire Bus Line
-	7525 3175 7525 6000
-Wire Bus Line
-	3000 5300 3000 5425
-Wire Bus Line
-	3000 2925 3000 3325
-Wire Bus Line
 	8300 3675 8300 4300
-Wire Bus Line
-	3000 3975 3000 4700
-Wire Bus Line
-	4400 2425 4400 6275
-Wire Bus Line
-	2400 2400 4200 2400
-Wire Bus Line
-	650  2400 2050 2400
 Wire Bus Line
 	3000 3800 3000 3925
 Wire Bus Line
 	3000 3575 3000 3750
 Wire Bus Line
+	7525 3175 7525 6000
+Wire Bus Line
+	3000 5175 3000 5325
+Wire Bus Line
+	4150 2100 4425 2100
+Wire Bus Line
+	3000 2925 3000 3325
+Wire Bus Line
 	3000 5475 3000 6125
-Entry Bus Bus
-	1250 7350 1350 7250
+Wire Bus Line
+	3000 3975 3000 4700
+Wire Bus Line
+	650  2150 2050 2150
+Wire Bus Line
+	2400 2150 4050 2150
+Wire Bus Line
+	4400 2450 4400 6300
 $EndSCHEMATC

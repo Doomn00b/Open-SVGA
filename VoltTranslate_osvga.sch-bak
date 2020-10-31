@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 9 9
 Title ""
 Date ""
 Rev ""
@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L LRJ-parts:SN74LVCH16T245DGGR U2
 U 3 1 60F23AFE
-P 4050 1275
-F 0 "U2" H 4500 1350 50  0000 L CNN
-F 1 "SN74LVCH16T245DGGR" H 4500 1250 50  0000 L CNN
-F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 4050 125 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/sn74lvch16t245.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1595754658426&ref_url=https%253A%252F%252Fwww.ti.com%252F" H 4050 125 50  0001 C CNN
-	3    4050 1275
+P 4225 1275
+F 0 "U2" H 4150 1850 50  0000 L CNB
+F 1 "SN74LVCH16T245DGGR" H 3800 1950 50  0000 L CNN
+F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 4225 125 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvch16t245.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1595754658426&ref_url=https%253A%252F%252Fwww.ti.com%252F" H 4225 125 50  0001 C CNN
+	3    4225 1275
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -33,50 +33,6 @@ F 1 "SN74LVCH16T245DGGR" H 8825 6149 50  0001 C CNN
 F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 8775 4075 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74lvch16t245.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1595754658426&ref_url=https%253A%252F%252Fwww.ti.com%252F" H 8775 4075 50  0001 C CNN
 	1    8775 5225
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR0116
-U 1 1 60F23B16
-P 4275 825
-F 0 "#PWR0116" H 4275 675 50  0001 C CNN
-F 1 "+3.3V" H 4290 998 50  0000 C CNN
-F 2 "" H 4275 825 50  0001 C CNN
-F 3 "" H 4275 825 50  0001 C CNN
-	1    4275 825 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0117
-U 1 1 60F23B22
-P 8500 850
-F 0 "#PWR0117" H 8500 700 50  0001 C CNN
-F 1 "+5V" H 8515 1023 50  0000 C CNN
-F 2 "" H 8500 850 50  0001 C CNN
-F 3 "" H 8500 850 50  0001 C CNN
-	1    8500 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR0118
-U 1 1 60F23B28
-P 8925 850
-F 0 "#PWR0118" H 8925 700 50  0001 C CNN
-F 1 "+3.3V" H 8940 1023 50  0000 C CNN
-F 2 "" H 8925 850 50  0001 C CNN
-F 3 "" H 8925 850 50  0001 C CNN
-	1    8925 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L LRJ-parts:SN74LVCH16T245DGGR U4
-U 3 1 60F23B34
-P 8700 1300
-F 0 "U4" H 8100 1300 50  0000 L CNN
-F 1 "SN74LVCH16T245DGGR" V 9200 900 50  0001 L CNN
-F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 8700 150 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/sn74lvch16t245.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1595754658426&ref_url=https%253A%252F%252Fwww.ti.com%252F" H 8700 150 50  0001 C CNN
-	3    8700 1300
 	1    0    0    -1  
 $EndComp
 Entry Wire Line
@@ -388,14 +344,6 @@ Entry Wire Line
 Text Label 3125 2775 0    50   ~ 0
 PCI_SMCLK
 Wire Wire Line
-	4200 825  4275 825 
-Wire Wire Line
-	8850 850  8925 850 
-Connection ~ 8500 850 
-Wire Wire Line
-	8400 850  8500 850 
-Connection ~ 8650 1750
-Wire Wire Line
 	5600 5000 5950 5000
 Wire Wire Line
 	5625 3600 5975 3600
@@ -426,42 +374,23 @@ Wire Wire Line
 Wire Wire Line
 	7775 2775 8175 2775
 Wire Wire Line
-	8350 1750 8450 1750
+	3875 1725 3975 1725
+Connection ~ 4275 1725
 Wire Wire Line
-	3700 1725 3800 1725
+	4275 1725 4375 1725
+Connection ~ 4375 1725
 Wire Wire Line
-	8650 1750 8750 1750
-Connection ~ 8750 1750
+	4375 1725 4475 1725
+Connection ~ 4475 1725
 Wire Wire Line
-	8750 1750 8850 1750
-Connection ~ 8850 1750
+	4475 1725 4575 1725
+Connection ~ 3975 1725
 Wire Wire Line
-	8850 1750 8950 1750
-Connection ~ 8950 1750
+	3975 1725 4075 1725
+Connection ~ 4075 1725
 Wire Wire Line
-	8950 1750 9050 1750
-Wire Wire Line
-	8650 1750 8550 1750
-Connection ~ 8450 1750
-Connection ~ 8550 1750
-Wire Wire Line
-	8550 1750 8450 1750
-Connection ~ 4100 1725
-Wire Wire Line
-	4100 1725 4200 1725
-Connection ~ 4200 1725
-Wire Wire Line
-	4200 1725 4300 1725
-Connection ~ 4300 1725
-Wire Wire Line
-	4300 1725 4400 1725
-Connection ~ 3800 1725
-Wire Wire Line
-	3800 1725 3900 1725
-Connection ~ 3900 1725
-Wire Wire Line
-	3900 1725 4000 1725
-Connection ~ 4000 1725
+	4075 1725 4175 1725
+Connection ~ 4175 1725
 Wire Wire Line
 	5600 6000 5950 6000
 Wire Wire Line
@@ -566,24 +495,7 @@ Wire Wire Line
 	1300 4625 1300 4500
 Wire Wire Line
 	900  6025 1300 6025
-Connection ~ 2450 1800
-Wire Wire Line
-	2350 1800 2450 1800
-Connection ~ 2350 1800
-Wire Wire Line
-	2250 1800 2350 1800
-Connection ~ 2250 1800
-Wire Wire Line
-	2750 1800 2850 1800
-Connection ~ 2750 1800
-Wire Wire Line
-	2650 1800 2750 1800
-Connection ~ 2650 1800
-Wire Wire Line
-	2550 1800 2650 1800
-Connection ~ 2550 1800
-Wire Wire Line
-	2150 1800 2250 1800
+Connection ~ 2125 1750
 Wire Wire Line
 	900  5825 1300 5825
 Wire Wire Line
@@ -606,13 +518,6 @@ Wire Wire Line
 	2350 4825 2675 4825
 Wire Wire Line
 	2400 4625 2550 4625
-Wire Wire Line
-	2200 900  2300 900 
-Connection ~ 2300 900 
-Wire Wire Line
-	2300 900  2400 900 
-Wire Wire Line
-	2650 900  2725 900 
 Wire Wire Line
 	2350 2575 2500 2575
 Wire Wire Line
@@ -717,41 +622,19 @@ $EndComp
 Entry Wire Line
 	7775 5275 7675 5175
 $Comp
-L LRJ-parts:SN74LVCH16T245DGGR U1
-U 3 1 60F23E08
-P 2500 1350
-F 0 "U1" H 1900 1375 50  0000 L CNN
-F 1 "SN74LVCH16T245DGGR" H 1200 1250 50  0001 L CNN
-F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 2500 200 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/sn74lvch16t245.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1595754658426&ref_url=https%253A%252F%252Fwww.ti.com%252F" H 2500 200 50  0001 C CNN
-	3    2500 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR0119
-U 1 1 60F23E0E
-P 2725 900
-F 0 "#PWR0119" H 2725 750 50  0001 C CNN
-F 1 "+3.3V" H 2740 1073 50  0000 C CNN
-F 2 "" H 2725 900 50  0001 C CNN
-F 3 "" H 2725 900 50  0001 C CNN
-	1    2725 900 
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0120
 U 1 1 60F23E14
-P 2300 900
-F 0 "#PWR0120" H 2300 750 50  0001 C CNN
-F 1 "+5V" H 2315 1073 50  0000 C CNN
-F 2 "" H 2300 900 50  0001 C CNN
-F 3 "" H 2300 900 50  0001 C CNN
-	1    2300 900 
+P 1200 850
+F 0 "#PWR0120" H 1200 700 50  0001 C CNN
+F 1 "+5V" H 1175 1025 50  0000 C CNN
+F 2 "" H 1200 850 50  0001 C CNN
+F 3 "" H 1200 850 50  0001 C CNN
+	1    1200 850 
 	1    0    0    -1  
 $EndComp
 Text Label 900  3625 0    50   ~ 0
 PCI_INTC
-Text Label -725 3325 0    50   ~ 0
+Text Label 900  3475 0    50   ~ 0
 PCI_INTB
 Text Label 900  3775 0    50   ~ 0
 PCI_INTA
@@ -893,84 +776,12 @@ Wire Bus Line
 Connection ~ 5150 6400
 Text Label 7425 6225 2    50   ~ 0
 PCI_VTA
-Wire Wire Line
-	8500 850  8600 850 
-Connection ~ 8925 850 
-Wire Wire Line
-	8925 850  9000 850 
-Connection ~ 4275 825 
-Wire Wire Line
-	4275 825  4350 825 
-Connection ~ 2725 900 
-Wire Wire Line
-	2725 900  2800 900 
-Text HLabel -775 350  0    50   BiDi ~ 0
+Text HLabel 10500 1700 0    50   BiDi ~ 0
 PCI_SIG
 Connection ~ 2950 4225
-Wire Wire Line
-	6750 850  6825 850 
-Connection ~ 6750 850 
-Connection ~ 6475 1750
-Wire Wire Line
-	6375 1750 6475 1750
-Connection ~ 6375 1750
-Wire Wire Line
-	6275 1750 6375 1750
-Connection ~ 6275 1750
-Wire Wire Line
-	6775 1750 6875 1750
-Connection ~ 6775 1750
-Wire Wire Line
-	6675 1750 6775 1750
-Connection ~ 6675 1750
-Wire Wire Line
-	6575 1750 6675 1750
-Connection ~ 6575 1750
-Wire Wire Line
-	6175 1750 6275 1750
-Wire Wire Line
-	6675 850  6750 850 
-Wire Wire Line
-	6325 850  6425 850 
-Connection ~ 6325 850 
-Wire Wire Line
-	6225 850  6325 850 
-$Comp
-L power:+3.3V #PWR0122
-U 1 1 60F23B52
-P 6750 850
-F 0 "#PWR0122" H 6750 700 50  0001 C CNN
-F 1 "+3.3V" H 6765 1023 50  0000 C CNN
-F 2 "" H 6750 850 50  0001 C CNN
-F 3 "" H 6750 850 50  0001 C CNN
-	1    6750 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0123
-U 1 1 60F23B4C
-P 6325 850
-F 0 "#PWR0123" H 6325 700 50  0001 C CNN
-F 1 "+5V" H 6340 1023 50  0000 C CNN
-F 2 "" H 6325 850 50  0001 C CNN
-F 3 "" H 6325 850 50  0001 C CNN
-	1    6325 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L LRJ-parts:SN74LVCH16T245DGGR U3
-U 3 1 60F23B46
-P 6525 1300
-F 0 "U3" H 5925 1400 50  0000 L CNN
-F 1 "SN74LVCH16T245DGGR" H 5225 1300 50  0001 L CNN
-F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 6525 150 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/sn74lvch16t245.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1595754658426&ref_url=https%253A%252F%252Fwww.ti.com%252F" H 6525 150 50  0001 C CNN
-	3    6525 1300
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
-	7675 2100 5525 2100
-Connection ~ 7675 2100
+	7675 2200 5525 2200
+Connection ~ 7675 2200
 Wire Notes Line
 	10000 4400 10000 5125
 Wire Notes Line
@@ -992,57 +803,31 @@ Entry Bus Bus
 Wire Bus Line
 	10150 4275 10150 5450
 Wire Wire Line
-	4000 1725 4100 1725
-Wire Wire Line
-	2450 1800 2550 1800
-Wire Wire Line
-	6475 1750 6575 1750
-$Comp
-L power:GND #PWR0146
-U 1 1 5F85AC10
-P 6575 1750
-F 0 "#PWR0146" H 6575 1500 50  0001 C CNN
-F 1 "GND" H 6580 1577 50  0000 C CNN
-F 2 "" H 6575 1750 50  0001 C CNN
-F 3 "" H 6575 1750 50  0001 C CNN
-	1    6575 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0147
-U 1 1 5F87BA7C
-P 8750 1750
-F 0 "#PWR0147" H 8750 1500 50  0001 C CNN
-F 1 "GND" H 8755 1577 50  0000 C CNN
-F 2 "" H 8750 1750 50  0001 C CNN
-F 3 "" H 8750 1750 50  0001 C CNN
-	1    8750 1750
-	1    0    0    -1  
-$EndComp
+	4175 1725 4275 1725
 $Comp
 L power:GND #PWR0148
 U 1 1 5F87BB32
-P 2450 1800
-F 0 "#PWR0148" H 2450 1550 50  0001 C CNN
-F 1 "GND" H 2455 1627 50  0000 C CNN
-F 2 "" H 2450 1800 50  0001 C CNN
-F 3 "" H 2450 1800 50  0001 C CNN
-	1    2450 1800
+P 2125 1750
+F 0 "#PWR0148" H 2125 1500 50  0001 C CNN
+F 1 "GND" H 2130 1577 50  0000 C CNN
+F 2 "" H 2125 1750 50  0001 C CNN
+F 3 "" H 2125 1750 50  0001 C CNN
+	1    2125 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0149
 U 1 1 5F880BC9
-P 4000 1725
-F 0 "#PWR0149" H 4000 1475 50  0001 C CNN
-F 1 "GND" H 4005 1552 50  0000 C CNN
-F 2 "" H 4000 1725 50  0001 C CNN
-F 3 "" H 4000 1725 50  0001 C CNN
-	1    4000 1725
+P 4175 1725
+F 0 "#PWR0149" H 4175 1475 50  0001 C CNN
+F 1 "GND" H 4180 1552 50  0000 C CNN
+F 2 "" H 4175 1725 50  0001 C CNN
+F 3 "" H 4175 1725 50  0001 C CNN
+	1    4175 1725
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
-	7675 2100 7675 2125
+	7675 2200 7675 2125
 Entry Wire Line
 	800  4075 900  3975
 Wire Wire Line
@@ -1143,7 +928,7 @@ Entry Wire Line
 Wire Wire Line
 	5450 5500 5950 5500
 Wire Bus Line
-	7675 1650 7675 2100
+	7675 2100 7675 2200
 Entry Wire Line
 	4925 5175 5025 5075
 Entry Wire Line
@@ -1163,15 +948,15 @@ IDSEL_VT
 Wire Wire Line
 	4600 5525 4925 5525
 Wire Notes Line
-	9350 600  9350 1400
+	9500 600  9500 1400
 Wire Notes Line
-	11000 1400 11000 600 
-Text Notes 9400 1050 0    50   ~ 0
+	11150 1400 11150 600 
+Text Notes 9550 1050 0    50   ~ 0
 The _VT -moniker denotes that the \nsignal have been Voltage-Translated, \nfrom 5V/3.3V, into a lower voltage-level \nthat is more compatible with \ncurrent technologies.
 Wire Notes Line
-	9350 1400 11000 1400
+	9500 1400 11150 1400
 Wire Notes Line
-	9350 600  11000 600 
+	9500 600  11150 600 
 Text Label 9600 3375 0    50   ~ 0
 PCI_VTM
 Connection ~ 5350 4225
@@ -1245,22 +1030,6 @@ Wire Wire Line
 Wire Wire Line
 	5975 2750 5775 2750
 Connection ~ 5975 2750
-Connection ~ 3850 825 
-Wire Wire Line
-	3850 825  3950 825 
-Wire Wire Line
-	3750 825  3850 825 
-$Comp
-L power:+5V #PWR0121
-U 1 1 60F23B1C
-P 3850 825
-F 0 "#PWR0121" H 3850 675 50  0001 C CNN
-F 1 "+5V" H 3865 998 50  0000 C CNN
-F 2 "" H 3850 825 50  0001 C CNN
-F 3 "" H 3850 825 50  0001 C CNN
-	1    3850 825 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1300 4500 1075 4500
 Text Label 1075 4500 0    50   ~ 0
@@ -1434,28 +1203,28 @@ PCI_SIG = All PCI signal buses\n\n
 Text Notes 4225 6675 0    100  ~ 0
 LEGEND:
 Wire Bus Line
-	800  2150 2950 2150
-Text Label -800 675  0    50   ~ 0
+	800  2225 2950 2225
+Text Label 10475 2025 0    50   ~ 0
 PCI_AD[0...31]
 Wire Bus Line
-	-800 450  -800 700 
-Text Label -625 525  0    50   ~ 0
+	10475 1800 10475 2050
+Text Label 10650 1875 0    50   ~ 0
 PCI_MISC
 Wire Bus Line
-	-625 450  -625 525 
+	10650 1800 10650 1875
 Entry Bus Bus
-	-625 450  -525 350 
+	10650 1800 10750 1700
 Entry Bus Bus
-	-800 450  -700 350 
+	10475 1800 10575 1700
 Wire Notes Line
-	-1100 850  -200 850 
+	10175 2200 11075 2200
 Wire Notes Line
-	-200 850  -200 225 
+	11075 2200 11075 1575
 Wire Notes Line
-	-200 225  -1150 225 
+	11075 1575 10125 1575
 Wire Notes Line
-	-1150 225  -1150 850 
-Text Label 875  2150 0    50   ~ 0
+	10125 1575 10125 2200
+Text Label 875  2225 0    50   ~ 0
 PCI_MISC
 Text Label 800  6225 0    50   ~ 0
 PCI_MISC
@@ -1463,7 +1232,7 @@ Text Label 8975 6400 2    50   ~ 0
 PCI_VTM
 Text Notes 4250 7125 0    50   ~ 0
 PCI_AD[0...31] = PCI Adress Bus\nPCI_MISC = PCI MISCellaneous signals
-Text Label 7675 1950 2    50   ~ 0
+Text Label 7675 2125 2    50   ~ 0
 PCI_AD[0...31]
 Text Label 650  4675 0    50   ~ 0
 PCI_AD[0...31]
@@ -1475,28 +1244,928 @@ Text Label 7775 4475 0    50   ~ 0
 PCI_MISC
 Text Label 10150 4650 0    50   ~ 0
 PCI_VT
-Text Label -750 350  0    50   ~ 0
+Text Label 10525 1700 0    50   ~ 0
 PCI_SIG
 Text Label 3250 7150 0    50   ~ 0
 DIR-CONTROL
-Text HLabel 900  1275 2    50   BiDi ~ 0
-PCI_AD[0...31]
-Text HLabel 900  1050 2    50   BiDi ~ 0
-PCI_M[0...31]
-Wire Bus Line
-	900  1050 900  1150
-Wire Bus Line
-	900  1150 1450 1150
-Wire Bus Line
-	900  1275 900  1425
-Wire Bus Line
-	900  1425 1450 1425
-Text Label 950  1425 0    50   ~ 0
-PCI_AD[0...31]
-Text Label 950  1150 0    50   ~ 0
-PCI_M[0...31]
-Text Label 1200 3475 2    50   ~ 0
-PCI_INTB[0]
+Wire Wire Line
+	1825 1750 1925 1750
+Connection ~ 2225 1750
+Wire Wire Line
+	2125 1750 2225 1750
+Wire Wire Line
+	2225 1750 2325 1750
+Connection ~ 2325 1750
+Connection ~ 2425 1750
+Wire Wire Line
+	2325 1750 2425 1750
+Wire Wire Line
+	2425 1750 2525 1750
+Connection ~ 1925 1750
+Connection ~ 2025 1750
+Wire Wire Line
+	1925 1750 2025 1750
+Wire Wire Line
+	2025 1750 2125 1750
+$Comp
+L power:+3.3V #PWR0119
+U 1 1 60F23E0E
+P 1200 1450
+F 0 "#PWR0119" H 1200 1300 50  0001 C CNN
+F 1 "+3.3V" H 1200 1625 50  0000 C CNN
+F 2 "" H 1200 1450 50  0001 C CNN
+F 3 "" H 1200 1450 50  0001 C CNN
+	1    1200 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:SN74LVCH16T245DGGR U1
+U 3 1 60F23E08
+P 2175 1300
+F 0 "U1" H 2100 1900 50  0000 L CNB
+F 1 "SN74LVCH16T245DGGR" H 875 1200 50  0001 L CNN
+F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 2175 150 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvch16t245.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1595754658426&ref_url=https%253A%252F%252Fwww.ti.com%252F" H 2175 150 50  0001 C CNN
+	3    2175 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V2 #PWR0105
+U 1 1 5F9A6919
+P 2900 850
+F 0 "#PWR0105" H 2900 700 50  0001 C CNN
+F 1 "+1V2" H 2915 1023 50  0000 C CNN
+F 2 "" H 2900 850 50  0001 C CNN
+F 3 "" H 2900 850 50  0001 C CNN
+	1    2900 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 606AC2F0
+P 1425 1150
+F 0 "#PWR0117" H 1425 900 50  0001 C CNN
+F 1 "GND" H 1430 977 50  0000 C CNN
+F 2 "" H 1425 1150 50  0001 C CNN
+F 3 "" H 1425 1150 50  0001 C CNN
+	1    1425 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:VJ1206Y104JXAAR C80
+U 1 1 6073F7C2
+P 1525 1050
+F 0 "C80" H 1525 1175 45  0000 L CNN
+F 1 "VJ1206Y104JXAAR" H 1633 1103 31  0001 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2225 1150 20  0001 C CNN
+F 3 "https://www.vishay.com/docs/45199/vjcommercialseries.pdf" H 1525 1050 50  0001 C CNN
+F 4 "https://www.mouser.se/datasheet/2/427/vjcommercialseries-1764145.pdf" H 3175 1100 50  0001 C CNN "Mouser datasheet"
+F 5 "0.1uF" H 1525 1025 50  0000 L CNN "Capacity"
+	1    1525 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 850  1325 850 
+Connection ~ 1325 850 
+Wire Wire Line
+	1325 850  1525 850 
+Wire Wire Line
+	1525 850  1875 850 
+Connection ~ 1525 850 
+$Comp
+L power:GND #PWR0118
+U 1 1 60A8CA38
+P 1425 1750
+F 0 "#PWR0118" H 1425 1500 50  0001 C CNN
+F 1 "GND" H 1430 1577 50  0000 C CNN
+F 2 "" H 1425 1750 50  0001 C CNN
+F 3 "" H 1425 1750 50  0001 C CNN
+	1    1425 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:VJ1206Y104JXAAR C81
+U 1 1 60A8CA46
+P 1525 1650
+F 0 "C81" H 1525 1775 45  0000 L CNN
+F 1 "VJ1206Y104JXAAR" H 1633 1703 31  0001 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2225 1750 20  0001 C CNN
+F 3 "https://www.vishay.com/docs/45199/vjcommercialseries.pdf" H 1525 1650 50  0001 C CNN
+F 4 "https://www.mouser.se/datasheet/2/427/vjcommercialseries-1764145.pdf" H 3175 1700 50  0001 C CNN "Mouser datasheet"
+F 5 "0.1uF" H 1525 1625 50  0000 L CNN "Capacity"
+	1    1525 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:C1206C105K4RACTU C71
+U 1 1 60A8CA4D
+P 1325 1550
+F 0 "C71" H 1450 1525 45  0000 R CNN
+F 1 "C1206C105K4RACTU" H 1900 1600 31  0001 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1325 1800 20  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 1325 1550 50  0001 C CNN
+F 4 "1uF" H 1475 1675 50  0000 R CNN "Capacity"
+	1    1325 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1325 1450 1525 1450
+Wire Wire Line
+	1200 1450 1325 1450
+Connection ~ 1325 1450
+Wire Wire Line
+	1325 1150 1425 1150
+Connection ~ 1425 1150
+Wire Wire Line
+	1425 1150 1525 1150
+Wire Wire Line
+	1325 1750 1425 1750
+Connection ~ 1425 1750
+Wire Wire Line
+	1425 1750 1525 1750
+$Comp
+L LRJ-parts:C1206C105K4RACTU C70
+U 1 1 60747D4E
+P 1325 950
+F 0 "C70" H 1475 925 45  0000 R CNN
+F 1 "C1206C105K4RACTU" H 1900 1000 31  0001 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1325 1200 20  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 1325 950 50  0001 C CNN
+F 4 "1uF" H 1475 1075 50  0000 R CNN "Capacity"
+	1    1325 950 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1525 1450 1700 1450
+Wire Wire Line
+	1700 1450 1700 775 
+Wire Wire Line
+	1700 775  2075 775 
+Wire Wire Line
+	2075 775  2075 850 
+Connection ~ 1525 1450
+$Comp
+L power:GND #PWR0121
+U 1 1 60E1FE73
+P 2725 1150
+F 0 "#PWR0121" H 2725 900 50  0001 C CNN
+F 1 "GND" H 2730 977 50  0000 C CNN
+F 2 "" H 2725 1150 50  0001 C CNN
+F 3 "" H 2725 1150 50  0001 C CNN
+	1    2725 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:VJ1206Y104JXAAR C90
+U 1 1 60E1FE7B
+P 2725 1050
+F 0 "C90" H 2725 1175 45  0000 L CNN
+F 1 "VJ1206Y104JXAAR" H 2833 1103 31  0001 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3425 1150 20  0001 C CNN
+F 3 "https://www.vishay.com/docs/45199/vjcommercialseries.pdf" H 2725 1050 50  0001 C CNN
+F 4 "https://www.mouser.se/datasheet/2/427/vjcommercialseries-1764145.pdf" H 4375 1100 50  0001 C CNN "Mouser datasheet"
+F 5 "0.1uF" H 2725 1025 50  0000 L CNN "Capacity"
+	1    2725 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 60E6390F
+P 2725 1775
+F 0 "#PWR0122" H 2725 1525 50  0001 C CNN
+F 1 "GND" H 2730 1602 50  0000 C CNN
+F 2 "" H 2725 1775 50  0001 C CNN
+F 3 "" H 2725 1775 50  0001 C CNN
+	1    2725 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:VJ1206Y104JXAAR C91
+U 1 1 60E63917
+P 2725 1675
+F 0 "C91" H 2725 1800 45  0000 L CNN
+F 1 "VJ1206Y104JXAAR" H 2833 1728 31  0001 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3425 1775 20  0001 C CNN
+F 3 "https://www.vishay.com/docs/45199/vjcommercialseries.pdf" H 2725 1675 50  0001 C CNN
+F 4 "https://www.mouser.se/datasheet/2/427/vjcommercialseries-1764145.pdf" H 4375 1725 50  0001 C CNN "Mouser datasheet"
+F 5 "0.1uF" H 2725 1650 50  0000 L CNN "Capacity"
+	1    2725 1675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2725 850  2900 850 
+Wire Wire Line
+	2900 1475 2725 1475
+Wire Wire Line
+	2275 850  2275 775 
+Wire Wire Line
+	2275 775  2625 775 
+Wire Wire Line
+	2625 775  2625 1475
+Wire Wire Line
+	2625 1475 2725 1475
+Connection ~ 2725 1475
+Wire Wire Line
+	2725 850  2475 850 
+Connection ~ 2725 850 
+$Comp
+L power:+5V #PWR0123
+U 1 1 611E76E2
+P 3250 825
+F 0 "#PWR0123" H 3250 675 50  0001 C CNN
+F 1 "+5V" H 3225 1000 50  0000 C CNN
+F 2 "" H 3250 825 50  0001 C CNN
+F 3 "" H 3250 825 50  0001 C CNN
+	1    3250 825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0124
+U 1 1 611E76E8
+P 3250 1425
+F 0 "#PWR0124" H 3250 1275 50  0001 C CNN
+F 1 "+3.3V" H 3250 1600 50  0000 C CNN
+F 2 "" H 3250 1425 50  0001 C CNN
+F 3 "" H 3250 1425 50  0001 C CNN
+	1    3250 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0146
+U 1 1 611E76EE
+P 3475 1125
+F 0 "#PWR0146" H 3475 875 50  0001 C CNN
+F 1 "GND" H 3480 952 50  0000 C CNN
+F 2 "" H 3475 1125 50  0001 C CNN
+F 3 "" H 3475 1125 50  0001 C CNN
+	1    3475 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:VJ1206Y104JXAAR C82
+U 1 1 611E76F6
+P 3575 1025
+F 0 "C82" H 3575 1150 45  0000 L CNN
+F 1 "VJ1206Y104JXAAR" H 3683 1078 31  0001 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4275 1125 20  0001 C CNN
+F 3 "https://www.vishay.com/docs/45199/vjcommercialseries.pdf" H 3575 1025 50  0001 C CNN
+F 4 "https://www.mouser.se/datasheet/2/427/vjcommercialseries-1764145.pdf" H 5225 1075 50  0001 C CNN "Mouser datasheet"
+F 5 "0.1uF" H 3575 1000 50  0000 L CNN "Capacity"
+	1    3575 1025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 825  3375 825 
+Connection ~ 3375 825 
+Wire Wire Line
+	3375 825  3575 825 
+Wire Wire Line
+	3575 825  3925 825 
+Connection ~ 3575 825 
+$Comp
+L power:GND #PWR0147
+U 1 1 611E7701
+P 3475 1725
+F 0 "#PWR0147" H 3475 1475 50  0001 C CNN
+F 1 "GND" H 3480 1552 50  0000 C CNN
+F 2 "" H 3475 1725 50  0001 C CNN
+F 3 "" H 3475 1725 50  0001 C CNN
+	1    3475 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:VJ1206Y104JXAAR C83
+U 1 1 611E7709
+P 3575 1625
+F 0 "C83" H 3575 1750 45  0000 L CNN
+F 1 "VJ1206Y104JXAAR" H 3683 1678 31  0001 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4275 1725 20  0001 C CNN
+F 3 "https://www.vishay.com/docs/45199/vjcommercialseries.pdf" H 3575 1625 50  0001 C CNN
+F 4 "https://www.mouser.se/datasheet/2/427/vjcommercialseries-1764145.pdf" H 5225 1675 50  0001 C CNN "Mouser datasheet"
+F 5 "0.1uF" H 3575 1600 50  0000 L CNN "Capacity"
+	1    3575 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:C1206C105K4RACTU C73
+U 1 1 611E7710
+P 3375 1525
+F 0 "C73" H 3525 1500 45  0000 R CNN
+F 1 "C1206C105K4RACTU" H 3950 1575 31  0001 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3375 1775 20  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3375 1525 50  0001 C CNN
+F 4 "1uF" H 3525 1650 50  0000 R CNN "Capacity"
+	1    3375 1525
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3375 1425 3575 1425
+Wire Wire Line
+	3250 1425 3375 1425
+Connection ~ 3375 1425
+Wire Wire Line
+	3375 1125 3475 1125
+Connection ~ 3475 1125
+Wire Wire Line
+	3475 1125 3575 1125
+Wire Wire Line
+	3375 1725 3475 1725
+Connection ~ 3475 1725
+Wire Wire Line
+	3475 1725 3575 1725
+$Comp
+L LRJ-parts:C1206C105K4RACTU C72
+U 1 1 611E7720
+P 3375 925
+F 0 "C72" H 3525 900 45  0000 R CNN
+F 1 "C1206C105K4RACTU" H 3950 975 31  0001 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3375 1175 20  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3375 925 50  0001 C CNN
+F 4 "1uF" H 3525 1050 50  0000 R CNN "Capacity"
+	1    3375 925 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3575 1425 3750 1425
+Wire Wire Line
+	3750 1425 3750 750 
+Wire Wire Line
+	3750 750  4125 750 
+Connection ~ 3575 1425
+Wire Wire Line
+	4125 750  4125 825 
+$Comp
+L power:+1V2 #PWR0190
+U 1 1 612DB5FA
+P 4950 825
+F 0 "#PWR0190" H 4950 675 50  0001 C CNN
+F 1 "+1V2" H 4965 998 50  0000 C CNN
+F 2 "" H 4950 825 50  0001 C CNN
+F 3 "" H 4950 825 50  0001 C CNN
+	1    4950 825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0191
+U 1 1 612DB600
+P 4775 1125
+F 0 "#PWR0191" H 4775 875 50  0001 C CNN
+F 1 "GND" H 4780 952 50  0000 C CNN
+F 2 "" H 4775 1125 50  0001 C CNN
+F 3 "" H 4775 1125 50  0001 C CNN
+	1    4775 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:VJ1206Y104JXAAR C92
+U 1 1 612DB608
+P 4775 1025
+F 0 "C92" H 4775 1150 45  0000 L CNN
+F 1 "VJ1206Y104JXAAR" H 4883 1078 31  0001 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5475 1125 20  0001 C CNN
+F 3 "https://www.vishay.com/docs/45199/vjcommercialseries.pdf" H 4775 1025 50  0001 C CNN
+F 4 "https://www.mouser.se/datasheet/2/427/vjcommercialseries-1764145.pdf" H 6425 1075 50  0001 C CNN "Mouser datasheet"
+F 5 "0.1uF" H 4775 1000 50  0000 L CNN "Capacity"
+	1    4775 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0192
+U 1 1 612DB60E
+P 4775 1750
+F 0 "#PWR0192" H 4775 1500 50  0001 C CNN
+F 1 "GND" H 4780 1577 50  0000 C CNN
+F 2 "" H 4775 1750 50  0001 C CNN
+F 3 "" H 4775 1750 50  0001 C CNN
+	1    4775 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:VJ1206Y104JXAAR C93
+U 1 1 612DB616
+P 4775 1650
+F 0 "C93" H 4775 1775 45  0000 L CNN
+F 1 "VJ1206Y104JXAAR" H 4883 1703 31  0001 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5475 1750 20  0001 C CNN
+F 3 "https://www.vishay.com/docs/45199/vjcommercialseries.pdf" H 4775 1650 50  0001 C CNN
+F 4 "https://www.mouser.se/datasheet/2/427/vjcommercialseries-1764145.pdf" H 6425 1700 50  0001 C CNN "Mouser datasheet"
+F 5 "0.1uF" H 4775 1625 50  0000 L CNN "Capacity"
+	1    4775 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 825  4950 825 
+Wire Wire Line
+	4950 1450 4775 1450
+Wire Wire Line
+	4325 750  4675 750 
+Wire Wire Line
+	4675 750  4675 1450
+Wire Wire Line
+	4675 1450 4775 1450
+Connection ~ 4775 1450
+Wire Wire Line
+	4775 825  4525 825 
+Connection ~ 4775 825 
+Wire Wire Line
+	4325 750  4325 825 
+Connection ~ 6300 1725
+$Comp
+L power:+5V #PWR0193
+U 1 1 61350C01
+P 5375 825
+F 0 "#PWR0193" H 5375 675 50  0001 C CNN
+F 1 "+5V" H 5350 1000 50  0000 C CNN
+F 2 "" H 5375 825 50  0001 C CNN
+F 3 "" H 5375 825 50  0001 C CNN
+	1    5375 825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0194
+U 1 1 61350C07
+P 6300 1725
+F 0 "#PWR0194" H 6300 1475 50  0001 C CNN
+F 1 "GND" H 6305 1552 50  0000 C CNN
+F 2 "" H 6300 1725 50  0001 C CNN
+F 3 "" H 6300 1725 50  0001 C CNN
+	1    6300 1725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 1725 6100 1725
+Connection ~ 6400 1725
+Wire Wire Line
+	6300 1725 6400 1725
+Wire Wire Line
+	6400 1725 6500 1725
+Connection ~ 6500 1725
+Connection ~ 6600 1725
+Wire Wire Line
+	6500 1725 6600 1725
+Wire Wire Line
+	6600 1725 6700 1725
+Connection ~ 6100 1725
+Connection ~ 6200 1725
+Wire Wire Line
+	6100 1725 6200 1725
+Wire Wire Line
+	6200 1725 6300 1725
+$Comp
+L power:+3.3V #PWR0195
+U 1 1 61350C19
+P 5375 1425
+F 0 "#PWR0195" H 5375 1275 50  0001 C CNN
+F 1 "+3.3V" H 5375 1600 50  0000 C CNN
+F 2 "" H 5375 1425 50  0001 C CNN
+F 3 "" H 5375 1425 50  0001 C CNN
+	1    5375 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:SN74LVCH16T245DGGR U3
+U 3 1 61350C1F
+P 6350 1275
+F 0 "U3" H 6275 1875 50  0000 L CNB
+F 1 "SN74LVCH16T245DGGR" H 5050 1175 50  0001 L CNN
+F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 6350 125 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvch16t245.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1595754658426&ref_url=https%253A%252F%252Fwww.ti.com%252F" H 6350 125 50  0001 C CNN
+	3    6350 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V2 #PWR0196
+U 1 1 61350C25
+P 7075 825
+F 0 "#PWR0196" H 7075 675 50  0001 C CNN
+F 1 "+1V2" H 7090 998 50  0000 C CNN
+F 2 "" H 7075 825 50  0001 C CNN
+F 3 "" H 7075 825 50  0001 C CNN
+	1    7075 825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0197
+U 1 1 61350C2B
+P 5600 1125
+F 0 "#PWR0197" H 5600 875 50  0001 C CNN
+F 1 "GND" H 5605 952 50  0000 C CNN
+F 2 "" H 5600 1125 50  0001 C CNN
+F 3 "" H 5600 1125 50  0001 C CNN
+	1    5600 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:VJ1206Y104JXAAR C84
+U 1 1 61350C33
+P 5700 1025
+F 0 "C84" H 5700 1150 45  0000 L CNN
+F 1 "VJ1206Y104JXAAR" H 5808 1078 31  0001 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6400 1125 20  0001 C CNN
+F 3 "https://www.vishay.com/docs/45199/vjcommercialseries.pdf" H 5700 1025 50  0001 C CNN
+F 4 "https://www.mouser.se/datasheet/2/427/vjcommercialseries-1764145.pdf" H 7350 1075 50  0001 C CNN "Mouser datasheet"
+F 5 "0.1uF" H 5700 1000 50  0000 L CNN "Capacity"
+	1    5700 1025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5375 825  5500 825 
+Connection ~ 5500 825 
+Wire Wire Line
+	5500 825  5700 825 
+Wire Wire Line
+	5700 825  6050 825 
+Connection ~ 5700 825 
+$Comp
+L power:GND #PWR0198
+U 1 1 61350C3E
+P 5600 1725
+F 0 "#PWR0198" H 5600 1475 50  0001 C CNN
+F 1 "GND" H 5605 1552 50  0000 C CNN
+F 2 "" H 5600 1725 50  0001 C CNN
+F 3 "" H 5600 1725 50  0001 C CNN
+	1    5600 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:VJ1206Y104JXAAR C85
+U 1 1 61350C46
+P 5700 1625
+F 0 "C85" H 5700 1750 45  0000 L CNN
+F 1 "VJ1206Y104JXAAR" H 5808 1678 31  0001 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6400 1725 20  0001 C CNN
+F 3 "https://www.vishay.com/docs/45199/vjcommercialseries.pdf" H 5700 1625 50  0001 C CNN
+F 4 "https://www.mouser.se/datasheet/2/427/vjcommercialseries-1764145.pdf" H 7350 1675 50  0001 C CNN "Mouser datasheet"
+F 5 "0.1uF" H 5700 1600 50  0000 L CNN "Capacity"
+	1    5700 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:C1206C105K4RACTU C75
+U 1 1 61350C4D
+P 5500 1525
+F 0 "C75" H 5650 1500 45  0000 R CNN
+F 1 "C1206C105K4RACTU" H 6075 1575 31  0001 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5500 1775 20  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 5500 1525 50  0001 C CNN
+F 4 "1uF" H 5650 1650 50  0000 R CNN "Capacity"
+	1    5500 1525
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 1425 5700 1425
+Wire Wire Line
+	5375 1425 5500 1425
+Connection ~ 5500 1425
+Wire Wire Line
+	5500 1125 5600 1125
+Connection ~ 5600 1125
+Wire Wire Line
+	5600 1125 5700 1125
+Wire Wire Line
+	5500 1725 5600 1725
+Connection ~ 5600 1725
+Wire Wire Line
+	5600 1725 5700 1725
+$Comp
+L LRJ-parts:C1206C105K4RACTU C74
+U 1 1 61350C5D
+P 5500 925
+F 0 "C74" H 5650 900 45  0000 R CNN
+F 1 "C1206C105K4RACTU" H 6075 975 31  0001 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5500 1175 20  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 5500 925 50  0001 C CNN
+F 4 "1uF" H 5650 1050 50  0000 R CNN "Capacity"
+	1    5500 925 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5700 1425 5875 1425
+Wire Wire Line
+	5875 1425 5875 750 
+Wire Wire Line
+	5875 750  6250 750 
+Wire Wire Line
+	6250 750  6250 825 
+Connection ~ 5700 1425
+$Comp
+L power:GND #PWR0199
+U 1 1 61350C68
+P 6900 1125
+F 0 "#PWR0199" H 6900 875 50  0001 C CNN
+F 1 "GND" H 6905 952 50  0000 C CNN
+F 2 "" H 6900 1125 50  0001 C CNN
+F 3 "" H 6900 1125 50  0001 C CNN
+	1    6900 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:VJ1206Y104JXAAR C94
+U 1 1 61350C70
+P 6900 1025
+F 0 "C94" H 6900 1150 45  0000 L CNN
+F 1 "VJ1206Y104JXAAR" H 7008 1078 31  0001 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7600 1125 20  0001 C CNN
+F 3 "https://www.vishay.com/docs/45199/vjcommercialseries.pdf" H 6900 1025 50  0001 C CNN
+F 4 "https://www.mouser.se/datasheet/2/427/vjcommercialseries-1764145.pdf" H 8550 1075 50  0001 C CNN "Mouser datasheet"
+F 5 "0.1uF" H 6900 1000 50  0000 L CNN "Capacity"
+	1    6900 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0200
+U 1 1 61350C76
+P 6900 1750
+F 0 "#PWR0200" H 6900 1500 50  0001 C CNN
+F 1 "GND" H 6905 1577 50  0000 C CNN
+F 2 "" H 6900 1750 50  0001 C CNN
+F 3 "" H 6900 1750 50  0001 C CNN
+	1    6900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:VJ1206Y104JXAAR C95
+U 1 1 61350C7E
+P 6900 1650
+F 0 "C95" H 6900 1775 45  0000 L CNN
+F 1 "VJ1206Y104JXAAR" H 7008 1703 31  0001 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7600 1750 20  0001 C CNN
+F 3 "https://www.vishay.com/docs/45199/vjcommercialseries.pdf" H 6900 1650 50  0001 C CNN
+F 4 "https://www.mouser.se/datasheet/2/427/vjcommercialseries-1764145.pdf" H 8550 1700 50  0001 C CNN "Mouser datasheet"
+F 5 "0.1uF" H 6900 1625 50  0000 L CNN "Capacity"
+	1    6900 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 825  7075 825 
+Wire Wire Line
+	7075 1450 6900 1450
+Wire Wire Line
+	6450 825  6450 750 
+Wire Wire Line
+	6450 750  6800 750 
+Wire Wire Line
+	6800 750  6800 1450
+Wire Wire Line
+	6800 1450 6900 1450
+Connection ~ 6900 1450
+Wire Wire Line
+	6900 825  6650 825 
+Connection ~ 6900 825 
+Connection ~ 8450 1725
+$Comp
+L power:+5V #PWR0201
+U 1 1 6153E757
+P 7525 825
+F 0 "#PWR0201" H 7525 675 50  0001 C CNN
+F 1 "+5V" H 7500 1000 50  0000 C CNN
+F 2 "" H 7525 825 50  0001 C CNN
+F 3 "" H 7525 825 50  0001 C CNN
+	1    7525 825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0202
+U 1 1 6153E75D
+P 8450 1725
+F 0 "#PWR0202" H 8450 1475 50  0001 C CNN
+F 1 "GND" H 8455 1552 50  0000 C CNN
+F 2 "" H 8450 1725 50  0001 C CNN
+F 3 "" H 8450 1725 50  0001 C CNN
+	1    8450 1725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 1725 8250 1725
+Connection ~ 8550 1725
+Wire Wire Line
+	8450 1725 8550 1725
+Wire Wire Line
+	8550 1725 8650 1725
+Connection ~ 8650 1725
+Connection ~ 8750 1725
+Wire Wire Line
+	8650 1725 8750 1725
+Wire Wire Line
+	8750 1725 8850 1725
+Connection ~ 8250 1725
+Connection ~ 8350 1725
+Wire Wire Line
+	8250 1725 8350 1725
+Wire Wire Line
+	8350 1725 8450 1725
+$Comp
+L power:+3.3V #PWR0203
+U 1 1 6153E76F
+P 7525 1425
+F 0 "#PWR0203" H 7525 1275 50  0001 C CNN
+F 1 "+3.3V" H 7525 1600 50  0000 C CNN
+F 2 "" H 7525 1425 50  0001 C CNN
+F 3 "" H 7525 1425 50  0001 C CNN
+	1    7525 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:SN74LVCH16T245DGGR U4
+U 3 1 6153E775
+P 8500 1275
+F 0 "U4" H 8425 1875 50  0000 L CNB
+F 1 "SN74LVCH16T245DGGR" H 7200 1175 50  0001 L CNN
+F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 8500 125 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvch16t245.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1595754658426&ref_url=https%253A%252F%252Fwww.ti.com%252F" H 8500 125 50  0001 C CNN
+	3    8500 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V2 #PWR0204
+U 1 1 6153E77B
+P 9225 825
+F 0 "#PWR0204" H 9225 675 50  0001 C CNN
+F 1 "+1V2" H 9240 998 50  0000 C CNN
+F 2 "" H 9225 825 50  0001 C CNN
+F 3 "" H 9225 825 50  0001 C CNN
+	1    9225 825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0205
+U 1 1 6153E781
+P 7750 1125
+F 0 "#PWR0205" H 7750 875 50  0001 C CNN
+F 1 "GND" H 7755 952 50  0000 C CNN
+F 2 "" H 7750 1125 50  0001 C CNN
+F 3 "" H 7750 1125 50  0001 C CNN
+	1    7750 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:VJ1206Y104JXAAR C86
+U 1 1 6153E789
+P 7850 1025
+F 0 "C86" H 7850 1150 45  0000 L CNN
+F 1 "VJ1206Y104JXAAR" H 7958 1078 31  0001 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8550 1125 20  0001 C CNN
+F 3 "https://www.vishay.com/docs/45199/vjcommercialseries.pdf" H 7850 1025 50  0001 C CNN
+F 4 "https://www.mouser.se/datasheet/2/427/vjcommercialseries-1764145.pdf" H 9500 1075 50  0001 C CNN "Mouser datasheet"
+F 5 "0.1uF" H 7850 1000 50  0000 L CNN "Capacity"
+	1    7850 1025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7525 825  7650 825 
+Connection ~ 7650 825 
+Wire Wire Line
+	7650 825  7850 825 
+Wire Wire Line
+	7850 825  8200 825 
+Connection ~ 7850 825 
+$Comp
+L power:GND #PWR0206
+U 1 1 6153E794
+P 7750 1725
+F 0 "#PWR0206" H 7750 1475 50  0001 C CNN
+F 1 "GND" H 7755 1552 50  0000 C CNN
+F 2 "" H 7750 1725 50  0001 C CNN
+F 3 "" H 7750 1725 50  0001 C CNN
+	1    7750 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:VJ1206Y104JXAAR C87
+U 1 1 6153E79C
+P 7850 1625
+F 0 "C87" H 7850 1750 45  0000 L CNN
+F 1 "VJ1206Y104JXAAR" H 7958 1678 31  0001 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8550 1725 20  0001 C CNN
+F 3 "https://www.vishay.com/docs/45199/vjcommercialseries.pdf" H 7850 1625 50  0001 C CNN
+F 4 "https://www.mouser.se/datasheet/2/427/vjcommercialseries-1764145.pdf" H 9500 1675 50  0001 C CNN "Mouser datasheet"
+F 5 "0.1uF" H 7850 1600 50  0000 L CNN "Capacity"
+	1    7850 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:C1206C105K4RACTU C77
+U 1 1 6153E7A3
+P 7650 1525
+F 0 "C77" H 7800 1500 45  0000 R CNN
+F 1 "C1206C105K4RACTU" H 8225 1575 31  0001 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7650 1775 20  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 7650 1525 50  0001 C CNN
+F 4 "1uF" H 7800 1650 50  0000 R CNN "Capacity"
+	1    7650 1525
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7650 1425 7850 1425
+Wire Wire Line
+	7525 1425 7650 1425
+Connection ~ 7650 1425
+Wire Wire Line
+	7650 1125 7750 1125
+Connection ~ 7750 1125
+Wire Wire Line
+	7750 1125 7850 1125
+Wire Wire Line
+	7650 1725 7750 1725
+Connection ~ 7750 1725
+Wire Wire Line
+	7750 1725 7850 1725
+$Comp
+L LRJ-parts:C1206C105K4RACTU C76
+U 1 1 6153E7B3
+P 7650 925
+F 0 "C76" H 7800 900 45  0000 R CNN
+F 1 "C1206C105K4RACTU" H 8225 975 31  0001 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7650 1175 20  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 7650 925 50  0001 C CNN
+F 4 "1uF" H 7800 1050 50  0000 R CNN "Capacity"
+	1    7650 925 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 1425 8025 1425
+Wire Wire Line
+	8025 1425 8025 750 
+Wire Wire Line
+	8025 750  8400 750 
+Wire Wire Line
+	8400 750  8400 825 
+Connection ~ 7850 1425
+$Comp
+L power:GND #PWR0207
+U 1 1 6153E7BE
+P 9050 1125
+F 0 "#PWR0207" H 9050 875 50  0001 C CNN
+F 1 "GND" H 9055 952 50  0000 C CNN
+F 2 "" H 9050 1125 50  0001 C CNN
+F 3 "" H 9050 1125 50  0001 C CNN
+	1    9050 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:VJ1206Y104JXAAR C96
+U 1 1 6153E7C6
+P 9050 1025
+F 0 "C96" H 9050 1150 45  0000 L CNN
+F 1 "VJ1206Y104JXAAR" H 9158 1078 31  0001 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9750 1125 20  0001 C CNN
+F 3 "https://www.vishay.com/docs/45199/vjcommercialseries.pdf" H 9050 1025 50  0001 C CNN
+F 4 "https://www.mouser.se/datasheet/2/427/vjcommercialseries-1764145.pdf" H 10700 1075 50  0001 C CNN "Mouser datasheet"
+F 5 "0.1uF" H 9050 1000 50  0000 L CNN "Capacity"
+	1    9050 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0208
+U 1 1 6153E7CC
+P 9050 1750
+F 0 "#PWR0208" H 9050 1500 50  0001 C CNN
+F 1 "GND" H 9055 1577 50  0000 C CNN
+F 2 "" H 9050 1750 50  0001 C CNN
+F 3 "" H 9050 1750 50  0001 C CNN
+	1    9050 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LRJ-parts:VJ1206Y104JXAAR C97
+U 1 1 6153E7D4
+P 9050 1650
+F 0 "C97" H 9050 1775 45  0000 L CNN
+F 1 "VJ1206Y104JXAAR" H 9158 1703 31  0001 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9750 1750 20  0001 C CNN
+F 3 "https://www.vishay.com/docs/45199/vjcommercialseries.pdf" H 9050 1650 50  0001 C CNN
+F 4 "https://www.mouser.se/datasheet/2/427/vjcommercialseries-1764145.pdf" H 10700 1700 50  0001 C CNN "Mouser datasheet"
+F 5 "0.1uF" H 9050 1625 50  0000 L CNN "Capacity"
+	1    9050 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 825  9225 825 
+Wire Wire Line
+	9225 1450 9050 1450
+Wire Wire Line
+	8600 825  8600 750 
+Wire Wire Line
+	8600 750  8950 750 
+Wire Wire Line
+	8950 750  8950 1450
+Wire Wire Line
+	8950 1450 9050 1450
+Connection ~ 9050 1450
+Wire Wire Line
+	9050 825  8800 825 
+Connection ~ 9050 825 
+Wire Wire Line
+	2900 1475 2900 850 
+Connection ~ 2900 850 
+Wire Wire Line
+	4950 825  4950 1450
+Connection ~ 4950 825 
+Wire Wire Line
+	7075 1450 7075 825 
+Connection ~ 7075 825 
+Wire Wire Line
+	9225 1450 9225 825 
 Wire Bus Line
 	9925 3975 9925 4100
 Wire Bus Line
@@ -1510,7 +2179,7 @@ Wire Bus Line
 Wire Bus Line
 	7500 5350 7500 6400
 Wire Bus Line
-	-775 350  -475 350 
+	10500 1700 10800 1700
 Wire Bus Line
 	650  4625 650  5300
 Wire Bus Line
@@ -1534,21 +2203,22 @@ Wire Bus Line
 Wire Bus Line
 	5500 4750 5500 6200
 Wire Bus Line
-	5525 2100 5525 4050
+	5525 2200 5525 4050
 Wire Bus Line
 	2950 4225 2950 6175
 Wire Bus Line
 	9925 2700 9925 3975
 Wire Bus Line
-	800  2150 800  4250
+	800  2225 800  4250
 Wire Bus Line
-	2950 2150 2950 4225
+	2950 2225 2950 4225
 Wire Bus Line
-	7675 2100 7675 5900
+	7675 2200 7675 5900
 Wire Bus Line
 	5075 2575 5075 4125
 Wire Bus Line
 	2750 2425 2750 4100
 Wire Bus Line
 	1125 7150 3450 7150
+Connection ~ 9225 825 
 $EndSCHEMATC

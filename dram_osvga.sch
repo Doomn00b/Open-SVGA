@@ -240,51 +240,51 @@ F 5 "LPDDR3 - 512 MB (4Gb), 128 M x 32, 933MHz " H 9500 7350 50  0001 C CNN "Des
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9550 3450 9700 3450
+	9500 3450 9650 3450
 Wire Wire Line
-	9550 3550 9700 3550
+	9500 3550 9650 3550
 Wire Wire Line
-	9550 3650 9700 3650
+	9500 3650 9650 3650
 Wire Wire Line
-	9550 3750 9700 3750
+	9500 3750 9650 3750
 Wire Wire Line
-	9550 3850 9700 3850
+	9500 3850 9650 3850
 Wire Wire Line
-	9550 3950 9700 3950
+	9500 3950 9650 3950
 Wire Wire Line
-	9550 4050 9700 4050
+	9500 4050 9650 4050
 Wire Wire Line
-	9550 4150 9700 4150
+	9500 4150 9650 4150
 Wire Wire Line
-	9550 4250 9700 4250
+	9500 4250 9650 4250
 Wire Wire Line
-	9550 4350 9700 4350
+	9500 4350 9650 4350
 Wire Wire Line
-	9550 4450 9700 4450
+	9500 4450 9650 4450
 Wire Wire Line
-	9550 4550 9700 4550
+	9500 4550 9650 4550
 Wire Wire Line
-	9550 4650 9700 4650
+	9500 4650 9650 4650
 Wire Wire Line
-	9550 4750 9700 4750
+	9500 4750 9650 4750
 Wire Wire Line
-	9550 4850 9700 4850
+	9500 4850 9650 4850
 Wire Wire Line
-	9550 4950 9700 4950
+	9500 4950 9650 4950
 Wire Wire Line
-	9550 5050 9700 5050
+	9500 5050 9650 5050
 Wire Wire Line
-	9550 5150 9700 5150
+	9500 5150 9650 5150
 Wire Wire Line
-	9550 5250 9700 5250
+	9500 5250 9650 5250
 Wire Wire Line
-	9550 5350 9700 5350
+	9500 5350 9650 5350
 Wire Wire Line
-	9550 5450 9700 5450
+	9500 5450 9650 5450
 Wire Wire Line
-	9550 5550 9700 5550
+	9500 5550 9650 5550
 Wire Wire Line
-	9550 5650 9700 5650
+	9500 5650 9650 5650
 Wire Wire Line
 	10650 3450 10800 3450
 Wire Wire Line
@@ -334,12 +334,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0130
 U 1 1 5FC20D0A
-P 9550 5750
-F 0 "#PWR0130" H 9550 5500 50  0001 C CNN
-F 1 "GND" H 9555 5577 50  0000 C CNN
-F 2 "" H 9550 5750 50  0001 C CNN
-F 3 "" H 9550 5750 50  0001 C CNN
-	1    9550 5750
+P 9500 5750
+F 0 "#PWR0130" H 9500 5500 50  0001 C CNN
+F 1 "GND" H 9505 5577 50  0000 C CNN
+F 2 "" H 9500 5750 50  0001 C CNN
+F 3 "" H 9500 5750 50  0001 C CNN
+	1    9500 5750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -354,73 +354,73 @@ F 3 "" H 10800 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9550 3450 9550 3550
-Connection ~ 9550 3550
+	9500 3450 9500 3550
+Connection ~ 9500 3550
 Wire Wire Line
-	9550 3550 9550 3650
-Connection ~ 9550 3650
+	9500 3550 9500 3650
+Connection ~ 9500 3650
 Wire Wire Line
-	9550 3650 9550 3750
-Connection ~ 9550 3750
+	9500 3650 9500 3750
+Connection ~ 9500 3750
 Wire Wire Line
-	9550 3750 9550 3850
-Connection ~ 9550 3850
+	9500 3750 9500 3850
+Connection ~ 9500 3850
 Wire Wire Line
-	9550 3850 9550 3950
-Connection ~ 9550 3950
+	9500 3850 9500 3950
+Connection ~ 9500 3950
 Wire Wire Line
-	9550 3950 9550 4050
-Connection ~ 9550 4050
+	9500 3950 9500 4050
+Connection ~ 9500 4050
 Wire Wire Line
-	9550 4050 9550 4150
-Connection ~ 9550 4150
+	9500 4050 9500 4150
+Connection ~ 9500 4150
 Wire Wire Line
-	9550 4150 9550 4250
-Connection ~ 9550 4250
+	9500 4150 9500 4250
+Connection ~ 9500 4250
 Wire Wire Line
-	9550 4250 9550 4350
-Connection ~ 9550 4350
+	9500 4250 9500 4350
+Connection ~ 9500 4350
 Wire Wire Line
-	9550 4350 9550 4450
-Connection ~ 9550 4450
+	9500 4350 9500 4450
+Connection ~ 9500 4450
 Wire Wire Line
-	9550 4450 9550 4550
-Connection ~ 9550 4550
+	9500 4450 9500 4550
+Connection ~ 9500 4550
 Wire Wire Line
-	9550 4550 9550 4650
-Connection ~ 9550 4650
+	9500 4550 9500 4650
+Connection ~ 9500 4650
 Wire Wire Line
-	9550 4650 9550 4750
-Connection ~ 9550 4750
+	9500 4650 9500 4750
+Connection ~ 9500 4750
 Wire Wire Line
-	9550 4750 9550 4850
-Connection ~ 9550 4850
+	9500 4750 9500 4850
+Connection ~ 9500 4850
 Wire Wire Line
-	9550 4850 9550 4950
-Connection ~ 9550 4950
+	9500 4850 9500 4950
+Connection ~ 9500 4950
 Wire Wire Line
-	9550 4950 9550 5050
-Connection ~ 9550 5050
+	9500 4950 9500 5050
+Connection ~ 9500 5050
 Wire Wire Line
-	9550 5050 9550 5150
-Connection ~ 9550 5150
+	9500 5050 9500 5150
+Connection ~ 9500 5150
 Wire Wire Line
-	9550 5150 9550 5250
-Connection ~ 9550 5250
+	9500 5150 9500 5250
+Connection ~ 9500 5250
 Wire Wire Line
-	9550 5250 9550 5350
-Connection ~ 9550 5350
+	9500 5250 9500 5350
+Connection ~ 9500 5350
 Wire Wire Line
-	9550 5350 9550 5450
-Connection ~ 9550 5450
+	9500 5350 9500 5450
+Connection ~ 9500 5450
 Wire Wire Line
-	9550 5450 9550 5550
-Connection ~ 9550 5550
+	9500 5450 9500 5550
+Connection ~ 9500 5550
 Wire Wire Line
-	9550 5550 9550 5650
-Connection ~ 9550 5650
+	9500 5550 9500 5650
+Connection ~ 9500 5650
 Wire Wire Line
-	9550 5650 9550 5750
+	9500 5650 9500 5750
 Wire Wire Line
 	10800 3450 10800 3550
 Connection ~ 10800 3550
@@ -790,12 +790,12 @@ Wire Wire Line
 $Comp
 L power:+1V8 #PWR0167
 U 1 1 608605CF
-P 7050 900
-F 0 "#PWR0167" H 7050 750 50  0001 C CNN
-F 1 "+1V8" H 7065 1073 50  0000 C CNN
-F 2 "" H 7050 900 50  0001 C CNN
-F 3 "" H 7050 900 50  0001 C CNN
-	1    7050 900 
+P 6975 900
+F 0 "#PWR0167" H 6975 750 50  0001 C CNN
+F 1 "+1V8" H 6990 1073 50  0000 C CNN
+F 2 "" H 6975 900 50  0001 C CNN
+F 3 "" H 6975 900 50  0001 C CNN
+	1    6975 900 
 	1    0    0    -1  
 $EndComp
 Connection ~ 10700 900 
@@ -813,9 +813,6 @@ NoConn ~ 8050 5150
 NoConn ~ 8050 5250
 NoConn ~ 8050 5350
 NoConn ~ 8050 5450
-NoConn ~ 3900 1225
-NoConn ~ 5800 7525
-NoConn ~ 9700 3250
 NoConn ~ 10400 1050
 Wire Wire Line
 	8800 2200 8800 2050
@@ -1012,8 +1009,6 @@ Entry Wire Line
 	5150 1650 5250 1750
 Text Label 2300 1100 0    50   ~ 0
 CLK_DRAM
-Text Label 2300 900  0    50   ~ 0
-AD_DRAM
 Entry Wire Line
 	2200 850  2300 950 
 Entry Wire Line
@@ -1066,8 +1061,6 @@ Wire Wire Line
 	1650 1150 2200 1150
 Wire Wire Line
 	1650 850  2200 850 
-Wire Bus Line
-	2300 1050 2300 1150
 Entry Wire Line
 	2200 1250 2300 1350
 Text Label 2300 1600 0    50   ~ 0
@@ -1133,8 +1126,6 @@ Wire Wire Line
 	1650 3200 2200 3200
 Entry Wire Line
 	2200 3200 2300 3300
-Wire Notes Line
-	2325 1375 2625 1375
 Entry Wire Line
 	3950 5075 4050 5175
 Entry Wire Line
@@ -1266,8 +1257,6 @@ Entry Wire Line
 	2200 750  2300 850 
 Wire Wire Line
 	1650 750  2200 750 
-Wire Bus Line
-	2300 725  2300 850 
 Text Label 2300 800  0    50   ~ 0
 DAT_DRAM
 Text Label 2300 1675 0    50   ~ 0
@@ -1524,13 +1513,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 1050 7150 900 
 Wire Wire Line
-	7150 900  7250 900 
-Connection ~ 7250 900 
-Wire Wire Line
 	7250 1050 7250 900 
-Wire Wire Line
-	7250 900  7350 900 
-Connection ~ 7350 900 
 Wire Wire Line
 	7350 1050 7350 900 
 Wire Wire Line
@@ -1542,8 +1525,6 @@ Wire Wire Line
 	7450 1050 7450 900 
 Wire Wire Line
 	7650 1050 7650 900 
-Connection ~ 7150 900 
-Connection ~ 7050 900 
 Wire Wire Line
 	7050 900  7150 900 
 Connection ~ 7650 900 
@@ -1575,6 +1556,66 @@ Text Label 2300 2775 0    50   ~ 0
 DIR-CONTROL
 Text Label 2300 2375 0    50   ~ 0
 DIR-CONTROL
+$Comp
+L LRJ-parts:ERJ-8ENF2400V RZQ1
+U 1 1 5FADDD26
+P 9450 3250
+F 0 "RZQ1" H 9450 3250 39  0000 C CNN
+F 1 "ERJ-8ENF2400V" H 9450 3450 45  0000 C CNN
+F 2 "Resistor_SMD:R_Panasonic_1206_3216Metric_ERJ8EN_HandSolder" H 9450 3400 20  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 9450 3250 60  0001 C CNN
+F 4 "https://www.mouser.se/datasheet/2/315/AOA0000C304-1149620.pdf" H 11225 3325 50  0001 C CNN "Mouser datasheet"
+F 5 "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ8ENF2400V" H 12375 3250 50  0001 C CNN "Details"
+F 6 "240Ω" H 9450 3368 43  0000 C CNN "Resistance"
+	1    9450 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5FAE61DD
+P 9250 3250
+F 0 "#PWR0116" H 9250 3000 50  0001 C CNN
+F 1 "GND" H 9255 3077 50  0000 C CNN
+F 2 "" H 9250 3250 50  0001 C CNN
+F 3 "" H 9250 3250 50  0001 C CNN
+	1    9250 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1225 3900 1225
+Entry Wire Line
+	3450 1125 3550 1225
+Wire Wire Line
+	5450 7525 5800 7525
+Entry Wire Line
+	5350 7425 5450 7525
+Wire Bus Line
+	2300 725  2300 850 
+Text Label 2300 925  0    50   ~ 0
+DAT_DRAM
+Text Label 3450 2500 0    50   ~ 0
+AD_DRAM
+Text Label 3550 1225 0    50   ~ 0
+CS_DRAM
+Text Label 3450 1075 0    50   ~ 0
+CON_DRAM
+Entry Wire Line
+	5350 7425 5450 7525
+Text Label 5450 7525 0    50   ~ 0
+ODT_DRAM
+Text Label 5350 7675 0    50   ~ 0
+CON_DRAM
+Text HLabel 3450 975  0    50   BiDi ~ 0
+CON_DRAM
+Wire Wire Line
+	6975 900  7050 900 
+Connection ~ 7050 900 
+Wire Bus Line
+	5350 7375 5350 7675
+Wire Bus Line
+	3450 975  3450 1225
+Wire Bus Line
+	2300 2275 2300 2425
 Wire Bus Line
 	4075 4525 4075 4675
 Wire Bus Line
@@ -1604,6 +1645,8 @@ Wire Bus Line
 Wire Bus Line
 	4050 7475 4050 7550
 Wire Bus Line
+	4000 5950 4000 6975
+Wire Bus Line
 	4000 4200 4000 4425
 Wire Bus Line
 	2300 3475 2300 3600
@@ -1615,6 +1658,8 @@ Wire Bus Line
 	2300 1425 2300 1475
 Wire Bus Line
 	2300 1625 2300 1675
+Wire Bus Line
+	4050 4775 4050 5675
 Wire Bus Line
 	2300 1325 2300 1375
 Wire Bus Line
@@ -1632,17 +1677,20 @@ Wire Bus Line
 Wire Bus Line
 	2300 1225 2300 1275
 Wire Bus Line
-	2300 900  2300 975 
+	2300 1025 2300 1150
 Wire Bus Line
-	2300 2275 2300 2425
+	2300 900  2300 975 
 Wire Bus Line
 	5150 1300 5150 1750
 Wire Bus Line
-	4050 4775 4050 5675
-Wire Bus Line
-	3450 1250 3450 2450
-Wire Bus Line
-	4000 5950 4000 6975
+	3450 1350 3450 2500
 Wire Bus Line
 	5250 2750 5250 5950
+Connection ~ 7150 900 
+Wire Wire Line
+	7150 900  7250 900 
+Connection ~ 7350 900 
+Connection ~ 7250 900 
+Wire Wire Line
+	7250 900  7350 900 
 $EndSCHEMATC

@@ -244,8 +244,6 @@ Text Label 7325 1575 2    50   ~ 0
 AD28_VT
 Wire Wire Line
 	4625 2450 4275 2450
-Entry Wire Line
-	7600 1775 7500 1875
 Wire Wire Line
 	4275 1350 4625 1350
 Wire Wire Line
@@ -344,8 +342,6 @@ Wire Wire Line
 	7950 1975 7600 1975
 Wire Wire Line
 	7950 2175 7600 2175
-Wire Wire Line
-	7950 1775 7600 1775
 $Comp
 L LRJ-parts:LFE5U-85F-BG381-LRJ FPGA?
 U 2 1 5F7EA689
@@ -400,7 +396,6 @@ Wire Bus Line
 Wire Bus Line
 	6925 1100 4175 1100
 Connection ~ 4175 1100
-NoConn ~ 7950 1675
 NoConn ~ 7950 4475
 Entry Wire Line
 	7600 2275 7500 2375
@@ -410,7 +405,6 @@ Entry Wire Line
 	7600 2275 7500 2375
 Wire Wire Line
 	7950 2275 7600 2275
-NoConn ~ 7950 1775
 Wire Notes Line
 	3300 6125 3300 7525
 Wire Notes Line
@@ -425,6 +419,14 @@ Text Notes 875  6550 0    50   ~ 0
 PCI_VT = PCI Voltage Translated signals (PCI_VTA & PCI_VTM)
 Text Notes 875  6350 0    100  ~ 0
 LEGEND:
+Entry Wire Line
+	7600 1675 7500 1775
+Entry Wire Line
+	7600 1675 7500 1775
+Text Label 7950 1675 2    50   ~ 0
+M66EN_VT
+Wire Wire Line
+	7950 1675 7600 1675
 Wire Bus Line
 	2425 850  2425 1375
 Wire Bus Line
