@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "svga-devboard-rescue")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/svga-devboard-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "LRJ-parts_v2")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/LRJ-parts.kicad_sym")(options "")(descr ""))
+)

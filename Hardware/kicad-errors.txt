@@ -1,0 +1,13 @@
+Error: Cannot update C19 (footprint 'Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder' not found).
+Error: Cannot update C10 (footprint 'Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder' not found).
+Error: Cannot update C24 (footprint 'Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder' not found).
+Error: Cannot update C23 (footprint 'Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder' not found).
+Error: Cannot update C17 (footprint 'Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder' not found).
+Error: Cannot update C13 (footprint 'Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder' not found).
+Error: Cannot update C5 (footprint 'Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder' not found).
+Error: Cannot update C25 (footprint 'Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder' not found).
+Error: Cannot update C12 (footprint 'Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder' not found).
+Error: Cannot update C22 (footprint 'Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder' not found).
+Error: Cannot update C16 (footprint 'Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder' not found).
+Error: Cannot update C11 (footprint 'Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder' not found).
+Error: Cannot update R15 (footprint 'Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder' not found).

@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name con-pcb-slot)(type Legacy)(uri E:/Documents/Teknikprojekt/Hardware/PC/2D-graphics/SVGA-O/ref-svga/JTAG-con-pcb-slot/con-pcb-slot-master/converted/con-pcb-slot.lib)(options "")(descr ""))
-  (lib (name LRJ-parts)(type Legacy)(uri "E:/Downloads/Program installs/CAD-programs/KiCad-install/libraries kicad/LRJ-parts.lib")(options "")(descr ""))
-  (lib (name svga-devboard-rescue)(type Legacy)(uri ${KIPRJMOD}/svga-devboard-rescue.lib)(options "")(descr ""))
-)

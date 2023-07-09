@@ -1,0 +1,12 @@
+USBC diff pairs
+----------------
+DRGB_: 2, 4, 6, 3, 5
+
+
+
+DVI diff pairs
+---------------
+DRGB_: 12, 14, 19, 21
+
+
+17,5 mm x 17.5 mm FPGA.

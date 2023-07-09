@@ -1,0 +1,433 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +0.75V
+D Power symbol creates a global label with name "+0.75"
+K power-flag
+$ENDCMP
+#
+$CMP +0V8
+D Power symbol creates a global label with name "+0V8"
+K Power-Flag
+$ENDCMP
+#
+$CMP 1008PS-102KLC
+D Coilcraft Inc. Fixed Inductor 1uH, 2A, 50 mOhm, 10%
+K Inductor Fixed
+F https://www.mouser.se/datasheet/2/597/1008ps-270724.pdf
+$ENDCMP
+#
+$CMP 1008PS-152KLC
+D Coilcraft Inc. Fixed Inductor, Shielded, 1.5uH, 2A, 60 mOhm, 10%
+K Inductor Fixed
+F https://www.mouser.se/datasheet/2/597/1008ps-270724.pdf
+$ENDCMP
+#
+$CMP 208-6ST-All-C
+D DIP Switches / SIP Switches 6 switch sections SPST
+F https://www.ctscorp.com/wp-content/uploads/208.pdf
+$ENDCMP
+#
+$CMP 22UF-1206-16V-10%
+D Murata Electronics, GRT31CC81C226KE01L - ceramic capacitor, 22uF, 16V,10%, -55C to +105C
+K 22uF ceramic capacitor 1206 3216
+F https://www.mouser.se/datasheet/2/281/product-794298.pdf
+$ENDCMP
+#
+$CMP 3362P-1-103LF
+D Bourns, Trimming Potentiometer (Trimpot), Three-terminals, adjustable wiper - Through Hole 1/4"SQ 10KOHMS 10% 0.5WATTS
+K Trimpot resistor trimming 10k
+F https://www.mouser.se/datasheet/2/54/3362-776956.pdf
+$ENDCMP
+#
+$CMP 4609X-AP1-103LF
+D Resistor terminal network
+K Resistor, network, terminal
+F https://www.mouser.se/datasheet/2/54/4600x-776645.pdf
+$ENDCMP
+#
+$CMP 680UF-Nichicon-10V-20%
+D Nichicon, 680uF, 10V, 20% tolerance, polarized capacitor,
+K capacitor Nichicon 10V 20%
+F http://nichicon-us.com/english/products/pdfs/e-uhv.pdf
+$ENDCMP
+#
+$CMP AD1580ARTZ-REEL7
+D IC VREF SHUNT 1.225V SOT23-3
+K AD1580 Vref Reference SOT23-3
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD1580.pdf
+$ENDCMP
+#
+$CMP ADV7125KSTZ50
+D Analog Devices Triple 8-Bit High Speed Video DAC (50-330mhz)
+K DAC, 8-bit, Speed, Video
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADV7125.pdf
+$ENDCMP
+#
+$CMP AM4_SOCKET-lrj
+D AMD, AM4 Socket Series 1331 pin connector sockets used on AM4 motherboards such as the X570-series. AM4 Mother boards includes layout for the AM4 cpu itself, including mounting holes and lever area marked.
+K AMD
+$ENDCMP
+#
+$CMP AOD409
+D P-Channel 60V 26A (Tc) 2.5W (Ta), 60W (Tc) Surface Mount TO-252, (D-Pak)
+K 785-1001-1-ND MosFet FET
+F http://aosmd.com/res/data_sheets/AOD409.pdf
+$ENDCMP
+#
+$CMP AS4C256M16D4-75BCN
+D DDR4 memory, 16 bit data bus, 18 ns, CAS 19, 1333 MHz, 512 MB (4 gigabits)
+K DDR4, RAM, Alliance
+F https://www.mouser.se/datasheet/2/12/AllianceMemory_4Gb_DDR4_AS4C256M16D4_August2019_v1-1658499.pdf
+$ENDCMP
+#
+$CMP Amphenol_L77HDE15SD1CH4RHNVGA
+D D-Sub High Density Connectors Dsub, Stamped Signal 3A, High Density, Right Angle PCB Thru Hole, FP=8.89mm (.350"), 15 Socket, Bright Tin Shell, Flash Gold, 4-40 Rear Insert, Ground Tab with Boardlock, High Temp, Nickel Shell, VGA
+K DSUB VGA DB15
+F https://www.mouser.se/datasheet/2/18/1/HD_high_density-1501066.pdf
+$ENDCMP
+#
+$CMP B82464G4222M
+D TDK/Epcos Fixed Inductor 2.2uH, 6.5A, 10 mOhm
+K Inductor Fixed inductors
+F https://www.tdk-electronics.tdk.com/inf/30/db/ind_2008/b82464g4.pdf
+$ENDCMP
+#
+$CMP Bus_PCI_32bit_Universal_lrj
+D PCI bus connector for universal 5V/3.3V cards
+K PCI 5V 3.3V 3V3
+F http://pinouts.ru/Slots/PCI_pinout.shtml
+$ENDCMP
+#
+$CMP Bus_PCI_64bit_universal
+D PCI bus connector for universal, expanded 64-bit, 5V/3.3V cards
+$ENDCMP
+#
+$CMP C1206C105K4RACTU
+D KEMET, Multilayer Ceramic Capacitor - SMD/SMT, 16V, 1uF, X7R, 3216, 10%
+K 1uF, ceramic, capacitor, 1206, 3216, SMD, SMT
+F https://www.mouser.se/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf
+$ENDCMP
+#
+$CMP C1210C156K8PACTU
+D KEMET, MLCC capacitor, 15uF, 10V, 20%, -55C to +85C
+K 15uF, ceramic, capacitor, 1210, 3225, SMD, SMT
+F https://www.mouser.se/datasheet/2/212/KEM_C1006_X5R_SMD-1103249.pdf
+$ENDCMP
+#
+$CMP C1210C474K5RACTU
+D KEMET, Multilayer Ceramic Capacitor - SMD/SMT 50V 0.47uF X7R 1210 10%
+K 0.47uF, ceramic, capacitor, 1210, 3225, SMD, SMT
+F https://www.mouser.se/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf
+$ENDCMP
+#
+$CMP C3216X7S0J336M160AC
+D TDK, MLCC capacitor, 33uF, 6.3V, 20%, -55C to +125C
+K 33uF, ceramic, capacitor, 1206, 3216
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf
+$ENDCMP
+#
+$CMP C3225X7R1C226M250AC
+D TDK, MLCC capacitor, 22uF, 16V, 20%, -55C to +125C
+K 22uF, ceramic, capacitor, 1206, 3225
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf
+$ENDCMP
+#
+$CMP CMP2010-FX-1002ELF
+D Bourns 10Kohm resistor, 1W, 200V, 1%, 100 PPM/C, -55C to +155C
+K Resistor, 10k, Bourns
+F https://www.mouser.se/datasheet/2/54/Bourns_CMP_Datasheet_05.28.20-1854233.pdf
+$ENDCMP
+#
+$CMP CMP2010-FX-1004ELF
+D Bourns, 1MOhm, 200V, 1W, +-1%, 100 PPM / C, -55 to 155 degrees celsius, Surface-mounted Thick Film Resistor
+K 1M Megaohm 200V 1W SMD SMT
+F https://www.mouser.se/datasheet/2/54/Bourns_CMP_Datasheet_05.28.20-1854233.pdf
+$ENDCMP
+#
+$CMP CPF110K000BEE14
+D Vishay/Dale 10Kohm resistor, 1W, 250V, 0,1%, 25 PPM/C, -65C to +230C
+K Resistor, 10k, Vishay, THT
+F https://www.mouser.se/datasheet/2/427/cpf-1762878.pdf
+$ENDCMP
+#
+$CMP CPF15R0000FHE14
+D Vishay/Dale 5 Ohm resistor, 1W, 250V, 1%, 50 PPM/C, -65C to +230C
+K Resistor, Vishay, THT
+F https://www.mouser.se/datasheet/2/427/cpf-1762878.pdf
+$ENDCMP
+#
+$CMP CRCW12064R99FKEAHP
+D Vishay/Dale 4.99 Ohm resistor, 0,75W, 200V, 1%, 100 PPM/C, -55C to +155C
+K Resistor, Vishay, SMD, SMT
+F https://www.mouser.se/datasheet/2/427/crcwhpe3-1713858.pdf
+$ENDCMP
+#
+$CMP CRCW120675R0FKEA
+D Vishay/Dale, 75 Ohm resistor, 0,25W, 200V, 1%, 100 PPM/C, -55C to +155C
+K Resistor, Vishay, SMD, SMT
+F https://www.vishay.com/docs/20035/dcrcwe3.pdf
+$ENDCMP
+#
+$CMP CRCW121012K7FKEA
+D Vishay/Dale 12.7 Kohm resistor, 0,5W, 200V, 1%, 100 PPM/C, -55C to +155C
+K Resistor, 12.7k, Vishay, SMD, SMT
+F https://www.mouser.se/datasheet/2/427/crcwhpe3-1713858.pdf
+$ENDCMP
+#
+$CMP C_VJ1206Y103JXAMC
+D Vishay / Vitramon, MLCC capacitor, 0.01uF, 50V, 5%, -55C to +150C
+K 0.01uF, ceramic, capacitor, 1206, 3216, MLCC
+F https://www.vishay.com/docs/45199/vjcommercialseries.pdf
+$ENDCMP
+#
+$CMP Cypress_Semi_S25FL128LAGMFV013
+D NOR Flash memory, 128 Mb (16 MB), 3.3V, 40 mA (100 mA max), 5-133 Mhz,  8 bit bus width
+K NOR, Flash, 8-bit
+F https://www.cypress.com/file/316171/download
+$ENDCMP
+#
+$CMP DFE252012P-3R3M=P2
+D Murata Electronics  Fixed Inductors 3.3uH 140mOhms2.3A +/-20% 2.5x2.0x1.2mm
+K Inductor Fixed inductors
+F https://www.murata.com/en-global/api/pdfdownloadapi?cate=cgInductors&partno=DFE252012P-3R3M%23
+$ENDCMP
+#
+$CMP DVI_B11-029-222-111
+D CONN RCPT DVI-I DL 29POS PCB R/A
+K WM6096-ND MicroCross 74320
+F https://files.edac.net/edac/content/1/B11-029-222-111.pdf
+$ENDCMP
+#
+$CMP EFM8BB10F8I-A-QSOP24
+D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 8K flash, 512B RAM, -40 to +125 C, QSOP24
+K 8051 microcontroller PWM UART SPI I2C ADC QSOP24
+F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+$ENDCMP
+#
+$CMP EFM8BB10F8I-A-QSOP24_copy
+D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 8K flash, 512B RAM, -40 to +125 C, QSOP24
+K 8051 microcontroller PWM UART SPI I2C ADC QSOP24
+F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+$ENDCMP
+#
+$CMP EFM8BB10F8I-A-QSOP24_copy1
+D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 8K flash, 512B RAM, -40 to +125 C, QSOP24
+K 8051 microcontroller PWM UART SPI I2C ADC QSOP24
+F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+$ENDCMP
+#
+$CMP ERJ-14NF3741U
+D Panasonic 3.74Kohm resistor, 0.5W, 200V, 1%, -55C to +155C
+K Resistor, 3.74k, Panasonic, SMD, SMT
+F https://www.mouser.se/datasheet/2/315/AOA0000C304-1149620.pdf
+$ENDCMP
+#
+$CMP ERJ-14YJ103U
+D Panasonic 10Kohm resistor, 0.5W, 200V, 5%, -55C to +155C, 200PPM/C
+K Resistor, 10k, Panasonic, SMD, SMT
+F https://www.mouser.se/datasheet/2/315/AOA0000C304-1149620.pdf
+$ENDCMP
+#
+$CMP ERJ-8ENF1001V
+D Panasonic 1Kohm resistor, 0.25W, 200V, 1%, -55C to +155C, 100 PPM/C
+K Resistor, 1k, Panasonic, SMD, SMT
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP ERJ-8ENF2152V
+D Panasonic 21.5Kohm resistor, 0.25W, 200V, 1%, 100 PPM/C, -55C to +155C
+K Resistor, 21.5k, Panasonic, SMD, SMT
+F https://www.mouser.se/datasheet/2/315/AOA0000C304-1149620.pdf
+$ENDCMP
+#
+$CMP ERJ-8ENF2400V
+D Panasonic 240ohm resistor, 0.25W, 200V, 1%, -55C to +155C, 100 PPM/C
+K Resistor, 240, Panasonic, SMD, SMT
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP ERJ-8ENF4701V
+D Panasonic 4.7Kohm resistor, 0.25W, 200V, 1%, -55C to +155C
+K Resistor, 4.7k, Panasonic, SMD, SMT
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP ISSI_IS25LP128F-JBLE
+D NOR Flash memory, 16 MB (128 Mb), 2.3-3.6V, 13.5 mA (30 mA max), 5-166 Mhz,  8 bit bus width
+K NOR, Flash, 8-bit
+F https://www.issi.com/WW/pdf/25LP-WP128F.pdf
+$ENDCMP
+#
+$CMP ISSI_IS25WP128F-JBLE
+D NOR Flash memory, 16 MB (128 Mb), 1.65-1.95V, 13.5 mA (30 mA max), 5-166 Mhz,  8 bit bus width, -40 to +105 degrees C
+K NOR, Flash, 8-bit
+F https://www.issi.com/WW/pdf/25LP-WP128F.pdf
+$ENDCMP
+#
+$CMP KYX_3361AB_LED7-SEG
+D 3 Digit 7 Segment Display, This is a part for the 3-Digit 7-segment LEDs from KYX/XLITX and others...
+K 7-segment THT LED Display KYX Xlitx
+F https://ae01.alicdn.com/kf/HTB1IDyNMXXXXXbZaXXXq6xXFXXXl/202626459/HTB1IDyNMXXXXXbZaXXXq6xXFXXXl.jpg?size=131761&height=857&width=586&hash=03574c6a6c20d4bde2355da850163d95
+$ENDCMP
+#
+$CMP LFE5U-85F-BG381-LRJ2
+D Lattice ECP5 FPGA, 83600 LUTs, 1.1V,  Package caBGA-381, 15.2x15.2mm, Layout 17x17mm, Pin-to-pin 0.8mm, Ball 0.4mm, Pad 0.35mm
+K FPGA, Lattice, BGA, caBGA
+F https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012-1-9-ECP5-ECP5G-Family-Data-Sheet.ashx?document_id=50461
+$ENDCMP
+#
+$CMP LPS4414-701MRB
+D Coilcraft Inc. Fixed Inductor 0.7uH, 3.8A, 55 mOhm, 20%
+K Inductor Fixed shielded
+F https://www.mouser.se/datasheet/2/597/1008ps-270724.pdf
+$ENDCMP
+#
+$CMP MAKK2520HR22M
+D Taiyo Yuden Fixed Inductor 1008 0.22uH 16mOhms +/-20%T 4.9A HiSpec
+K Inductor Fixed shielded smd smt
+F https://ds.yuden.co.jp/TYCOMPAS/ut/specSheet?pn=MAKK2520HR22M
+$ENDCMP
+#
+$CMP MAKK2520HR33M
+D Fixed Inductor 1008 .33uH 26mOhms +/-20%Tol 4.3A HiCur
+K Inductor Fixed shielded smd smt
+F https://ds.yuden.co.jp/TYCOMPAS/eu/specSheet?pn=MAKK2520HR33M
+$ENDCMP
+#
+$CMP NCP51402MNTXG
+D Power Management IC 3 AMP VTT TERMINATION, DDR Voltage Regulator IC 1 Output 10-DFN
+K PMIC DDR SMD
+F https://www.onsemi.com/pdf/datasheet/ncp51402-d.pdf
+$ENDCMP
+#
+$CMP PEC11R-4215F-S0024-lrj
+D ROTARY ENCODER MECHANICAL 24PPR
+K PEC11R-4215F-S0024-ND PEC11R
+F https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf
+$ENDCMP
+#
+$CMP PL-2303HXD-SSOP28
+D USB to Serial Port converter, for use with Micro-controllers.
+K USB Serial Port Converter
+$ENDCMP
+#
+$CMP RC1210FR-071KL
+D Yageo Corp. 1 Kohm resistor, 0,5W, 200V, 1%, 100 PPM/C, -55C to +155C
+K Resistor, Yageo, SMD, SMT
+F https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+$ENDCMP
+#
+$CMP RC1210FR-0749K9L
+D Yageo Corp. 49.9 Kohm resistor, 0,5W, 200V, 1%, 100 PPM/C, -55C to +155C
+K Resistor, Yageo, SMD, SMT
+F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+$ENDCMP
+#
+$CMP RC1210FR-074K99L
+D Yageo Corp. 4.99 Kohm resistor, 0,5W, 200V, 1%, 100 PPM/C, -55C to +155C
+K Resistor, Yageo, SMD, SMT
+F https://www.mouser.se/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+$ENDCMP
+#
+$CMP SN74AVC4T774
+D 100-380 Mbps, 1.2 V - 3.6 V,  4-Bit Dual-Supply Bus Transceiver With Configurable Voltage-Level Shifting and 3-State Outputs With Independent Direction Control Inputs,
+K Dual-Supply, Transceiver, Translator, Configurable
+F https://www.ti.com/lit/ds/symlink/sn74avc4t774.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1599479745661&ref_url=https%253A%252F%252Fwww.ti.com%252F
+$ENDCMP
+#
+$CMP SN74CB3T16211DGVR
+D Texas Instruments 24-BIT FET BUS SWITCH & Level Shifter, data-IO supports 0.8V to 5V
+K translator shifter switch 24-bit
+F https://www.ti.com/lit/ds/symlink/sn74cb3t16211.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1595701833426&ref_url=https%253A%252F%252Fwww.ti.com%252F
+$ENDCMP
+#
+$CMP SN74LVCH16T245DGGR
+D 16-bit Dual-supply Bus Transceiver With Configurable Level-Shifting/Voltage Translation and Tri-State Outputs, 1.65V to 5.5 V,  32 mA
+K translation translator level-shifter 16-bit
+F https://www.ti.com/lit/ds/symlink/sn74lvch16t245.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1595754658426&ref_url=https%253A%252F%252Fwww.ti.com%252F
+$ENDCMP
+#
+$CMP STC-15W404AS
+D 8051-compatible microcontroller, 5-35 MHz, 2.5V to 5.5V, 3x Timers/Counters, 4KB flash, 512B SRAM, -40 to +85 C,
+K 8051 microcontroller UART SPI
+F https://pdf1.alldatasheet.com/datasheet-pdf/download/1179069/STC/STC15W404AS.html
+$ENDCMP
+#
+$CMP STC-15W404AS-lrj
+D 8051-compatible microcontroller, 5-35 MHz, 2.5V to 5.5V, 3x Timers/Counters, 4KB flash, 512B SRAM, -40 to +85 C,
+K 8051 microcontroller UART SPI
+F https://pdf1.alldatasheet.com/datasheet-pdf/download/1179069/STC/STC15W404AS.html
+$ENDCMP
+#
+$CMP T.I_SN74CBT34X245DBBR
+D Texas Instruments Bus Switch, 32-bit wide, On Resistance 7 Ohms, 5V
+K Texas Instruments Digital Bus Switch 32bit
+F https://www.ti.com/lit/ds/symlink/sn74cbt34x245.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1595608740245&ref_url=https%253A%252F%252Fwww.ti.com%252F
+$ENDCMP
+#
+$CMP T.I_TPS562231
+D Synchronous Step-Down Buck Converter w/ Soft Start, 850 kHz, 4.5-V to 17-V Input, 2A, - 40 C to 125 C
+K SMPS Controller DC-DC Buck Converter SMD SMT
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http://www.ti.com/lit/ds/symlink/tps562231.pdf
+$ENDCMP
+#
+$CMP TE_CGS_SMF52M0JT_1MOHM-_5W-5%
+D Surface-mounted Thin Film Resistor, 500V, 5W, +-5%, 100 PPM / C, -55 to 200 degrees celsius
+K 1M Megaohm 500V 5W SMD SMT
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1773242%7FE%7Fpdf%7FEnglish%7FENG_DS_1773242_E.pdf%7F8-1879234-7
+$ENDCMP
+#
+$CMP USB_C_Molex_201267-0005
+D USB Connectors, 24-pin Type C, 3.2 Gen 2, R/A Top mount SMT, Receptacle, 30V, 5A
+K usb universal serial bus type-C hybrid
+F https://www.mouser.se/datasheet/2/276/1/2012670005_IO_CONNECTORS-1374231.pdf
+$ENDCMP
+#
+$CMP VJ1206Y104JXAAR
+D Vishay / Vitramon, MLCC capacitor, 0.1uF, 50V, 5%, -55C to +150C
+K 0.1uF, ceramic, capacitor, 1206, 3216, MLCC
+F https://www.vishay.com/docs/45199/vjcommercialseries.pdf
+$ENDCMP
+#
+$CMP VLS3015CX-1R5M-1
+D TDK/Epcos Fixed Inductor, shielded, 3.59A 1.5uH 53mOhm 3x3x1.5mm
+K Inductor Fixed SMD SMT
+F https://product.tdk.com/en/search/inductor/inductor/smd/info?part_no=VLS3015CX-1R5M-1
+$ENDCMP
+#
+$CMP W63CH2MBVACE
+D Winbond, LPDDR3 - 512 MB (4Gb), 128 M x 32, 933MHz
+K LPDDR3 DDR3
+F https://www.winbond.com/resource-files/w63chxmbv_vfbga178_datasheet_a01-001_20181123.pdf
+$ENDCMP
+#
+$CMP W97AH2KBVX1E
+D Winbond Electronics Corp., LPDDR2 - 128 MB (1Gb),  32 M x 32,  533 MHz
+K DRAM, LPDDR2, 32-bit
+$ENDCMP
+#
+$CMP Wurth_WR-BHD_61201021721
+D WR-BHD, Shrouded Male Angled Box Header, 2x5 pins, Pitch 2.54,  -40 C to +125 C
+K Angled 10-pin Header
+F https://www.we-online.com/catalog/datasheet/61201021721.pdf
+$ENDCMP
+#
+$CMP XAL7070-551MEC
+D Coilcraft Inc. Fixed Inductor 0.55uH, 29A, 1.56 mOhm, 20%
+K Inductor Fixed shielded
+F https://www.coilcraft.com/getmedia/1ba55433-bcc8-4838-9b21-382f497e12e0/xal7070.pdf
+$ENDCMP
+#
+$CMP XFL4015-701MEC
+D Coilcraft Inc. Fixed Inductor 0.7uH, 10.1A, 10.5 mOhm, 20%
+K Inductor Fixed shielded
+F https://www.coilcraft.com/getmedia/84927b8b-f089-421b-a7f4-a0fa23afe908/xfl4015.pdf
+$ENDCMP
+#
+$CMP microphone_aviation_plug
+D Cliffcon 5-pin Microphone, "Aviation" and CANBUS -connector.  48V (IEC 61938 Standard), 1A per pin. (5A in total)
+K Aviation Microphone CANBUS MIC connector
+F https://www.tme.eu/Document/a8536b2866813a66e75ba8575b700fa0/FC684202dr.pdf
+$ENDCMP
+#
+#End Doc Library
